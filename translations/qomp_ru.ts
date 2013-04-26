@@ -33,6 +33,11 @@ Listening to the music from different music hostings</source>
         <source>Select file(s)</source>
         <translation type="unfinished">Выберете файл(ы)</translation>
     </message>
+    <message>
+        <location filename="../../src/plugins/filesystemplugin/filesystemplugin.h" line="40"/>
+        <source>Open music from filesystem</source>
+        <translation type="unfinished">Открывает музыку из файловой системы</translation>
+    </message>
 </context>
 <context>
     <name>MyzukaruGettunesDlg</name>
@@ -50,6 +55,22 @@ Listening to the music from different music hostings</source>
         <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="50"/>
         <source>Tracks</source>
         <translation type="unfinished">Трэки</translation>
+    </message>
+</context>
+<context>
+    <name>MyzukaruPlugin</name>
+    <message>
+        <location filename="../../src/plugins/myzukaruplugin/myzukaruplugin.cpp" line="42"/>
+        <source>Listen to the music from Myzuka.ru</source>
+        <translation type="unfinished">Проигрывает музыку с сайта Myzuka.ru</translation>
+    </message>
+</context>
+<context>
+    <name>ProstoPleerPlugin</name>
+    <message>
+        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugin.cpp" line="44"/>
+        <source>Listen to the music from ProstoPleer.com</source>
+        <translation type="unfinished">Проигрывает музыку с сайта ПростоПлеер.com</translation>
     </message>
 </context>
 <context>
@@ -130,7 +151,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/options/qompoptionsmain.cpp" line="27"/>
+        <location filename="../../src/options/qompoptionsmain.cpp" line="28"/>
         <source>default</source>
         <translation type="unfinished">по-умолчанию</translation>
     </message>
@@ -356,9 +377,42 @@ Listening to the music from different music hostings</source>
         <translation type="unfinished">Пароль:</translation>
     </message>
     <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="221"/>
+        <source>Language:</source>
+        <translation type="unfinished">Язык:</translation>
+    </message>
+    <message>
         <location filename="../../src/options/qompoptionsmain.h" line="38"/>
         <source>Main</source>
         <translation type="unfinished">Основное</translation>
+    </message>
+</context>
+<context>
+    <name>QompOptionsPlugins</name>
+    <message>
+        <location filename="../../src/options/qompoptionsplugins.ui" line="14"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsplugins.ui" line="27"/>
+        <source>Plguin Name</source>
+        <translation type="unfinished">Название</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsplugins.ui" line="32"/>
+        <source>Version</source>
+        <translation type="unfinished">Версия</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsplugins.ui" line="37"/>
+        <source>Description</source>
+        <translation type="unfinished">Описание</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsplugins.h" line="37"/>
+        <source>Plugins</source>
+        <translation type="unfinished">Плагины</translation>
     </message>
 </context>
 <context>
@@ -422,6 +476,11 @@ Downloaded bytes:%2</source>
         <location filename="../../src/plugins/urlplugin/urlplugin.cpp" line="33"/>
         <source>Input url</source>
         <translation type="unfinished">Введите URL</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/urlplugin/urlplugin.h" line="40"/>
+        <source>Open custom URL</source>
+        <translation type="unfinished">Открывает ссылку</translation>
     </message>
 </context>
 </TS>
