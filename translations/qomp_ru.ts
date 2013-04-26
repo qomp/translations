@@ -194,7 +194,7 @@ Listening to the music from different music hostings</source>
         <translation type="unfinished">Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="582"/>
+        <location filename="../../src/qompmainwin.cpp" line="588"/>
         <source>Open</source>
         <translation type="unfinished">Открыть</translation>
     </message>
@@ -205,7 +205,7 @@ Listening to the music from different music hostings</source>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="247"/>
-        <location filename="../../src/qompmainwin.cpp" line="527"/>
+        <location filename="../../src/qompmainwin.cpp" line="533"/>
         <source>Save Playlist</source>
         <translation type="unfinished">Сохранить список воспроизведения</translation>
     </message>
@@ -215,93 +215,98 @@ Listening to the music from different music hostings</source>
         <translation type="unfinished">Очистить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="282"/>
+        <location filename="../../src/qompmainwin.cpp" line="283"/>
         <source>Remove Selected</source>
         <translation type="unfinished">Удалить выбранные</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="170"/>
-        <location filename="../../src/qompmainwin.cpp" line="370"/>
+        <location filename="../../src/qompmainwin.cpp" line="371"/>
         <source>Play/Pause</source>
         <translation type="unfinished">Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="371"/>
+        <location filename="../../src/qompmainwin.cpp" line="372"/>
         <source>Remove</source>
         <translation type="unfinished">Удалить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="373"/>
+        <location filename="../../src/qompmainwin.cpp" line="374"/>
         <source>Copy URL</source>
         <translation type="unfinished">Копировать URL</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="281"/>
+        <location filename="../../src/qompmainwin.cpp" line="282"/>
         <source>Remove All</source>
         <translation type="unfinished">Удалить все</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="374"/>
+        <location filename="../../src/qompmainwin.cpp" line="375"/>
         <source>Save File</source>
         <translation type="unfinished">Сохранить файл</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="395"/>
+        <location filename="../../src/qompmainwin.cpp" line="396"/>
         <source>Select directory</source>
         <translation type="unfinished">Выберете каталог</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="412"/>
+        <location filename="../../src/qompmainwin.cpp" line="413"/>
         <source>Show</source>
         <translation type="unfinished">Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="415"/>
+        <location filename="../../src/qompmainwin.cpp" line="416"/>
         <source>Hide</source>
         <translation type="unfinished">Скрыть</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="418"/>
+        <location filename="../../src/qompmainwin.cpp" line="419"/>
         <source>Settings</source>
         <translation type="unfinished">Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="422"/>
+        <location filename="../../src/qompmainwin.cpp" line="423"/>
         <source>Exit</source>
         <translation type="unfinished">Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="425"/>
+        <location filename="../../src/qompmainwin.cpp" line="426"/>
         <source>Help</source>
         <translation type="unfinished">Помощь</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="426"/>
+        <location filename="../../src/qompmainwin.cpp" line="427"/>
         <source>About qomp</source>
         <translation type="unfinished">О qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="428"/>
+        <location filename="../../src/qompmainwin.cpp" line="429"/>
         <source>About Qt</source>
         <translation type="unfinished">О Qt</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="465"/>
+        <location filename="../../src/qompmainwin.cpp" line="431"/>
+        <source>Check for updates</source>
+        <translation type="unfinished">Проверка обновлений</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompmainwin.cpp" line="471"/>
         <source>Buffering</source>
         <translation type="unfinished">Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="469"/>
+        <location filename="../../src/qompmainwin.cpp" line="475"/>
         <source>Loading</source>
         <translation type="unfinished">Загрузка</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="516"/>
+        <location filename="../../src/qompmainwin.cpp" line="522"/>
         <source>Select Playlist</source>
         <translation type="unfinished">Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="621"/>
+        <location filename="../../src/qompmainwin.cpp" line="627"/>
         <source>Now playing: %1 - %2</source>
         <translation type="unfinished">Сейчас играет: %1 - %2</translation>
     </message>
@@ -468,6 +473,34 @@ Listening to the music from different music hostings</source>
 Downloaded bytes:%2</source>
         <translation type="unfinished">Всего:%1
 Загружено:%2</translation>
+    </message>
+</context>
+<context>
+    <name>UpdatesChecker</name>
+    <message>
+        <location filename="../../src/updateschecker.cpp" line="71"/>
+        <source>Error while checking for updates: %1</source>
+        <translation type="unfinished">Во время проверки обновлений возникла ошибка: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/updateschecker.cpp" line="80"/>
+        <source>New version is available</source>
+        <translation type="unfinished">Доступна новая версия</translation>
+    </message>
+    <message>
+        <location filename="../../src/updateschecker.cpp" line="81"/>
+        <source>Do you want to go to the download page?</source>
+        <translation type="unfinished">Перейти на страницу загрузки?</translation>
+    </message>
+    <message>
+        <location filename="../../src/updateschecker.cpp" line="88"/>
+        <source>There is no updates found.</source>
+        <translation type="unfinished">Обновлений не найдено.</translation>
+    </message>
+    <message>
+        <location filename="../../src/updateschecker.cpp" line="92"/>
+        <source>Can&apos;t find information about version.</source>
+        <translation type="unfinished">Не удается найти информацию о доступной версии.</translation>
     </message>
 </context>
 <context>
