@@ -426,25 +426,29 @@ Listening to the music from different music hostings</source>
         <location filename="../../src/qompplaylistmodel.cpp" line="133"/>
         <source>Artist: %1
 </source>
-        <translation type="unfinished">Исполнитель: %1</translation>
+        <translation type="unfinished">Исполнитель: %1
+</translation>
     </message>
     <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="136"/>
         <source>Title: %1
 </source>
-        <translation type="unfinished">Название: %1</translation>
+        <translation type="unfinished">Название: %1
+</translation>
     </message>
     <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="139"/>
         <source>Album: %1
 </source>
-        <translation type="unfinished">Альбом: %1</translation>
+        <translation type="unfinished">Альбом: %1
+</translation>
     </message>
     <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="142"/>
         <source>Bitrate: %1
 </source>
-        <translation type="unfinished">Битрэйт: %1</translation>
+        <translation type="unfinished">Битрэйт: %1
+</translation>
     </message>
 </context>
 <context>
