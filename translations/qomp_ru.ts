@@ -6,24 +6,24 @@
     <message>
         <location filename="../../src/aboutdlg.ui" line="32"/>
         <source>About qomp</source>
-        <translation type="unfinished">О qomp</translation>
+        <translation>О qomp</translation>
     </message>
     <message>
         <location filename="../../src/aboutdlg.ui" line="83"/>
         <source>qomp</source>
-        <translation type="unfinished">qomp</translation>
+        <translation>qomp</translation>
     </message>
     <message>
         <location filename="../../src/aboutdlg.ui" line="99"/>
         <source>Quick(Qt) Online Music Player
 Listening to the music from different music hostings</source>
-        <translation type="unfinished">Quick(Qt) Online Music Player
+        <translation>Quick(Qt) Online Music Player
 Прослушивание музыки онлайн из различных сайтов</translation>
     </message>
     <message>
         <location filename="../../src/aboutdlg.ui" line="123"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://code.google.com/p/qomp/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;qomp home page&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://code.google.com/p/qomp/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Домашняя страница&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://code.google.com/p/qomp/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Домашняя страница&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -31,30 +31,30 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/plugins/filesystemplugin/filesystemplugin.cpp" line="32"/>
         <source>Select file(s)</source>
-        <translation type="unfinished">Выберете файл(ы)</translation>
+        <translation>Выберете файл(ы)</translation>
     </message>
     <message>
         <location filename="../../src/plugins/filesystemplugin/filesystemplugin.h" line="40"/>
         <source>Open music from filesystem</source>
-        <translation type="unfinished">Открывает музыку из файловой системы</translation>
+        <translation>Открывает музыку из файловой системы</translation>
     </message>
 </context>
 <context>
     <name>MyzukaruGettunesDlg</name>
     <message>
-        <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="48"/>
-        <source>Artists</source>
-        <translation type="unfinished">Исполнители</translation>
-    </message>
-    <message>
         <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="49"/>
-        <source>Albums</source>
-        <translation type="unfinished">Альбомы</translation>
+        <source>Artists</source>
+        <translation>Исполнители</translation>
     </message>
     <message>
         <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="50"/>
+        <source>Albums</source>
+        <translation>Альбомы</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="51"/>
         <source>Tracks</source>
-        <translation type="unfinished">Трэки</translation>
+        <translation>Трэки</translation>
     </message>
 </context>
 <context>
@@ -62,7 +62,7 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/plugins/myzukaruplugin/myzukaruplugin.cpp" line="42"/>
         <source>Listen to the music from Myzuka.ru</source>
-        <translation type="unfinished">Проигрывает музыку с сайта Myzuka.ru</translation>
+        <translation>Проигрывает музыку с сайта Myzuka.ru</translation>
     </message>
 </context>
 <context>
@@ -70,7 +70,7 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerplugin.cpp" line="44"/>
         <source>Listen to the music from ProstoPleer.com</source>
-        <translation type="unfinished">Проигрывает музыку с сайта ПростоПлеер.com</translation>
+        <translation>Проигрывает музыку с сайта ПростоПлеер.com</translation>
     </message>
 </context>
 <context>
@@ -78,17 +78,17 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="172"/>
         <source>Error</source>
-        <translation type="unfinished">Ошибка</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="246"/>
         <source>OK</source>
-        <translation type="unfinished">ОК</translation>
+        <translation>ОК</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="250"/>
         <source>None</source>
-        <translation type="unfinished">Нет</translation>
+        <translation>Нет</translation>
     </message>
 </context>
 <context>
@@ -96,38 +96,38 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="25"/>
         <source>Previous Page</source>
-        <translation type="unfinished">Предыдущая страница</translation>
+        <translation>Предыдущая страница</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="35"/>
         <source>Current:</source>
-        <translation type="unfinished">Текущая страница:</translation>
+        <translation>Текущая страница:</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="60"/>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="90"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="73"/>
         <source>Next Page</source>
-        <translation type="unfinished">Следующая страница</translation>
+        <translation>Следующая страница</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="83"/>
         <source>Total: </source>
-        <translation type="unfinished">Всего:</translation>
+        <translation>Всего:</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="110"/>
         <source>Authorization: </source>
-        <translation type="unfinished">Авторизация:</translation>
+        <translation>Авторизация:</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="117"/>
         <source>None</source>
-        <translation type="unfinished">Нет</translation>
+        <translation>Нет</translation>
     </message>
 </context>
 <context>
@@ -135,25 +135,45 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="14"/>
         <source>ProstopleerPluginSettings</source>
-        <translation type="unfinished">Настройки prostopleer</translation>
+        <translation>Настройки prostopleer</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="22"/>
         <source>Login:</source>
-        <translation type="unfinished">Логин:</translation>
+        <translation>Логин:</translation>
     </message>
     <message>
         <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="32"/>
         <source>Password:</source>
-        <translation type="unfinished">Пароль:</translation>
+        <translation>Пароль:</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/options/qompoptionsmain.cpp" line="28"/>
+        <location filename="../../src/options/qompoptionsmain.cpp" line="29"/>
         <source>default</source>
-        <translation type="unfinished">по-умолчанию</translation>
+        <translation>по-умолчанию</translation>
+    </message>
+    <message>
+        <location filename="../../src/qomptrayicon.cpp" line="129"/>
+        <source>Play/Pause</source>
+        <translation>Воспроизведение/Пауза</translation>
+    </message>
+    <message>
+        <location filename="../../src/qomptrayicon.cpp" line="130"/>
+        <source>Toggle Visibility</source>
+        <translation>Скрыть/Показать</translation>
+    </message>
+    <message>
+        <location filename="../../src/qomptrayicon.cpp" line="131"/>
+        <source>Play Next</source>
+        <translation>Следующий трэк</translation>
+    </message>
+    <message>
+        <location filename="../../src/qomptrayicon.cpp" line="132"/>
+        <source>Play Previous</source>
+        <translation>Предыдущий трэк</translation>
     </message>
 </context>
 <context>
@@ -161,154 +181,154 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/qompmainwin.ui" line="17"/>
         <source>qomp</source>
-        <translation type="unfinished">qomp</translation>
+        <translation>qomp</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="51"/>
         <source>Artist:</source>
-        <translation type="unfinished">Исполнитель:</translation>
+        <translation>Исполнитель:</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="77"/>
         <source>Title:</source>
-        <translation type="unfinished">Название:</translation>
+        <translation>Название:</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="154"/>
         <source>Previous</source>
-        <translation type="unfinished">Предыдущий</translation>
+        <translation>Предыдущий</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="221"/>
         <source>Add</source>
-        <translation type="unfinished">Добавить</translation>
+        <translation>Добавить</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="174"/>
         <source>Stop</source>
-        <translation type="unfinished">Стоп</translation>
+        <translation>Стоп</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="184"/>
         <source>Next</source>
-        <translation type="unfinished">Следующий</translation>
+        <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="602"/>
+        <location filename="../../src/qompmainwin.cpp" line="609"/>
         <source>Open</source>
-        <translation type="unfinished">Открыть</translation>
+        <translation>Открыть</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="231"/>
         <source>Open Playlist</source>
-        <translation type="unfinished">Открыть список воспроизведения</translation>
+        <translation>Открыть список воспроизведения</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="241"/>
         <location filename="../../src/qompmainwin.cpp" line="533"/>
         <source>Save Playlist</source>
-        <translation type="unfinished">Сохранить список воспроизведения</translation>
+        <translation>Сохранить список воспроизведения</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="251"/>
         <source>Clear</source>
-        <translation type="unfinished">Очистить</translation>
+        <translation>Очистить</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="283"/>
         <source>Remove Selected</source>
-        <translation type="unfinished">Удалить выбранные</translation>
+        <translation>Удалить выбранные</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="164"/>
         <location filename="../../src/qompmainwin.cpp" line="371"/>
         <source>Play/Pause</source>
-        <translation type="unfinished">Воспроизведение/Пауза</translation>
+        <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="372"/>
         <source>Remove</source>
-        <translation type="unfinished">Удалить</translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="374"/>
         <source>Copy URL</source>
-        <translation type="unfinished">Копировать URL</translation>
+        <translation>Копировать URL</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="282"/>
         <source>Remove All</source>
-        <translation type="unfinished">Удалить все</translation>
+        <translation>Удалить все</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="375"/>
         <source>Save File</source>
-        <translation type="unfinished">Сохранить файл</translation>
+        <translation>Сохранить файл</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="396"/>
         <source>Select directory</source>
-        <translation type="unfinished">Выберете каталог</translation>
+        <translation>Выберете каталог</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="413"/>
         <source>Show</source>
-        <translation type="unfinished">Показать</translation>
+        <translation>Показать</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="416"/>
         <source>Hide</source>
-        <translation type="unfinished">Скрыть</translation>
+        <translation>Скрыть</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="419"/>
         <source>Settings</source>
-        <translation type="unfinished">Настройки</translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="423"/>
         <source>Exit</source>
-        <translation type="unfinished">Выход</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="426"/>
         <source>Help</source>
-        <translation type="unfinished">Помощь</translation>
+        <translation>Помощь</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="427"/>
         <source>About qomp</source>
-        <translation type="unfinished">О qomp</translation>
+        <translation>О qomp</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="429"/>
         <source>About Qt</source>
-        <translation type="unfinished">О Qt</translation>
+        <translation>О Qt</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="431"/>
         <source>Check for updates</source>
-        <translation type="unfinished">Проверка обновлений</translation>
+        <translation>Проверка обновлений</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="471"/>
         <source>Buffering</source>
-        <translation type="unfinished">Буфферизация</translation>
+        <translation>Буфферизация</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="475"/>
         <source>Loading</source>
-        <translation type="unfinished">Загрузка</translation>
+        <translation>Загрузка</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="522"/>
         <source>Select Playlist</source>
-        <translation type="unfinished">Выберете список воспроизведения</translation>
+        <translation>Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="641"/>
+        <location filename="../../src/qompmainwin.cpp" line="648"/>
         <source>Now playing: %1 - %2</source>
-        <translation type="unfinished">Сейчас играет: %1 - %2</translation>
+        <translation>Сейчас играет: %1 - %2</translation>
     </message>
 </context>
 <context>
@@ -316,7 +336,7 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/options/qompoptionsdlg.ui" line="14"/>
         <source>Qomp Settings</source>
-        <translation type="unfinished">Настройки qomp</translation>
+        <translation>Настройки qomp</translation>
     </message>
 </context>
 <context>
@@ -324,82 +344,106 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="20"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="26"/>
         <source>Start minimized</source>
-        <translation type="unfinished">Запускать минимизированным</translation>
+        <translation>Запускать минимизированным</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="33"/>
         <source>Hide qomp to system tray on closing</source>
-        <translation type="unfinished">Скрывать qomp в трей при закрытии</translation>
+        <translation>Скрывать qomp в трей при закрытии</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="40"/>
+        <source>System Tray</source>
+        <translation>Системный трей</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="46"/>
+        <source>Mouse Left Click</source>
+        <translation>Клик левой кнопкой</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="69"/>
+        <source>Mouse Middle Click</source>
+        <translation>Клик средней кнопкой</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="79"/>
+        <source>Mouse Double Click</source>
+        <translation>Двойной клик</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="92"/>
         <source>Automatically start playback</source>
-        <translation type="unfinished">Автоматически начинать воспроизведение</translation>
+        <translation>Автоматически начинать воспроизведение</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="47"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="99"/>
         <source>Automatically resolve metadata on an added tracks</source>
-        <translation type="unfinished">Автоматически получать метаданные после добавления трэков</translation>
+        <translation>Автоматически получать метаданные после добавления трэков</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="56"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="108"/>
         <source>Default Metadata Encoding:</source>
-        <translation type="unfinished">Кодировка мета-данных:</translation>
+        <translation>Кодировка мета-данных:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="70"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="122"/>
         <source>Audio Output:</source>
-        <translation type="unfinished">Аудио выход:</translation>
+        <translation>Аудио выход:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="101"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="153"/>
         <source>Use proxy server</source>
-        <translation type="unfinished">Использвать Proxy server</translation>
+        <translation>Использвать Proxy server</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="115"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="167"/>
         <source>Type:</source>
-        <translation type="unfinished">Тип:</translation>
+        <translation>Тип:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="155"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="207"/>
         <source>Host:</source>
-        <translation type="unfinished">Хост:</translation>
+        <translation>Хост:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="172"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="224"/>
         <source>User:</source>
-        <translation type="unfinished">Пользоваатель:</translation>
+        <translation>Пользоваатель:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="193"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="245"/>
         <source>Port:</source>
-        <translation type="unfinished">Порт:</translation>
+        <translation>Порт:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="206"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="258"/>
+        <source>99999</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>99999; </source>
-        <translation type="unfinished">99999;</translation>
+        <translation type="obsolete">99999;</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="213"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="265"/>
         <source>Password:</source>
-        <translation type="unfinished">Пароль:</translation>
+        <translation>Пароль:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="242"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="294"/>
         <source>Language:</source>
-        <translation type="unfinished">Язык:</translation>
+        <translation>Язык:</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.h" line="38"/>
         <source>Main</source>
-        <translation type="unfinished">Основное</translation>
+        <translation>Основное</translation>
     </message>
 </context>
 <context>
@@ -407,71 +451,71 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/options/qompoptionsplugins.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsplugins.ui" line="27"/>
         <source>Plguin Name</source>
-        <translation type="unfinished">Название</translation>
+        <translation>Название</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsplugins.ui" line="32"/>
         <source>Version</source>
-        <translation type="unfinished">Версия</translation>
+        <translation>Версия</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsplugins.ui" line="37"/>
         <source>Description</source>
-        <translation type="unfinished">Описание</translation>
+        <translation>Описание</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsplugins.h" line="37"/>
         <source>Plugins</source>
-        <translation type="unfinished">Плагины</translation>
+        <translation>Плагины</translation>
     </message>
 </context>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="136"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="133"/>
         <source>Artist: %1
 </source>
-        <translation type="unfinished">Исполнитель: %1
+        <translation>Исполнитель: %1
+</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="136"/>
+        <source>Title: %1
+</source>
+        <translation>Название: %1
 </translation>
     </message>
     <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="139"/>
-        <source>Title: %1
+        <source>Album: %1
 </source>
-        <translation type="unfinished">Название: %1
+        <translation>Альбом: %1
 </translation>
     </message>
     <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="142"/>
-        <source>Album: %1
-</source>
-        <translation type="unfinished">Альбом: %1
-</translation>
-    </message>
-    <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="145"/>
         <source>Bitrate: %1
 </source>
-        <translation type="unfinished">Битрэйт: %1
+        <translation>Битрэйт: %1
 </translation>
     </message>
 </context>
 <context>
     <name>QompPluginGettunesDlg</name>
     <message>
-        <location filename="../../src/plugins/qompplugingettunesdlg.ui" line="37"/>
+        <location filename="../../src/plugins/qompplugingettunesdlg.ui" line="40"/>
         <source>Search</source>
-        <translation type="unfinished">Поиск</translation>
+        <translation>Поиск</translation>
     </message>
     <message>
         <location filename="../../src/plugins/qompplugingettunesdlg.cpp" line="45"/>
         <source>Searching</source>
-        <translation type="unfinished">Поиск</translation>
+        <translation>Поиск</translation>
     </message>
 </context>
 <context>
@@ -479,13 +523,13 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/qomptunedownloader.cpp" line="35"/>
         <source>Download Progress</source>
-        <translation type="unfinished">Процесс загрузки</translation>
+        <translation>Процесс загрузки</translation>
     </message>
     <message>
         <location filename="../../src/qomptunedownloader.cpp" line="67"/>
         <source>Total bytes:%1
 Downloaded bytes:%2</source>
-        <translation type="unfinished">Всего:%1
+        <translation>Всего:%1
 Загружено:%2</translation>
     </message>
 </context>
@@ -494,27 +538,27 @@ Downloaded bytes:%2</source>
     <message>
         <location filename="../../src/updateschecker.cpp" line="71"/>
         <source>Error while checking for updates: %1</source>
-        <translation type="unfinished">Во время проверки обновлений возникла ошибка: %1</translation>
+        <translation>Во время проверки обновлений возникла ошибка: %1</translation>
     </message>
     <message>
         <location filename="../../src/updateschecker.cpp" line="80"/>
         <source>New version is available</source>
-        <translation type="unfinished">Доступна новая версия</translation>
+        <translation>Доступна новая версия</translation>
     </message>
     <message>
         <location filename="../../src/updateschecker.cpp" line="81"/>
         <source>Do you want to go to the download page?</source>
-        <translation type="unfinished">Перейти на страницу загрузки?</translation>
+        <translation>Перейти на страницу загрузки?</translation>
     </message>
     <message>
         <location filename="../../src/updateschecker.cpp" line="88"/>
         <source>There is no updates found.</source>
-        <translation type="unfinished">Обновлений не найдено.</translation>
+        <translation>Обновлений не найдено.</translation>
     </message>
     <message>
         <location filename="../../src/updateschecker.cpp" line="92"/>
         <source>Can&apos;t find information about version.</source>
-        <translation type="unfinished">Не удается найти информацию о доступной версии.</translation>
+        <translation>Не удается найти информацию о доступной версии.</translation>
     </message>
 </context>
 <context>
@@ -522,12 +566,38 @@ Downloaded bytes:%2</source>
     <message>
         <location filename="../../src/plugins/urlplugin/urlplugin.cpp" line="33"/>
         <source>Input url</source>
-        <translation type="unfinished">Введите URL</translation>
+        <translation>Введите URL</translation>
     </message>
     <message>
         <location filename="../../src/plugins/urlplugin/urlplugin.h" line="40"/>
         <source>Open custom URL</source>
-        <translation type="unfinished">Открывает ссылку</translation>
+        <translation>Открывает ссылку</translation>
+    </message>
+</context>
+<context>
+    <name>YandexMusicGettunsDlg</name>
+    <message>
+        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="106"/>
+        <source>Artists</source>
+        <translation>Исполнители</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="107"/>
+        <source>Albums</source>
+        <translation>Альбомы</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="108"/>
+        <source>Tracks</source>
+        <translation>Трэки</translation>
+    </message>
+</context>
+<context>
+    <name>YandexMusicPlugin</name>
+    <message>
+        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="43"/>
+        <source>Listening to the music from Yandex.Music</source>
+        <translation>Проигрывает музыку с сайт Яндекс.Музыка</translation>
     </message>
 </context>
 </TS>
