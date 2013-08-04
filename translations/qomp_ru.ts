@@ -34,9 +34,48 @@ Listening to the music from different music hostings</source>
         <translation>Выберете файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/filesystemplugin/filesystemplugin.h" line="40"/>
+        <location filename="../../src/plugins/filesystemplugin/filesystemplugin.h" line="42"/>
         <source>Open music from filesystem</source>
         <translation>Открывает музыку из файловой системы</translation>
+    </message>
+</context>
+<context>
+    <name>LastFmAuthDlg</name>
+    <message>
+        <location filename="../../src/plugins/lastfmplugin/lastfmauthdlg.ui" line="14"/>
+        <source>qomp - LastFm Authentication</source>
+        <translation>qomp - Аутентификация в LastFm</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/lastfmplugin/lastfmauthdlg.ui" line="21"/>
+        <source>about:blank</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
+    <name>LastFmPlugin</name>
+    <message>
+        <location filename="../../src/plugins/lastfmplugin/lastfmplugin.h" line="52"/>
+        <source>LastFm scrobbling</source>
+        <translation>Скробблинг в LastFm</translation>
+    </message>
+</context>
+<context>
+    <name>LastFmSettings</name>
+    <message>
+        <location filename="../../src/plugins/lastfmplugin/lastfmsettings.ui" line="14"/>
+        <source>Form</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/lastfmplugin/lastfmsettings.ui" line="22"/>
+        <source>Authorized User Name:</source>
+        <translation>Авторизован для пользователя:</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/lastfmplugin/lastfmsettings.ui" line="49"/>
+        <source>Update Authorization</source>
+        <translation>Обновить Авторизацию</translation>
     </message>
 </context>
 <context>
@@ -68,25 +107,29 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ProstoPleerPlugin</name>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugin.cpp" line="44"/>
         <source>Listen to the music from ProstoPleer.com</source>
-        <translation>Проигрывает музыку с сайта ПростоПлеер.com</translation>
+        <translation type="obsolete">Проигрывает музыку с сайта ПростоПлеер.com</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugin.cpp" line="44"/>
+        <source>Listen to the music from Pleer.com</source>
+        <translation>Проигрывает музыку с сайта Pleer.com</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerPluginGetTunesDialog</name>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="172"/>
+        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="174"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="246"/>
+        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="248"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="250"/>
+        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugingettunesdialog.cpp" line="252"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
@@ -199,7 +242,12 @@ Listening to the music from different music hostings</source>
         <translation>Предыдущий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="221"/>
+        <location filename="../../src/qompmainwin.ui" line="207"/>
+        <source>Repeat All</source>
+        <translation>Повторить всё</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompmainwin.ui" line="243"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
@@ -214,119 +262,119 @@ Listening to the music from different music hostings</source>
         <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="609"/>
+        <location filename="../../src/qompmainwin.cpp" line="651"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="231"/>
+        <location filename="../../src/qompmainwin.ui" line="253"/>
         <source>Open Playlist</source>
         <translation>Открыть список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="241"/>
-        <location filename="../../src/qompmainwin.cpp" line="533"/>
+        <location filename="../../src/qompmainwin.ui" line="263"/>
+        <location filename="../../src/qompmainwin.cpp" line="569"/>
         <source>Save Playlist</source>
         <translation>Сохранить список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="251"/>
+        <location filename="../../src/qompmainwin.ui" line="273"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="283"/>
+        <location filename="../../src/qompmainwin.cpp" line="303"/>
         <source>Remove Selected</source>
         <translation>Удалить выбранные</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="164"/>
-        <location filename="../../src/qompmainwin.cpp" line="371"/>
+        <location filename="../../src/qompmainwin.cpp" line="389"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="372"/>
+        <location filename="../../src/qompmainwin.cpp" line="390"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="374"/>
+        <location filename="../../src/qompmainwin.cpp" line="392"/>
         <source>Copy URL</source>
         <translation>Копировать URL</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="282"/>
+        <location filename="../../src/qompmainwin.cpp" line="302"/>
         <source>Remove All</source>
         <translation>Удалить все</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="375"/>
+        <location filename="../../src/qompmainwin.cpp" line="395"/>
         <source>Save File</source>
         <translation>Сохранить файл</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="396"/>
+        <location filename="../../src/qompmainwin.cpp" line="416"/>
         <source>Select directory</source>
         <translation>Выберете каталог</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="413"/>
+        <location filename="../../src/qompmainwin.cpp" line="433"/>
         <source>Show</source>
         <translation>Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="416"/>
+        <location filename="../../src/qompmainwin.cpp" line="436"/>
         <source>Hide</source>
         <translation>Скрыть</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="419"/>
+        <location filename="../../src/qompmainwin.cpp" line="439"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="423"/>
+        <location filename="../../src/qompmainwin.cpp" line="443"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="426"/>
+        <location filename="../../src/qompmainwin.cpp" line="446"/>
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="427"/>
+        <location filename="../../src/qompmainwin.cpp" line="447"/>
         <source>About qomp</source>
         <translation>О qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="429"/>
+        <location filename="../../src/qompmainwin.cpp" line="449"/>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="431"/>
+        <location filename="../../src/qompmainwin.cpp" line="451"/>
         <source>Check for updates</source>
         <translation>Проверка обновлений</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="471"/>
+        <location filename="../../src/qompmainwin.cpp" line="493"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="475"/>
+        <location filename="../../src/qompmainwin.cpp" line="497"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="522"/>
+        <location filename="../../src/qompmainwin.cpp" line="558"/>
         <source>Select Playlist</source>
         <translation>Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="648"/>
+        <location filename="../../src/qompmainwin.cpp" line="698"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
@@ -469,6 +517,11 @@ Listening to the music from different music hostings</source>
         <translation>Описание</translation>
     </message>
     <message>
+        <location filename="../../src/options/qompoptionsplugins.ui" line="45"/>
+        <source>*Enabling/disabling plugins requires restart!</source>
+        <translation>*Включение/Отключение плагинов требует рестарт!</translation>
+    </message>
+    <message>
         <location filename="../../src/options/qompoptionsplugins.h" line="37"/>
         <source>Plugins</source>
         <translation>Плагины</translation>
@@ -477,28 +530,28 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="133"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="134"/>
         <source>Artist: %1
 </source>
         <translation>Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="136"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="137"/>
         <source>Title: %1
 </source>
         <translation>Название: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="139"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="140"/>
         <source>Album: %1
 </source>
         <translation>Альбом: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="142"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="143"/>
         <source>Bitrate: %1
 </source>
         <translation>Битрэйт: %1
@@ -531,6 +584,45 @@ Listening to the music from different music hostings</source>
 Downloaded bytes:%2</source>
         <translation>Всего:%1
 Загружено:%2</translation>
+    </message>
+</context>
+<context>
+    <name>T2FSettings</name>
+    <message>
+        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.cpp" line="52"/>
+        <source>Tune to File</source>
+        <translation>Трэк в Файл</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.cpp" line="72"/>
+        <source>Store tune into file</source>
+        <translation>Выберете файл для сохранения информации о трэке</translation>
+    </message>
+</context>
+<context>
+    <name>Tune2FilePlugin</name>
+    <message>
+        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.h" line="44"/>
+        <source>Tune to File</source>
+        <translation>Трэк в Файл</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.h" line="46"/>
+        <source>Store current tune into file. Usefull for publishing tune in status</source>
+        <translation>Сохраняет информацию о текущем трэке в файле. Это бывает полезно для публикации данной информации в статусе</translation>
+    </message>
+</context>
+<context>
+    <name>TuneToFileSettings</name>
+    <message>
+        <location filename="../../src/plugins/tunetofileplugin/tunetofilesettings.ui" line="14"/>
+        <source>Form</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/tunetofileplugin/tunetofilesettings.ui" line="22"/>
+        <source>Store tune into file:</source>
+        <translation>Файл для сохранения информации о трэке:</translation>
     </message>
 </context>
 <context>
@@ -569,7 +661,7 @@ Downloaded bytes:%2</source>
         <translation>Введите URL</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/urlplugin/urlplugin.h" line="40"/>
+        <location filename="../../src/plugins/urlplugin/urlplugin.h" line="42"/>
         <source>Open custom URL</source>
         <translation>Открывает ссылку</translation>
     </message>
