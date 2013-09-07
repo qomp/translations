@@ -79,6 +79,19 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
+    <name>MprisPlugin</name>
+    <message>
+        <location filename="../../src/plugins/mprisplugin/mprisplugin.h" line="43"/>
+        <source>MPRIS Plugin</source>
+        <translation>MPRIS плагин</translation>
+    </message>
+    <message>
+        <location filename="../../src/plugins/mprisplugin/mprisplugin.h" line="45"/>
+        <source>Interface to MPRIS</source>
+        <translation>Интерфейс к MPRIS</translation>
+    </message>
+</context>
+<context>
     <name>MyzukaruGettunesDlg</name>
     <message>
         <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="49"/>
