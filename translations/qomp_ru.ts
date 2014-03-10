@@ -29,12 +29,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../src/plugins/filesystemplugin/filesystemplugin.cpp" line="33"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="33"/>
         <source>Select file(s)</source>
         <translation>Выберете файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/filesystemplugin/filesystemplugin.h" line="42"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="35"/>
+        <source>Audio files(*.mp3 *.ogg *.wav *.flac);;All files(*)</source>
+        <translation>Аудио файлы(*.mp3 *.ogg *.wav *.flac);;Все файлы(*)</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="38"/>
         <source>Open music from filesystem</source>
         <translation>Открывает музыку из файловой системы</translation>
     </message>
@@ -42,22 +47,22 @@ Listening to the music from different music hostings</source>
 <context>
     <name>LastFmAuthDlg</name>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmauthdlg.ui" line="20"/>
+        <location filename="../../plugins/lastfmplugin/lastfmauthdlg.ui" line="20"/>
         <source>qomp - LastFm Authentication</source>
         <translation>qomp - Аутентификация в LastFm</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmauthdlg.ui" line="75"/>
+        <location filename="../../plugins/lastfmplugin/lastfmauthdlg.ui" line="75"/>
         <source>Do you want to go to Last.Fm authorization page?</source>
         <translation>Вы хотите перейти на страницу авторизации Last.Fm?</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmauthdlg.ui" line="142"/>
+        <location filename="../../plugins/lastfmplugin/lastfmauthdlg.ui" line="142"/>
         <source>After completion of the authorization process in the browser, click OK button</source>
         <translation>После завершения процесса авторизации в браузере нажмите кнопку ОК</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmauthdlg.cpp" line="33"/>
+        <location filename="../../plugins/lastfmplugin/lastfmauthdlg.cpp" line="33"/>
         <source>Waiting...</source>
         <translation>Ожидание...</translation>
     </message>
@@ -65,7 +70,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>LastFmPlugin</name>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmplugin.h" line="51"/>
+        <location filename="../../plugins/lastfmplugin/lastfmplugin.h" line="47"/>
         <source>LastFm scrobbling</source>
         <translation>Скробблинг в LastFm</translation>
     </message>
@@ -73,17 +78,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>LastFmSettings</name>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmsettings.ui" line="14"/>
+        <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="14"/>
         <source>Form</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmsettings.ui" line="22"/>
+        <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="22"/>
         <source>Authorized User Name:</source>
         <translation>Авторизован для пользователя:</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/lastfmplugin/lastfmsettings.ui" line="49"/>
+        <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="49"/>
         <source>Update Authorization</source>
         <translation>Обновить Авторизацию</translation>
     </message>
@@ -91,12 +96,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MprisPlugin</name>
     <message>
-        <location filename="../../src/plugins/mprisplugin/mprisplugin.h" line="43"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="39"/>
         <source>MPRIS Plugin</source>
         <translation>MPRIS плагин</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/mprisplugin/mprisplugin.h" line="45"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="41"/>
         <source>Interface to MPRIS</source>
         <translation>Интерфейс к MPRIS</translation>
     </message>
@@ -104,17 +109,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MyzukaruGettunesDlg</name>
     <message>
-        <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="37"/>
+        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="37"/>
         <source>Artists</source>
         <translation>Исполнители</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="38"/>
+        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="38"/>
         <source>Albums</source>
         <translation>Альбомы</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="39"/>
+        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="39"/>
         <source>Tracks</source>
         <translation>Трэки</translation>
     </message>
@@ -122,7 +127,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MyzukaruPlugin</name>
     <message>
-        <location filename="../../src/plugins/myzukaruplugin/myzukaruplugin.cpp" line="43"/>
+        <location filename="../../plugins/myzukaruplugin/myzukaruplugin.cpp" line="43"/>
         <source>Listen to the music from Myzuka.ru</source>
         <translation>Проигрывает музыку с сайта Myzuka.ru</translation>
     </message>
@@ -130,17 +135,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ProstoPleerController</name>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleercontroller.cpp" line="164"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="164"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleercontroller.cpp" line="234"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="234"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleercontroller.cpp" line="238"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="238"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
@@ -148,7 +153,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ProstoPleerPlugin</name>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerplugin.cpp" line="44"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="44"/>
         <source>Listen to the music from Pleer.com</source>
         <translation>Проигрывает музыку с сайта Pleer.com</translation>
     </message>
@@ -156,38 +161,38 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ProstoPleerPluginResultsWidget</name>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="25"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="25"/>
         <source>Previous Page</source>
         <translation>Предыдущая страница</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="35"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="35"/>
         <source>Current:</source>
         <translation>Текущая страница:</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="60"/>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="90"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="60"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="90"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="73"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="73"/>
         <source>Next Page</source>
         <translation>Следующая страница</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="83"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="83"/>
         <source>Total: </source>
         <translation>Всего:</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="110"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="110"/>
         <source>Authorization: </source>
         <translation>Авторизация:</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="117"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="117"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
@@ -195,17 +200,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ProstopleerPluginSettings</name>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="14"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="14"/>
         <source>ProstopleerPluginSettings</source>
         <translation>Настройки prostopleer</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="22"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="22"/>
         <source>Login:</source>
         <translation>Логин:</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="32"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="32"/>
         <source>Password:</source>
         <translation>Пароль:</translation>
     </message>
@@ -241,17 +246,19 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompCon</name>
     <message>
-        <location filename="../../src/qompcon.cpp" line="216"/>
-        <source>Save Playlist</source>
-        <translation>Сохранить список воспроизведения</translation>
-    </message>
-    <message>
-        <location filename="../../src/qompcon.cpp" line="226"/>
+        <location filename="../../src/qompcon.cpp" line="222"/>
+        <location filename="../../src/qompcon.cpp" line="240"/>
         <source>Select Playlist</source>
         <translation>Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompcon.cpp" line="300"/>
+        <location filename="../../src/qompcon.cpp" line="223"/>
+        <location filename="../../src/qompcon.cpp" line="241"/>
+        <source>qomp playlist (*.qomp)</source>
+        <translation>Список воспроизведения qomp(*.qomp)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompcon.cpp" line="323"/>
         <source>Select directory</source>
         <translation>Выберете каталог</translation>
     </message>
@@ -307,77 +314,77 @@ Listening to the music from different music hostings</source>
         <translation>qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="223"/>
+        <location filename="../../src/qompmainwin.ui" line="224"/>
         <source>Artist:</source>
         <translation>Исполнитель:</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="255"/>
+        <location filename="../../src/qompmainwin.ui" line="256"/>
         <source>Title:</source>
         <translation>Название:</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="345"/>
+        <location filename="../../src/qompmainwin.ui" line="346"/>
         <source>Previous</source>
         <translation>Предыдущий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="438"/>
+        <location filename="../../src/qompmainwin.ui" line="439"/>
         <source>Repeat All</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="490"/>
+        <location filename="../../src/qompmainwin.ui" line="491"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="385"/>
+        <location filename="../../src/qompmainwin.ui" line="386"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="405"/>
+        <location filename="../../src/qompmainwin.ui" line="406"/>
         <source>Next</source>
         <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="510"/>
+        <location filename="../../src/qompmainwin.ui" line="511"/>
         <source>Open Playlist</source>
         <translation>Открыть список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="530"/>
+        <location filename="../../src/qompmainwin.ui" line="531"/>
         <source>Save Playlist</source>
         <translation>Сохранить список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="550"/>
+        <location filename="../../src/qompmainwin.ui" line="551"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="365"/>
+        <location filename="../../src/qompmainwin.ui" line="366"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="583"/>
+        <location filename="../../src/qompmainwin.ui" line="591"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="200"/>
+        <location filename="../../src/qompmainwin.cpp" line="203"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="204"/>
+        <location filename="../../src/qompmainwin.cpp" line="207"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="317"/>
+        <location filename="../../src/qompmainwin.cpp" line="350"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
@@ -560,12 +567,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPluginGettunesDlg</name>
     <message>
-        <location filename="../../src/plugins/qompplugingettunesdlg.ui" line="223"/>
+        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.ui" line="223"/>
         <source>Search</source>
         <translation>Поиск</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/qompplugingettunesdlg.cpp" line="54"/>
+        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="58"/>
         <source>Searching</source>
         <translation>Поиск</translation>
     </message>
@@ -624,12 +631,12 @@ Downloaded bytes:%2</source>
 <context>
     <name>T2FSettings</name>
     <message>
-        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.cpp" line="53"/>
+        <location filename="../../plugins/tunetofileplugin/tune2fileplugin.cpp" line="53"/>
         <source>Tune to File</source>
         <translation>Трэк в Файл</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.cpp" line="73"/>
+        <location filename="../../plugins/tunetofileplugin/tune2fileplugin.cpp" line="73"/>
         <source>Store tune into file</source>
         <translation>Выберете файл для сохранения информации о трэке</translation>
     </message>
@@ -637,12 +644,12 @@ Downloaded bytes:%2</source>
 <context>
     <name>Tune2FilePlugin</name>
     <message>
-        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.h" line="44"/>
+        <location filename="../../plugins/tunetofileplugin/tune2fileplugin.h" line="39"/>
         <source>Tune to File</source>
         <translation>Трэк в Файл</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/tunetofileplugin/tune2fileplugin.h" line="46"/>
+        <location filename="../../plugins/tunetofileplugin/tune2fileplugin.h" line="41"/>
         <source>Store current tune into file. Usefull for publishing tune in status</source>
         <translation>Сохраняет информацию о текущем трэке в файле. Это бывает полезно для публикации данной информации в статусе</translation>
     </message>
@@ -650,12 +657,12 @@ Downloaded bytes:%2</source>
 <context>
     <name>TuneToFileSettings</name>
     <message>
-        <location filename="../../src/plugins/tunetofileplugin/tunetofilesettings.ui" line="14"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.ui" line="14"/>
         <source>Form</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../src/plugins/tunetofileplugin/tunetofilesettings.ui" line="22"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.ui" line="22"/>
         <source>Store tune into file:</source>
         <translation>Файл для сохранения информации о трэке:</translation>
     </message>
@@ -691,12 +698,12 @@ Downloaded bytes:%2</source>
 <context>
     <name>UrlPlugin</name>
     <message>
-        <location filename="../../src/plugins/urlplugin/urlplugin.cpp" line="34"/>
+        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="34"/>
         <source>Input url</source>
         <translation>Введите URL</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/urlplugin/urlplugin.h" line="42"/>
+        <location filename="../../plugins/urlplugin/urlplugin.h" line="38"/>
         <source>Open custom URL</source>
         <translation>Открывает ссылку</translation>
     </message>
@@ -704,17 +711,17 @@ Downloaded bytes:%2</source>
 <context>
     <name>YandexMusicGettunsDlg</name>
     <message>
-        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="33"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="33"/>
         <source>Artists</source>
         <translation>Исполнители</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="34"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="34"/>
         <source>Albums</source>
         <translation>Альбомы</translation>
     </message>
     <message>
-        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="35"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="35"/>
         <source>Tracks</source>
         <translation>Трэки</translation>
     </message>
@@ -722,7 +729,7 @@ Downloaded bytes:%2</source>
 <context>
     <name>YandexMusicPlugin</name>
     <message>
-        <location filename="../../src/plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="43"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="43"/>
         <source>Listening to the music from Yandex.Music</source>
         <translation>Проигрывает музыку с сайт Яндекс.Музыка</translation>
     </message>
