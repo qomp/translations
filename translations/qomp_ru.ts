@@ -731,7 +731,7 @@ Downloaded bytes:%2</source>
     <message>
         <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="43"/>
         <source>Listening to the music from Yandex.Music</source>
-        <translation>Проигрывает музыку с сайт Яндекс.Музыка</translation>
+        <translation>Проигрывает музыку с сайта Яндекс.Музыка</translation>
     </message>
 </context>
 </TS>
