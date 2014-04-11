@@ -314,77 +314,82 @@ Listening to the music from different music hostings</source>
         <translation>qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="225"/>
+        <location filename="../../src/qompmainwin.ui" line="207"/>
         <source>Artist:</source>
         <translation>Исполнитель:</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="257"/>
+        <location filename="../../src/qompmainwin.ui" line="239"/>
         <source>Title:</source>
         <translation>Название:</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="347"/>
+        <location filename="../../src/qompmainwin.ui" line="264"/>
+        <source>Mute</source>
+        <translation type="unfinished">Приглушить</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompmainwin.ui" line="332"/>
         <source>Previous</source>
         <translation>Предыдущий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="440"/>
+        <location filename="../../src/qompmainwin.ui" line="425"/>
         <source>Repeat All</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="492"/>
+        <location filename="../../src/qompmainwin.ui" line="477"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="387"/>
+        <location filename="../../src/qompmainwin.ui" line="372"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="407"/>
+        <location filename="../../src/qompmainwin.ui" line="392"/>
         <source>Next</source>
         <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="512"/>
+        <location filename="../../src/qompmainwin.ui" line="497"/>
         <source>Open Playlist</source>
         <translation>Открыть список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="532"/>
+        <location filename="../../src/qompmainwin.ui" line="517"/>
         <source>Save Playlist</source>
         <translation>Сохранить список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="552"/>
+        <location filename="../../src/qompmainwin.ui" line="537"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="367"/>
+        <location filename="../../src/qompmainwin.ui" line="352"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="592"/>
+        <location filename="../../src/qompmainwin.ui" line="611"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="203"/>
+        <location filename="../../src/qompmainwin.cpp" line="212"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="207"/>
+        <location filename="../../src/qompmainwin.cpp" line="216"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="350"/>
+        <location filename="../../src/qompmainwin.cpp" line="365"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
@@ -531,28 +536,28 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="152"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="154"/>
         <source>Artist: %1
 </source>
         <translation>Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="155"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="157"/>
         <source>Title: %1
 </source>
         <translation>Название: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="158"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="160"/>
         <source>Album: %1
 </source>
         <translation>Альбом: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="161"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="163"/>
         <source>Bitrate: %1
 </source>
         <translation>Битрэйт: %1
