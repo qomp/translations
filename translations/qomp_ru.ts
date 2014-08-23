@@ -29,32 +29,32 @@ Listening to the music from different music hostings</source>
 <context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="36"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="87"/>
         <source>Select file(s)</source>
         <translation>Выберете файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="38"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="89"/>
         <source>Audio files(*.mp3 *.ogg *.wav *.flac);;All files(*)</source>
         <translation>Аудио файлы(*.mp3 *.ogg *.wav *.flac);;Все файлы(*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="86"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="115"/>
         <source>Select folder</source>
         <translation>Выберете каталог</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="128"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="157"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="132"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="161"/>
         <source>Select Files</source>
         <translation>Выбрать файлы</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="135"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="164"/>
         <source>Select Folders</source>
         <translation>Выбрать каталоги</translation>
     </message>
@@ -288,7 +288,7 @@ Listening to the music from different music hostings</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompcon.cpp" line="322"/>
+        <location filename="../../src/qompcon.cpp" line="320"/>
         <source>Select directory</source>
         <translation>Выберете каталог</translation>
     </message>
