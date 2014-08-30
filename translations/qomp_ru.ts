@@ -67,12 +67,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>GetTunesDlg</name>
     <message>
-        <location filename="../../libqomp/src/qmlshared/GetTunesDlg.qml" line="99"/>
+        <location filename="../../libqomp/src/qmlshared/GetTunesDlg.qml" line="130"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/GetTunesDlg.qml" line="114"/>
+        <location filename="../../libqomp/src/qmlshared/GetTunesDlg.qml" line="145"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
@@ -129,22 +129,22 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MainMenu</name>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="18"/>
+        <location filename="../../src/qml/MainMenu.qml" line="17"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="23"/>
+        <location filename="../../src/qml/MainMenu.qml" line="22"/>
         <source>Repeat All</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="27"/>
+        <location filename="../../src/qml/MainMenu.qml" line="26"/>
         <source>Clear Playlist</source>
         <translation>Очистить плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="39"/>
+        <location filename="../../src/qml/MainMenu.qml" line="38"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
@@ -152,19 +152,19 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MainWin</name>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="182"/>
-        <location filename="../../src/qml/MainWin.qml" line="192"/>
+        <location filename="../../src/qml/MainWin.qml" line="179"/>
+        <location filename="../../src/qml/MainWin.qml" line="189"/>
         <source>Select Playlist</source>
         <translation>Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="188"/>
-        <location filename="../../src/qml/MainWin.qml" line="198"/>
+        <location filename="../../src/qml/MainWin.qml" line="185"/>
+        <location filename="../../src/qml/MainWin.qml" line="195"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="216"/>
+        <location filename="../../src/qml/MainWin.qml" line="213"/>
         <source>Select directory</source>
         <translation>Выберете каталог</translation>
     </message>
@@ -281,6 +281,19 @@ Listening to the music from different music hostings</source>
         <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="117"/>
         <source>None</source>
         <translation>Нет</translation>
+    </message>
+</context>
+<context>
+    <name>ProstoPleerResultView</name>
+    <message>
+        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="50"/>
+        <source>Current:</source>
+        <translation>Текущая страница:</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="94"/>
+        <source>Authorization: </source>
+        <translation>Авторизация:</translation>
     </message>
 </context>
 <context>
@@ -651,28 +664,28 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="160"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="158"/>
         <source>Artist: %1
 </source>
         <translation>Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="163"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="161"/>
         <source>Title: %1
 </source>
         <translation>Название: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="166"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="164"/>
         <source>Album: %1
 </source>
         <translation>Альбом: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="169"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="167"/>
         <source>Bitrate: %1
 </source>
         <translation>Битрэйт: %1
@@ -694,7 +707,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPluginGettunesDlg::Private</name>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="81"/>
+        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="84"/>
         <source>Searching</source>
         <translation>Поиск</translation>
     </message>
