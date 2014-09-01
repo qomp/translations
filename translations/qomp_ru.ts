@@ -120,7 +120,7 @@ Listening to the music from different music hostings</source>
         <translation>После завершения процесса авторизации в браузере нажмите кнопку ОК</translation>
     </message>
     <message>
-        <location filename="../../plugins/lastfmplugin/lastfmauthdlg.cpp" line="33"/>
+        <location filename="../../plugins/lastfmplugin/lastfmauthdlg.cpp" line="41"/>
         <source>Waiting...</source>
         <translation>Ожидание...</translation>
     </message>
@@ -147,6 +147,32 @@ Listening to the music from different music hostings</source>
     </message>
     <message>
         <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="49"/>
+        <source>Update Authorization</source>
+        <translation>Обновить Авторизацию</translation>
+    </message>
+</context>
+<context>
+    <name>LastfmAuthDlg</name>
+    <message>
+        <location filename="../../plugins/lastfmplugin/qml/LastfmAuthDlg.qml" line="16"/>
+        <source>Do you want to go to Last.Fm authorization page?</source>
+        <translation>Вы хотите перейти на страницу авторизации Last.Fm?</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/lastfmplugin/qml/LastfmAuthDlg.qml" line="33"/>
+        <source>After completion of the authorization process in the browser, click OK button</source>
+        <translation>После завершения процесса авторизации в браузере нажмите кнопку ОК</translation>
+    </message>
+</context>
+<context>
+    <name>LastfmOptionsPage</name>
+    <message>
+        <location filename="../../plugins/lastfmplugin/qml/LastfmOptionsPage.qml" line="33"/>
+        <source>Authorized User Name:</source>
+        <translation>Авторизован для пользователя:</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/lastfmplugin/qml/LastfmOptionsPage.qml" line="54"/>
         <source>Update Authorization</source>
         <translation>Обновить Авторизацию</translation>
     </message>
