@@ -154,49 +154,67 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MainMenu</name>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="18"/>
         <source>Open</source>
-        <translation>Открыть</translation>
+        <translation type="vanished">Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="23"/>
         <source>Repeat All</source>
-        <translation>Повторить всё</translation>
+        <translation type="vanished">Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="27"/>
         <source>Clear Playlist</source>
-        <translation>Очистить плейлист</translation>
+        <translation type="vanished">Очистить плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="39"/>
         <source>Options</source>
-        <translation>Настройки</translation>
+        <translation type="vanished">Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainMenu.qml" line="44"/>
         <source>Exit</source>
-        <translation>Выход</translation>
+        <translation type="vanished">Выход</translation>
     </message>
 </context>
 <context>
     <name>MainWin</name>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="181"/>
-        <location filename="../../src/qml/MainWin.qml" line="191"/>
         <source>Select Playlist</source>
-        <translation>Выберете список воспроизведения</translation>
+        <translation type="vanished">Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="187"/>
-        <location filename="../../src/qml/MainWin.qml" line="197"/>
         <source>qomp playlist (*.qomp)</source>
-        <translation>Список воспроизведения qomp(*.qomp)</translation>
+        <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="215"/>
         <source>Select directory</source>
-        <translation>Выберете каталог</translation>
+        <translation type="vanished">Выберете каталог</translation>
+    </message>
+</context>
+<context>
+    <name>MainWinSideBar</name>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="18"/>
+        <source>Open</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="55"/>
+        <source>Repeat All</source>
+        <translation>Повторить всё</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="60"/>
+        <source>Clear Playlist</source>
+        <translation>Очистить плейлист</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="73"/>
+        <source>Options</source>
+        <translation>Настройки</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="78"/>
+        <source>Exit</source>
+        <translation>Выход</translation>
     </message>
 </context>
 <context>
@@ -246,12 +264,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsDlg</name>
     <message>
-        <location filename="../../src/qml/OptionsDlg.qml" line="15"/>
+        <location filename="../../src/qml/OptionsDlg.qml" line="11"/>
         <source>Options</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsDlg.qml" line="70"/>
+        <location filename="../../src/qml/OptionsDlg.qml" line="64"/>
         <source>About qomp</source>
         <translation>О qomp</translation>
     </message>
@@ -928,12 +946,12 @@ Downloaded bytes:%2</source>
         <translation>Введите URL</translation>
     </message>
     <message>
-        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="77"/>
+        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="78"/>
         <source>Url</source>
         <translation>Ссылка</translation>
     </message>
     <message>
-        <location filename="../../plugins/urlplugin/urlplugin.h" line="37"/>
+        <location filename="../../plugins/urlplugin/urlplugin.h" line="39"/>
         <source>Open custom URL</source>
         <translation>Открывает ссылку</translation>
     </message>
