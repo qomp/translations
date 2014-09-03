@@ -35,12 +35,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ButtonsPage</name>
     <message>
-        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="14"/>
+        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="17"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="27"/>
+        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="30"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
@@ -257,19 +257,37 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
-    <name>MyzukaruGettunesDlg</name>
+    <name>MyzukaRuResultsView</name>
     <message>
-        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="37"/>
+        <location filename="../../plugins/myzukaruplugin/qml/MyzukaRuResultsView.qml" line="28"/>
         <source>Artists</source>
         <translation>Исполнители</translation>
     </message>
     <message>
-        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="38"/>
+        <location filename="../../plugins/myzukaruplugin/qml/MyzukaRuResultsView.qml" line="28"/>
         <source>Albums</source>
         <translation>Альбомы</translation>
     </message>
     <message>
-        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="39"/>
+        <location filename="../../plugins/myzukaruplugin/qml/MyzukaRuResultsView.qml" line="28"/>
+        <source>Tracks</source>
+        <translation>Трэки</translation>
+    </message>
+</context>
+<context>
+    <name>MyzukaruGettunesDlg</name>
+    <message>
+        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="40"/>
+        <source>Artists</source>
+        <translation>Исполнители</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="41"/>
+        <source>Albums</source>
+        <translation>Альбомы</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/myzukaruplugin/myzukarugettunesdlg.cpp" line="42"/>
         <source>Tracks</source>
         <translation>Трэки</translation>
     </message>
@@ -311,17 +329,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ProstoPleerController</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="164"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="166"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="234"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="236"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="238"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="240"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
@@ -394,12 +412,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ProstoPleerResultView</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="48"/>
+        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="46"/>
         <source>Current:</source>
         <translation>Текущая страница:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="92"/>
+        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="90"/>
         <source>Authorization: </source>
         <translation>Авторизация:</translation>
     </message>
