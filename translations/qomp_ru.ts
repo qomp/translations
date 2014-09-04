@@ -211,8 +211,9 @@ Listening to the music from different music hostings</source>
         <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
+        <location filename="../../src/qml/MainWin.qml" line="237"/>
         <source>Select directory</source>
-        <translation type="vanished">Выберете каталог</translation>
+        <translation>Выберете каталог</translation>
     </message>
 </context>
 <context>
@@ -259,19 +260,16 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MyzukaRuResultsView</name>
     <message>
-        <location filename="../../plugins/myzukaruplugin/qml/MyzukaRuResultsView.qml" line="28"/>
         <source>Artists</source>
-        <translation>Исполнители</translation>
+        <translation type="vanished">Исполнители</translation>
     </message>
     <message>
-        <location filename="../../plugins/myzukaruplugin/qml/MyzukaRuResultsView.qml" line="28"/>
         <source>Albums</source>
-        <translation>Альбомы</translation>
+        <translation type="vanished">Альбомы</translation>
     </message>
     <message>
-        <location filename="../../plugins/myzukaruplugin/qml/MyzukaRuResultsView.qml" line="28"/>
         <source>Tracks</source>
-        <translation>Трэки</translation>
+        <translation type="vanished">Трэки</translation>
     </message>
 </context>
 <context>
@@ -319,11 +317,18 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
-    <name>OptionsPageMain</name>
+    <name>OptionsPAgeMain</name>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="34"/>
+        <location filename="../../src/qml/OptionsPAgeMain.qml" line="34"/>
         <source>Automatically start playback</source>
         <translation>Автоматически начинать воспроизведение</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPageMain</name>
+    <message>
+        <source>Automatically start playback</source>
+        <translation type="vanished">Автоматически начинать воспроизведение</translation>
     </message>
 </context>
 <context>
@@ -839,6 +844,24 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
+    <name>QompPluginsSearchTabbedView</name>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="34"/>
+        <source>Artists</source>
+        <translation>Исполнители</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="34"/>
+        <source>Albums</source>
+        <translation>Альбомы</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="34"/>
+        <source>Tracks</source>
+        <translation>Трэки</translation>
+    </message>
+</context>
+<context>
     <name>QompRemoveTunesMenu</name>
     <message>
         <location filename="../../src/qompmenu.cpp" line="180"/>
@@ -1003,17 +1026,17 @@ Downloaded bytes:%2</source>
 <context>
     <name>YandexMusicGettunsDlg</name>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="33"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="32"/>
         <source>Artists</source>
         <translation>Исполнители</translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="34"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="33"/>
         <source>Albums</source>
         <translation>Альбомы</translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="35"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicgettunsdlg.cpp" line="34"/>
         <source>Tracks</source>
         <translation>Трэки</translation>
     </message>
