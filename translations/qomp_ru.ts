@@ -211,7 +211,7 @@ Listening to the music from different music hostings</source>
         <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="237"/>
+        <location filename="../../src/qml/MainWin.qml" line="248"/>
         <source>Select directory</source>
         <translation>Выберете каталог</translation>
     </message>
@@ -304,6 +304,19 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
+    <name>NotificationsPlugin</name>
+    <message>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="40"/>
+        <source>Notifications</source>
+        <translation>Оповещения</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="42"/>
+        <source>Shows baloon notifications about current track</source>
+        <translation>Показывает всплывающее уведомление о текущем треке</translation>
+    </message>
+</context>
+<context>
     <name>OptionsDlg</name>
     <message>
         <location filename="../../src/qml/OptionsDlg.qml" line="11"/>
@@ -319,16 +332,24 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsPAgeMain</name>
     <message>
-        <location filename="../../src/qml/OptionsPAgeMain.qml" line="34"/>
         <source>Automatically start playback</source>
-        <translation>Автоматически начинать воспроизведение</translation>
+        <translation type="vanished">Автоматически начинать воспроизведение</translation>
     </message>
 </context>
 <context>
     <name>OptionsPageMain</name>
     <message>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="34"/>
         <source>Automatically start playback</source>
-        <translation type="vanished">Автоматически начинать воспроизведение</translation>
+        <translation>Автоматически начинать воспроизведение</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPagePlugins</name>
+    <message>
+        <location filename="../../src/qml/OptionsPagePlugins.qml" line="49"/>
+        <source>*Enabling/Disabling plugins may need restart</source>
+        <translation>*Вкдючение/Выключение плагинов пожет требовать перезапуска</translation>
     </message>
 </context>
 <context>
@@ -795,28 +816,28 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="158"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="134"/>
         <source>Artist: %1
 </source>
         <translation>Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="161"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="137"/>
         <source>Title: %1
 </source>
         <translation>Название: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="164"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="140"/>
         <source>Album: %1
 </source>
         <translation>Альбом: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="167"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="143"/>
         <source>Bitrate: %1
 </source>
         <translation>Битрэйт: %1
@@ -846,17 +867,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPluginsSearchTabbedView</name>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="34"/>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="33"/>
         <source>Artists</source>
         <translation>Исполнители</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="34"/>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="33"/>
         <source>Albums</source>
         <translation>Альбомы</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="34"/>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="33"/>
         <source>Tracks</source>
         <translation>Трэки</translation>
     </message>
