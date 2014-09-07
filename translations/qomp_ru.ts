@@ -347,7 +347,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsPagePlugins</name>
     <message>
-        <location filename="../../src/qml/OptionsPagePlugins.qml" line="49"/>
+        <location filename="../../src/qml/OptionsPagePlugins.qml" line="73"/>
         <source>*Enabling/Disabling plugins may need restart</source>
         <translation>*Вкдючение/Выключение плагинов пожет требовать перезапуска</translation>
     </message>
@@ -493,6 +493,11 @@ Listening to the music from different music hostings</source>
         <location filename="../../src/qomptrayicon.cpp" line="135"/>
         <source>Play Previous</source>
         <translation>Предыдущий трэк</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="84"/>
+        <source> now playing:</source>
+        <translation>сейчас играет:</translation>
     </message>
 </context>
 <context>
