@@ -103,6 +103,24 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
+    <name>GrepShortcutKeyDialog</name>
+    <message>
+        <location filename="../../src/options/qompoptionskeys.cpp" line="43"/>
+        <source>New Shortcut</source>
+        <translation>Новая горячая клавиша</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionskeys.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionskeys.cpp" line="95"/>
+        <source>Set Keys</source>
+        <translation>Комбинация клавиш</translation>
+    </message>
+</context>
+<context>
     <name>LastFmAuthDlg</name>
     <message>
         <location filename="../../plugins/lastfmplugin/lastfmauthdlg.ui" line="20"/>
@@ -469,7 +487,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/options/qompoptionsmain.cpp" line="32"/>
+        <location filename="../../src/options/qompoptionsmain.cpp" line="30"/>
         <location filename="../../src/options/qompoptionsmain_mobile.cpp" line="29"/>
         <source>default</source>
         <translation>по-умолчанию</translation>
@@ -495,9 +513,57 @@ Listening to the music from different music hostings</source>
         <translation>Предыдущий трэк</translation>
     </message>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="84"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="83"/>
         <source> now playing:</source>
         <translation>сейчас играет:</translation>
+    </message>
+</context>
+<context>
+    <name>QompActionsList</name>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="91"/>
+        <source>Play</source>
+        <translation>Воспроизведение</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="92"/>
+        <source>Stop</source>
+        <translation>Стоп</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="93"/>
+        <source>Next</source>
+        <translation>Следующий</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="94"/>
+        <source>Previous</source>
+        <translation>Предыдущий</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="95"/>
+        <source>Open</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="96"/>
+        <source>Options</source>
+        <translation>Настройки</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="97"/>
+        <source>Repeat All</source>
+        <translation>Повторить всё</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="98"/>
+        <source>Mute</source>
+        <translation>Приглушить</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="99"/>
+        <source>Clear Playlist</source>
+        <translation>Очистить плейлист</translation>
     </message>
 </context>
 <context>
@@ -631,12 +697,12 @@ Listening to the music from different music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="393"/>
+        <location filename="../../src/qompmainwin.cpp" line="424"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="397"/>
+        <location filename="../../src/qompmainwin.cpp" line="428"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -648,24 +714,24 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="237"/>
+        <location filename="../../src/qompmainwin.cpp" line="253"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="300"/>
-        <location filename="../../src/qompmainwin.cpp" line="314"/>
+        <location filename="../../src/qompmainwin.cpp" line="316"/>
+        <location filename="../../src/qompmainwin.cpp" line="330"/>
         <source>Select Playlist</source>
         <translation>Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="301"/>
-        <location filename="../../src/qompmainwin.cpp" line="315"/>
+        <location filename="../../src/qompmainwin.cpp" line="317"/>
+        <location filename="../../src/qompmainwin.cpp" line="331"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="329"/>
+        <location filename="../../src/qompmainwin.cpp" line="345"/>
         <source>Select directory</source>
         <translation>Выберете каталог</translation>
     </message>
@@ -676,6 +742,29 @@ Listening to the music from different music hostings</source>
         <location filename="../../src/options/qompoptionsdlg.ui" line="14"/>
         <source>Qomp Settings</source>
         <translation>Настройки qomp</translation>
+    </message>
+</context>
+<context>
+    <name>QompOptionsKeys</name>
+    <message>
+        <location filename="../../src/options/qompoptionskeys.ui" line="14"/>
+        <source>Form</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionskeys.ui" line="42"/>
+        <source>Action</source>
+        <translation>Действие</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionskeys.ui" line="50"/>
+        <source>Shortcut</source>
+        <translation>Сочетание клавиш</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionskeys.h" line="34"/>
+        <source>Shortcuts</source>
+        <translation>Сочетания клавиш</translation>
     </message>
 </context>
 <context>
