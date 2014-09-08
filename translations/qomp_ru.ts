@@ -515,7 +515,7 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="83"/>
         <source> now playing:</source>
-        <translation>сейчас играет:</translation>
+        <translation> сейчас играет:</translation>
     </message>
 </context>
 <context>
