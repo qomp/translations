@@ -35,12 +35,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>ButtonsPage</name>
     <message>
-        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="17"/>
+        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="16"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="30"/>
+        <location filename="../../libqomp/src/qmlshared/ButtonsPage.qml" line="29"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
@@ -172,12 +172,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>LastfmAuthDlg</name>
     <message>
-        <location filename="../../plugins/lastfmplugin/qml/LastfmAuthDlg.qml" line="16"/>
+        <location filename="../../plugins/lastfmplugin/qml/LastfmAuthDlg.qml" line="15"/>
         <source>Do you want to go to Last.Fm authorization page?</source>
         <translation>Вы хотите перейти на страницу авторизации Last.Fm?</translation>
     </message>
     <message>
-        <location filename="../../plugins/lastfmplugin/qml/LastfmAuthDlg.qml" line="33"/>
+        <location filename="../../plugins/lastfmplugin/qml/LastfmAuthDlg.qml" line="32"/>
         <source>After completion of the authorization process in the browser, click OK button</source>
         <translation>После завершения процесса авторизации в браузере нажмите кнопку ОК</translation>
     </message>
@@ -229,9 +229,8 @@ Listening to the music from different music hostings</source>
         <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="248"/>
         <source>Select directory</source>
-        <translation>Выберете каталог</translation>
+        <translation type="vanished">Выберете каталог</translation>
     </message>
 </context>
 <context>
@@ -337,12 +336,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsDlg</name>
     <message>
-        <location filename="../../src/qml/OptionsDlg.qml" line="11"/>
+        <location filename="../../src/qml/OptionsDlg.qml" line="10"/>
         <source>Options</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsDlg.qml" line="64"/>
+        <location filename="../../src/qml/OptionsDlg.qml" line="63"/>
         <source>About qomp</source>
         <translation>О qomp</translation>
     </message>
@@ -357,7 +356,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsPageMain</name>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="34"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="33"/>
         <source>Automatically start playback</source>
         <translation>Автоматически начинать воспроизведение</translation>
     </message>
@@ -365,7 +364,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsPagePlugins</name>
     <message>
-        <location filename="../../src/qml/OptionsPagePlugins.qml" line="73"/>
+        <location filename="../../src/qml/OptionsPagePlugins.qml" line="72"/>
         <source>*Enabling/Disabling plugins may need restart</source>
         <translation>*Вкдючение/Выключение плагинов пожет требовать перезапуска</translation>
     </message>
@@ -378,12 +377,12 @@ Listening to the music from different music hostings</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="236"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="237"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="240"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="241"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
@@ -513,7 +512,7 @@ Listening to the music from different music hostings</source>
         <translation>Предыдущий трэк</translation>
     </message>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="83"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="68"/>
         <source> now playing:</source>
         <translation> сейчас играет:</translation>
     </message>
@@ -974,6 +973,14 @@ Listening to the music from different music hostings</source>
         <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="33"/>
         <source>Tracks</source>
         <translation>Трэки</translation>
+    </message>
+</context>
+<context>
+    <name>QompQmlEngine</name>
+    <message>
+        <location filename="../../libqomp/src/qompqmlengine.cpp" line="133"/>
+        <source>Press again to exit</source>
+        <translation>Нажмите снова для выхода</translation>
     </message>
 </context>
 <context>
