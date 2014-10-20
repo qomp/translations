@@ -617,11 +617,16 @@ Listening to the music from different music hostings</source>
     </message>
     <message>
         <location filename="../../src/qompmenu.cpp" line="119"/>
+        <source>Report a bug</source>
+        <translation>Сообщить о проблеме</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompmenu.cpp" line="121"/>
         <source>Check for updates</source>
         <translation>Проверка обновлений</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="123"/>
+        <location filename="../../src/qompmenu.cpp" line="125"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
@@ -699,12 +704,12 @@ Listening to the music from different music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="424"/>
+        <location filename="../../src/qompmainwin.cpp" line="425"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="428"/>
+        <location filename="../../src/qompmainwin.cpp" line="429"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -716,24 +721,24 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="253"/>
+        <location filename="../../src/qompmainwin.cpp" line="254"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="316"/>
-        <location filename="../../src/qompmainwin.cpp" line="330"/>
+        <location filename="../../src/qompmainwin.cpp" line="317"/>
+        <location filename="../../src/qompmainwin.cpp" line="331"/>
         <source>Select Playlist</source>
         <translation>Выберете список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="317"/>
-        <location filename="../../src/qompmainwin.cpp" line="331"/>
+        <location filename="../../src/qompmainwin.cpp" line="318"/>
+        <location filename="../../src/qompmainwin.cpp" line="332"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="345"/>
+        <location filename="../../src/qompmainwin.cpp" line="346"/>
         <source>Select directory</source>
         <translation>Выберете каталог</translation>
     </message>
@@ -989,12 +994,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompRemoveTunesMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="180"/>
+        <location filename="../../src/qompmenu.cpp" line="182"/>
         <source>Remove All</source>
         <translation>Удалить все</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="182"/>
+        <location filename="../../src/qompmenu.cpp" line="184"/>
         <source>Remove Selected</source>
         <translation>Удалить выбранные</translation>
     </message>
@@ -1002,22 +1007,22 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompTrackMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="156"/>
+        <location filename="../../src/qompmenu.cpp" line="158"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="159"/>
+        <location filename="../../src/qompmenu.cpp" line="161"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="163"/>
+        <location filename="../../src/qompmenu.cpp" line="165"/>
         <source>Copy URL</source>
         <translation>Копировать URL</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="167"/>
+        <location filename="../../src/qompmenu.cpp" line="169"/>
         <source>Save File</source>
         <translation>Сохранить файл</translation>
     </message>
