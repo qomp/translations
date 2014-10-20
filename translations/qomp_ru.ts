@@ -27,10 +27,6 @@ Listening to the music from different music hostings</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Домашняя страница&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://code.google.com/p/qomp/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;qomp home page&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://code.google.com/p/qomp/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Домашняя страница&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="../../src/qml/AboutDlg.qml" line="10"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://qomp.sourceforge.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://qomp.sourceforge.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -85,17 +81,6 @@ Listening to the music from different music hostings</source>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="37"/>
         <source>Open music from filesystem</source>
         <translation>Открывает музыку из файловой системы</translation>
-    </message>
-</context>
-<context>
-    <name>GetTunesDlg</name>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">ОК</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="vanished">Отмена</translation>
     </message>
 </context>
 <context>
@@ -200,44 +185,6 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
-    <name>MainMenu</name>
-    <message>
-        <source>Open</source>
-        <translation type="vanished">Открыть</translation>
-    </message>
-    <message>
-        <source>Repeat All</source>
-        <translation type="vanished">Повторить всё</translation>
-    </message>
-    <message>
-        <source>Clear Playlist</source>
-        <translation type="vanished">Очистить плейлист</translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translation type="vanished">Настройки</translation>
-    </message>
-    <message>
-        <source>Exit</source>
-        <translation type="vanished">Выход</translation>
-    </message>
-</context>
-<context>
-    <name>MainWin</name>
-    <message>
-        <source>Select Playlist</source>
-        <translation type="vanished">Выберете список воспроизведения</translation>
-    </message>
-    <message>
-        <source>qomp playlist (*.qomp)</source>
-        <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
-    </message>
-    <message>
-        <source>Select directory</source>
-        <translation type="vanished">Выберете каталог</translation>
-    </message>
-</context>
-<context>
     <name>MainWinSideBar</name>
     <message>
         <location filename="../../src/qml/MainWinSideBar.qml" line="18"/>
@@ -276,21 +223,6 @@ Listening to the music from different music hostings</source>
         <location filename="../../plugins/mprisplugin/mprisplugin.h" line="40"/>
         <source>Interface to MPRIS</source>
         <translation>Интерфейс к MPRIS</translation>
-    </message>
-</context>
-<context>
-    <name>MyzukaRuResultsView</name>
-    <message>
-        <source>Artists</source>
-        <translation type="vanished">Исполнители</translation>
-    </message>
-    <message>
-        <source>Albums</source>
-        <translation type="vanished">Альбомы</translation>
-    </message>
-    <message>
-        <source>Tracks</source>
-        <translation type="vanished">Трэки</translation>
     </message>
 </context>
 <context>
@@ -356,20 +288,6 @@ Listening to the music from different music hostings</source>
         <location filename="../../src/qml/OptionsPAgeMain.qml" line="33"/>
         <source>Automatically start playback</source>
         <translation>Автоматически начинать воспроизведение</translation>
-    </message>
-</context>
-<context>
-    <name>OptionsPageMain</name>
-    <message>
-        <source>Automatically start playback</source>
-        <translation type="vanished">Автоматически начинать воспроизведение</translation>
-    </message>
-</context>
-<context>
-    <name>OptionsPagePlugins</name>
-    <message>
-        <source>*Enabling/Disabling plugins may need restart</source>
-        <translation type="vanished">*Вкдючение/Выключение плагинов пожет требовать перезапуска</translation>
     </message>
 </context>
 <context>
@@ -569,21 +487,6 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
-    <name>QompCon</name>
-    <message>
-        <source>Select Playlist</source>
-        <translation type="vanished">Выберете список воспроизведения</translation>
-    </message>
-    <message>
-        <source>qomp playlist (*.qomp)</source>
-        <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
-    </message>
-    <message>
-        <source>Select directory</source>
-        <translation type="vanished">Выберете каталог</translation>
-    </message>
-</context>
-<context>
     <name>QompMainMenu</name>
     <message>
         <location filename="../../src/qompmenu.cpp" line="102"/>
@@ -712,10 +615,6 @@ Listening to the music from different music hostings</source>
         <location filename="../../src/qompmainwin.cpp" line="429"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
-    </message>
-    <message>
-        <source>Now playing: %1 - %2</source>
-        <translation type="vanished">Сейчас играет: %1 - %2</translation>
     </message>
 </context>
 <context>
@@ -877,10 +776,6 @@ Listening to the music from different music hostings</source>
         <translation>Тема</translation>
     </message>
     <message>
-        <source>Language:</source>
-        <translation type="vanished">Язык:</translation>
-    </message>
-    <message>
         <location filename="../../src/options/qompoptionsmain.h" line="35"/>
         <source>Main</source>
         <translation>Основное</translation>
@@ -951,10 +846,6 @@ Listening to the music from different music hostings</source>
         <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.ui" line="43"/>
         <source>Search</source>
         <translation>Поиск</translation>
-    </message>
-    <message>
-        <source>Searching</source>
-        <translation type="vanished">Поиск</translation>
     </message>
 </context>
 <context>
@@ -1040,17 +931,6 @@ Listening to the music from different music hostings</source>
 Downloaded bytes:%2</source>
         <translation>Всего:%1
 Загружено:%2</translation>
-    </message>
-</context>
-<context>
-    <name>T2FSettings</name>
-    <message>
-        <source>Tune to File</source>
-        <translation type="vanished">Трэк в Файл</translation>
-    </message>
-    <message>
-        <source>Store tune into file</source>
-        <translation type="vanished">Выберете файл для сохранения информации о трэке</translation>
     </message>
 </context>
 <context>
