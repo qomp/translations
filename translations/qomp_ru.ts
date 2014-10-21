@@ -283,29 +283,29 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
-    <name>OptionsPAgeMain</name>
+    <name>OptionsPageMain</name>
     <message>
-        <location filename="../../src/qml/OptionsPAgeMain.qml" line="35"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="35"/>
         <source>Automatically start playback</source>
         <translation>Автоматически начинать воспроизведение</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPAgeMain.qml" line="46"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="46"/>
         <source>Check for updates</source>
         <translation>Проверка обновлений</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPAgeMain.qml" line="59"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="59"/>
         <source>New version is available</source>
         <translation>Доступна новая версия</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPAgeMain.qml" line="60"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="60"/>
         <source>Do you want to go to the download page?</source>
         <translation>Перейти на страницу загрузки?</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPAgeMain.qml" line="65"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="65"/>
         <source>There is no updates found.</source>
         <translation>Обновлений не найдено.</translation>
     </message>
@@ -1005,29 +1005,6 @@ Downloaded bytes:%2</source>
         <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="87"/>
         <source>Store tune into file</source>
         <translation>Выберете файл для сохранения информации о трэке</translation>
-    </message>
-</context>
-<context>
-    <name>UpdatesChecker</name>
-    <message>
-        <source>Error while checking for updates: %1</source>
-        <translation type="vanished">Во время проверки обновлений возникла ошибка: %1</translation>
-    </message>
-    <message>
-        <source>New version is available</source>
-        <translation type="vanished">Доступна новая версия</translation>
-    </message>
-    <message>
-        <source>Do you want to go to the download page?</source>
-        <translation type="vanished">Перейти на страницу загрузки?</translation>
-    </message>
-    <message>
-        <source>There is no updates found.</source>
-        <translation type="vanished">Обновлений не найдено.</translation>
-    </message>
-    <message>
-        <source>Can&apos;t find information about version.</source>
-        <translation type="vanished">Не удается найти информацию о доступной версии.</translation>
     </message>
 </context>
 <context>
