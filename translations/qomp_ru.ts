@@ -285,9 +285,29 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsPAgeMain</name>
     <message>
-        <location filename="../../src/qml/OptionsPAgeMain.qml" line="33"/>
+        <location filename="../../src/qml/OptionsPAgeMain.qml" line="35"/>
         <source>Automatically start playback</source>
         <translation>Автоматически начинать воспроизведение</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/OptionsPAgeMain.qml" line="46"/>
+        <source>Check for updates</source>
+        <translation>Проверка обновлений</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/OptionsPAgeMain.qml" line="59"/>
+        <source>New version is available</source>
+        <translation>Доступна новая версия</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/OptionsPAgeMain.qml" line="60"/>
+        <source>Do you want to go to the download page?</source>
+        <translation>Перейти на страницу загрузки?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/OptionsPAgeMain.qml" line="65"/>
+        <source>There is no updates found.</source>
+        <translation>Обновлений не найдено.</translation>
     </message>
 </context>
 <context>
@@ -1013,27 +1033,27 @@ Downloaded bytes:%2</source>
 <context>
     <name>UpdatesChecker::Private</name>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="97"/>
+        <location filename="../../src/updateschecker.cpp" line="117"/>
         <source>Error while checking for updates: %1</source>
         <translation>Во время проверки обновлений возникла ошибка: %1</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="108"/>
+        <location filename="../../src/updateschecker.cpp" line="130"/>
         <source>New version is available</source>
         <translation>Доступна новая версия</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="109"/>
+        <location filename="../../src/updateschecker.cpp" line="131"/>
         <source>Do you want to go to the download page?</source>
         <translation>Перейти на страницу загрузки?</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="117"/>
+        <location filename="../../src/updateschecker.cpp" line="140"/>
         <source>There is no updates found.</source>
         <translation>Обновлений не найдено.</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="121"/>
+        <location filename="../../src/updateschecker.cpp" line="144"/>
         <source>Can&apos;t find information about version.</source>
         <translation>Не удается найти информацию о доступной версии.</translation>
     </message>
