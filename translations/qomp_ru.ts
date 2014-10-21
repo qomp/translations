@@ -812,28 +812,28 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="134"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="135"/>
         <source>Artist: %1
 </source>
         <translation>Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="137"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="138"/>
         <source>Title: %1
 </source>
         <translation>Название: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="140"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="141"/>
         <source>Album: %1
 </source>
         <translation>Альбом: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="143"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="144"/>
         <source>Bitrate: %1
 </source>
         <translation>Битрэйт: %1
@@ -990,27 +990,50 @@ Downloaded bytes:%2</source>
 <context>
     <name>UpdatesChecker</name>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="71"/>
+        <source>Error while checking for updates: %1</source>
+        <translation type="vanished">Во время проверки обновлений возникла ошибка: %1</translation>
+    </message>
+    <message>
+        <source>New version is available</source>
+        <translation type="vanished">Доступна новая версия</translation>
+    </message>
+    <message>
+        <source>Do you want to go to the download page?</source>
+        <translation type="vanished">Перейти на страницу загрузки?</translation>
+    </message>
+    <message>
+        <source>There is no updates found.</source>
+        <translation type="vanished">Обновлений не найдено.</translation>
+    </message>
+    <message>
+        <source>Can&apos;t find information about version.</source>
+        <translation type="vanished">Не удается найти информацию о доступной версии.</translation>
+    </message>
+</context>
+<context>
+    <name>UpdatesChecker::Private</name>
+    <message>
+        <location filename="../../src/updateschecker.cpp" line="97"/>
         <source>Error while checking for updates: %1</source>
         <translation>Во время проверки обновлений возникла ошибка: %1</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="80"/>
+        <location filename="../../src/updateschecker.cpp" line="108"/>
         <source>New version is available</source>
         <translation>Доступна новая версия</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="81"/>
+        <location filename="../../src/updateschecker.cpp" line="109"/>
         <source>Do you want to go to the download page?</source>
         <translation>Перейти на страницу загрузки?</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="88"/>
+        <location filename="../../src/updateschecker.cpp" line="117"/>
         <source>There is no updates found.</source>
         <translation>Обновлений не найдено.</translation>
     </message>
     <message>
-        <location filename="../../src/updateschecker.cpp" line="92"/>
+        <location filename="../../src/updateschecker.cpp" line="121"/>
         <source>Can&apos;t find information about version.</source>
         <translation>Не удается найти информацию о доступной версии.</translation>
     </message>
