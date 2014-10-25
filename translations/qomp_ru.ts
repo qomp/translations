@@ -135,7 +135,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>LastFmPlugin</name>
     <message>
-        <location filename="../../plugins/lastfmplugin/lastfmplugin.h" line="46"/>
+        <location filename="../../plugins/lastfmplugin/lastfmplugin.h" line="47"/>
         <source>LastFm scrobbling</source>
         <translation>Скробблинг в LastFm</translation>
     </message>
@@ -185,29 +185,59 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
+    <name>MainWin</name>
+    <message>
+        <location filename="../../src/qml/MainWin.qml" line="274"/>
+        <location filename="../../src/qml/MainWin.qml" line="287"/>
+        <source>Select Playlist</source>
+        <translation>Выберите плейлист</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWin.qml" line="279"/>
+        <location filename="../../src/qml/MainWin.qml" line="292"/>
+        <source>qomp playlist (*.qomp)</source>
+        <translation>Плейлист qomp(*.qomp)</translation>
+    </message>
+</context>
+<context>
     <name>MainWinSideBar</name>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="18"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="19"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="55"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="56"/>
         <source>Repeat All</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
         <location filename="../../src/qml/MainWinSideBar.qml" line="60"/>
-        <source>Clear Playlist</source>
-        <translation>Очистить плейлист</translation>
+        <source>Playlist</source>
+        <translation>Плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="73"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="65"/>
+        <source>Clear</source>
+        <translation>Очистить</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="71"/>
+        <source>Load</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="76"/>
+        <source>Save</source>
+        <translation>Сохранить</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="81"/>
         <source>Options</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="78"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="86"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
@@ -215,12 +245,12 @@ Listening to the music from different music hostings</source>
 <context>
     <name>MprisPlugin</name>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="38"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="39"/>
         <source>MPRIS Plugin</source>
         <translation>MPRIS плагин</translation>
     </message>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="40"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="41"/>
         <source>Interface to MPRIS</source>
         <translation>Интерфейс к MPRIS</translation>
     </message>
@@ -507,6 +537,29 @@ Listening to the music from different music hostings</source>
     </message>
 </context>
 <context>
+    <name>QompFileDlg</name>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="307"/>
+        <source>OK</source>
+        <translation>ОК</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="317"/>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="323"/>
+        <source>File already exists</source>
+        <translation>Файл уже существует</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="324"/>
+        <source>Overwrite existing file?</source>
+        <translation>Перезаписать существующий файл?</translation>
+    </message>
+</context>
+<context>
     <name>QompMainMenu</name>
     <message>
         <location filename="../../src/qompmenu.cpp" line="102"/>
@@ -648,7 +701,7 @@ Listening to the music from different music hostings</source>
         <location filename="../../src/qompmainwin.cpp" line="317"/>
         <location filename="../../src/qompmainwin.cpp" line="331"/>
         <source>Select Playlist</source>
-        <translation>Выберете список воспроизведения</translation>
+        <translation>Выберите список воспроизведения</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="318"/>
@@ -659,7 +712,7 @@ Listening to the music from different music hostings</source>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="346"/>
         <source>Select directory</source>
-        <translation>Выберете каталог</translation>
+        <translation>Выберите каталог</translation>
     </message>
 </context>
 <context>
