@@ -48,17 +48,17 @@ Listening to the music from different music hostings</source>
 <context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="253"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="259"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="259"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="265"/>
         <source>Select Files</source>
         <translation>Выбрать файлы</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="266"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="272"/>
         <source>Select Folders</source>
         <translation>Выбрать каталоги</translation>
     </message>
@@ -71,30 +71,30 @@ Listening to the music from different music hostings</source>
 <context>
     <name>FilesystemPlugin::Private</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="129"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="154"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="135"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="160"/>
         <source>Select file(s)</source>
         <translation>Выберите файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="134"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="140"/>
         <source>Audio files (*.mp3, *.ogg, *.wav, *.flac)</source>
         <translation>Аудио файлы (*.mp3, *.ogg, *.wav, *.flac)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="135"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="189"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="141"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="195"/>
         <source>All files (*.*)</source>
         <translation>Все файлы (*.*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="156"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="162"/>
         <source>Audio files(*.mp3 *.ogg *.wav *.flac);;All files(*)</source>
         <translation>Аудио файлы(*.mp3 *.ogg *.wav *.flac);;Все файлы(*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="185"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="203"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="191"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="209"/>
         <source>Select folder</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -336,27 +336,37 @@ Listening to the music from different music hostings</source>
 <context>
     <name>OptionsPageMain</name>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="35"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="38"/>
         <source>Automatically start playback</source>
         <translation>Автоматически начинать воспроизведение</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="46"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="51"/>
+        <source>Default Metadata Encoding:</source>
+        <translation>Кодировка мета-данных:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="64"/>
+        <source>Language:</source>
+        <translation>Язык:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="88"/>
         <source>Check for updates</source>
         <translation>Проверка обновлений</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="59"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="101"/>
         <source>New version is available</source>
         <translation>Доступна новая версия</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="60"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="102"/>
         <source>Do you want to go to the download page?</source>
         <translation>Перейти на страницу загрузки?</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="65"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="107"/>
         <source>There is no updates found.</source>
         <translation>Обновлений не найдено.</translation>
     </message>
@@ -479,7 +489,7 @@ Listening to the music from different music hostings</source>
     <name>QObject</name>
     <message>
         <location filename="../../src/options/qompoptionsmain.cpp" line="30"/>
-        <location filename="../../src/options/qompoptionsmain_mobile.cpp" line="29"/>
+        <location filename="../../src/options/qompoptionsmain_mobile.cpp" line="30"/>
         <source>default</source>
         <translation>по-умолчанию</translation>
     </message>
