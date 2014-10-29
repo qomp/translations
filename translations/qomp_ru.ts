@@ -15,21 +15,17 @@
     </message>
     <message>
         <location filename="../../src/aboutdlg.ui" line="102"/>
-        <location filename="../../src/qml/AboutDlg.qml" line="8"/>
+        <location filename="../../src/qml/AboutDlg.qml" line="80"/>
         <source>Quick(Qt) Online Music Player
-Listening to the music from different music hostings</source>
+one player for different online music hostings</source>
         <translation>Quick(Qt) Online Music Player
-Прослушивание музыки онлайн из различных сайтов</translation>
+проигрыватель для различных музыкальных онлайн сервисов</translation>
     </message>
     <message>
         <location filename="../../src/aboutdlg.ui" line="126"/>
+        <location filename="../../src/qml/AboutDlg.qml" line="91"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;qomp home page&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Домашняя страница&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/qml/AboutDlg.qml" line="10"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://qomp.sourceforge.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://qomp.sourceforge.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -981,7 +977,7 @@ Listening to the music from different music hostings</source>
 <context>
     <name>QompQmlEngine</name>
     <message>
-        <location filename="../../libqomp/src/qompqmlengine.cpp" line="133"/>
+        <location filename="../../libqomp/src/qompqmlengine.cpp" line="135"/>
         <source>Press again to exit</source>
         <translation>Нажмите снова для выхода</translation>
     </message>
