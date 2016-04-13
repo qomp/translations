@@ -293,12 +293,12 @@ one player for different online music hostings</source>
 <context>
     <name>MyzukaruPlugin</name>
     <message>
-        <location filename="../../plugins/myzukaruplugin/myzukaruplugin.cpp" line="44"/>
+        <location filename="../../plugins/myzukaruplugin/myzukaruplugin.cpp" line="33"/>
         <source>Listen to the music from Myzuka.ru</source>
         <translation>Проигрывает музыку с сайта Myzuka.ru</translation>
     </message>
     <message>
-        <location filename="../../plugins/myzukaruplugin/myzukaruplugin.cpp" line="72"/>
+        <location filename="../../plugins/myzukaruplugin/myzukaruplugin.cpp" line="61"/>
         <source>Myzuka.ru</source>
         <translation>Myzuka.ru</translation>
     </message>
@@ -401,12 +401,12 @@ one player for different online music hostings</source>
 <context>
     <name>ProstoPleerPlugin</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="45"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="34"/>
         <source>Listen to the music from Pleer.com</source>
         <translation>Проигрывает музыку с сайта Pleer.com</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="77"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="66"/>
         <source>Pleer.com</source>
         <translation>Простоплеер</translation>
     </message>
@@ -561,6 +561,14 @@ one player for different online music hostings</source>
         <location filename="../../libqomp/src/qompactionslist.cpp" line="99"/>
         <source>Clear Playlist</source>
         <translation>Очистить плейлист</translation>
+    </message>
+</context>
+<context>
+    <name>QompCaptchaDlg</name>
+    <message>
+        <location filename="../../libqomp/src/qmlshared/QompCaptchaDlg.qml" line="9"/>
+        <source>Enter the text from the image</source>
+        <translation>Введите текст с картинки</translation>
     </message>
 </context>
 <context>
@@ -917,32 +925,40 @@ one player for different online music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="135"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="136"/>
         <source>Artist: %1
 </source>
         <translation>Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="138"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="139"/>
         <source>Title: %1
 </source>
         <translation>Название: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="141"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="142"/>
         <source>Album: %1
 </source>
         <translation>Альбом: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="144"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="145"/>
         <source>Bitrate: %1
 </source>
         <translation>Битрэйт: %1
 </translation>
+    </message>
+</context>
+<context>
+    <name>QompPluginCaptchaDialog</name>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugincaptchadialog.cpp" line="115"/>
+        <source>Enter the text from the image</source>
+        <translation>Введите текст с картинки</translation>
     </message>
 </context>
 <context>
@@ -1069,12 +1085,23 @@ Downloaded bytes:%2</source>
 <context>
     <name>Tune2FilePlugin</name>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tune2fileplugin.h" line="42"/>
+        <source>Tune to File</source>
+        <translation type="vanished">Трэк в Файл</translation>
+    </message>
+    <message>
+        <source>Store current tune into file. Usefull for publishing tune in status</source>
+        <translation type="vanished">Сохраняет информацию о текущем трэке в файле. Это бывает полезно для публикации данной информации в статусе</translation>
+    </message>
+</context>
+<context>
+    <name>TuneToFilePlugin</name>
+    <message>
+        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="42"/>
         <source>Tune to File</source>
         <translation>Трэк в Файл</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tune2fileplugin.h" line="44"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="44"/>
         <source>Store current tune into file. Usefull for publishing tune in status</source>
         <translation>Сохраняет информацию о текущем трэке в файле. Это бывает полезно для публикации данной информации в статусе</translation>
     </message>
@@ -1169,12 +1196,12 @@ Downloaded bytes:%2</source>
 <context>
     <name>YandexMusicPlugin</name>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="44"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="34"/>
         <source>Listening to the music from Yandex.Music</source>
         <translation>Проигрывает музыку с сайта Яндекс.Музыка</translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="71"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="61"/>
         <source>Yandex.Music</source>
         <translation>Яндекс.Музыка</translation>
     </message>
