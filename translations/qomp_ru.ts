@@ -199,19 +199,19 @@ one player for different online music hostings</source>
 <context>
     <name>MainWin</name>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="273"/>
-        <location filename="../../src/qml/MainWin.qml" line="286"/>
+        <location filename="../../src/qml/MainWin.qml" line="277"/>
+        <location filename="../../src/qml/MainWin.qml" line="290"/>
         <source>Select Playlist</source>
         <translation>Выберите плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="278"/>
-        <location filename="../../src/qml/MainWin.qml" line="291"/>
+        <location filename="../../src/qml/MainWin.qml" line="282"/>
+        <location filename="../../src/qml/MainWin.qml" line="295"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Плейлист qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="314"/>
+        <location filename="../../src/qml/MainWin.qml" line="318"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -219,42 +219,47 @@ one player for different online music hostings</source>
 <context>
     <name>MainWinSideBar</name>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="19"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="20"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="77"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="78"/>
         <source>Repeat All</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="55"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="56"/>
         <source>Playlist</source>
         <translation>Плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="60"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="61"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="66"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="67"/>
         <source>Load</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="71"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="72"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="81"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="83"/>
+        <source>Shuffle</source>
+        <translation>Случайный</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="87"/>
         <source>Options</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWinSideBar.qml" line="86"/>
+        <location filename="../../src/qml/MainWinSideBar.qml" line="92"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
@@ -554,11 +559,16 @@ one player for different online music hostings</source>
     </message>
     <message>
         <location filename="../../libqomp/src/qompactionslist.cpp" line="98"/>
+        <source>Shuffle</source>
+        <translation>Случайный</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="99"/>
         <source>Mute</source>
         <translation>Приглушить</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qompactionslist.cpp" line="99"/>
+        <location filename="../../libqomp/src/qompactionslist.cpp" line="100"/>
         <source>Clear Playlist</source>
         <translation>Очистить плейлист</translation>
     </message>
@@ -671,11 +681,16 @@ one player for different online music hostings</source>
     </message>
     <message>
         <location filename="../../src/qompmainwin.ui" line="278"/>
+        <source>Shuffle</source>
+        <translation>Случайный</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompmainwin.ui" line="297"/>
         <source>Repeat All</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="330"/>
+        <location filename="../../src/qompmainwin.ui" line="349"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
@@ -690,17 +705,17 @@ one player for different online music hostings</source>
         <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="350"/>
+        <location filename="../../src/qompmainwin.ui" line="369"/>
         <source>Open Playlist</source>
         <translation>Открыть список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="370"/>
+        <location filename="../../src/qompmainwin.ui" line="389"/>
         <source>Save Playlist</source>
         <translation>Сохранить список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="390"/>
+        <location filename="../../src/qompmainwin.ui" line="409"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
@@ -710,17 +725,17 @@ one player for different online music hostings</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="464"/>
+        <location filename="../../src/qompmainwin.ui" line="483"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="426"/>
+        <location filename="../../src/qompmainwin.cpp" line="430"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="430"/>
+        <location filename="../../src/qompmainwin.cpp" line="434"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -728,24 +743,24 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="255"/>
+        <location filename="../../src/qompmainwin.cpp" line="257"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="318"/>
-        <location filename="../../src/qompmainwin.cpp" line="332"/>
+        <location filename="../../src/qompmainwin.cpp" line="321"/>
+        <location filename="../../src/qompmainwin.cpp" line="335"/>
         <source>Select Playlist</source>
         <translation>Выберите список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="319"/>
-        <location filename="../../src/qompmainwin.cpp" line="333"/>
+        <location filename="../../src/qompmainwin.cpp" line="322"/>
+        <location filename="../../src/qompmainwin.cpp" line="336"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="347"/>
+        <location filename="../../src/qompmainwin.cpp" line="350"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
