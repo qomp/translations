@@ -566,7 +566,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompCaptchaDlg</name>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompCaptchaDlg.qml" line="9"/>
+        <location filename="../../libqomp/src/qmlshared/QompCaptchaDlg.qml" line="10"/>
         <source>Enter the text from the image</source>
         <translation>Введите текст с картинки</translation>
     </message>
@@ -956,7 +956,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompPluginCaptchaDialog</name>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugincaptchadialog.cpp" line="115"/>
+        <location filename="../../libqomp/src/plugins/qompplugincaptchadialog.cpp" line="123"/>
         <source>Enter the text from the image</source>
         <translation>Введите текст с картинки</translation>
     </message>
@@ -1080,17 +1080,6 @@ Downloaded bytes:%2</source>
         <location filename="../../src/qml/TrackMenu.qml" line="25"/>
         <source>Remove</source>
         <translation>Удалить</translation>
-    </message>
-</context>
-<context>
-    <name>Tune2FilePlugin</name>
-    <message>
-        <source>Tune to File</source>
-        <translation type="vanished">Трэк в Файл</translation>
-    </message>
-    <message>
-        <source>Store current tune into file. Usefull for publishing tune in status</source>
-        <translation type="vanished">Сохраняет информацию о текущем трэке в файле. Это бывает полезно для публикации данной информации в статусе</translation>
     </message>
 </context>
 <context>
