@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU" sourcelanguage="en">
+<TS version="2.1" language="ru_RU" sourcelanguage="en">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -199,16 +199,21 @@ one player for different online music hostings</source>
 <context>
     <name>MainWin</name>
     <message>
+        <location filename="../../src/qml/MainWin.qml" line="277"/>
+        <location filename="../../src/qml/MainWin.qml" line="290"/>
         <source>Select Playlist</source>
-        <translation type="obsolete">Выберите плейлист</translation>
+        <translation>Выберите плейлист</translation>
     </message>
     <message>
+        <location filename="../../src/qml/MainWin.qml" line="282"/>
+        <location filename="../../src/qml/MainWin.qml" line="295"/>
         <source>qomp playlist (*.qomp)</source>
-        <translation type="obsolete">Плейлист qomp(*.qomp)</translation>
+        <translation>Плейлист qomp(*.qomp)</translation>
     </message>
     <message>
+        <location filename="../../src/qml/MainWin.qml" line="318"/>
         <source>Select directory</source>
-        <translation type="obsolete">Выберите каталог</translation>
+        <translation>Выберите каталог</translation>
     </message>
 </context>
 <context>
@@ -1000,16 +1005,19 @@ one player for different online music hostings</source>
 <context>
     <name>QompPluginsSearchTabbedView</name>
     <message>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="33"/>
         <source>Artists</source>
-        <translation type="obsolete">Исполнители</translation>
+        <translation>Исполнители</translation>
     </message>
     <message>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="33"/>
         <source>Albums</source>
-        <translation type="obsolete">Альбомы</translation>
+        <translation>Альбомы</translation>
     </message>
     <message>
+        <location filename="../../libqomp/src/qmlshared/QompPluginsSearchTabbedView.qml" line="33"/>
         <source>Tracks</source>
-        <translation type="obsolete">Трэки</translation>
+        <translation>Трэки</translation>
     </message>
 </context>
 <context>
