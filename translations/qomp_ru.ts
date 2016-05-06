@@ -44,17 +44,17 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="259"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="237"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="265"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="243"/>
         <source>Select Files</source>
         <translation>Выбрать файлы</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="272"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="250"/>
         <source>Select Folders</source>
         <translation>Выбрать каталоги</translation>
     </message>
@@ -67,30 +67,38 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemPlugin::Private</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="135"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="160"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="100"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="132"/>
         <source>Select file(s)</source>
         <translation>Выберите файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="140"/>
-        <source>Audio files (*.mp3, *.ogg, *.wav, *.flac)</source>
-        <translation>Аудио файлы (*.mp3, *.ogg, *.wav, *.flac)</translation>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="105"/>
+        <source>Audio files (*.mp3, *.ogg, *.wav, *.flac, *.cue)</source>
+        <translation>Аудио файлы (*.mp3, *.ogg, *.wav, *.flac, *.cue)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="141"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="195"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="134"/>
+        <source>Audio files(*.mp3 *.ogg *.wav *.flac *.cue);;All files(*)</source>
+        <translation>Аудио файлы(*.mp3 *.ogg *.wav *.flac *.cue);;Все файлы(*)</translation>
+    </message>
+    <message>
+        <source>Audio files (*.mp3, *.ogg, *.wav, *.flac)</source>
+        <translation type="vanished">Аудио файлы (*.mp3, *.ogg, *.wav, *.flac)</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="106"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="173"/>
         <source>All files (*.*)</source>
         <translation>Все файлы (*.*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="162"/>
         <source>Audio files(*.mp3 *.ogg *.wav *.flac);;All files(*)</source>
-        <translation>Аудио файлы(*.mp3 *.ogg *.wav *.flac);;Все файлы(*)</translation>
+        <translation type="vanished">Аудио файлы(*.mp3 *.ogg *.wav *.flac);;Все файлы(*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="191"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="209"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="169"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="187"/>
         <source>Select folder</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -337,37 +345,42 @@ one player for different online music hostings</source>
 <context>
     <name>OptionsPageMain</name>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="38"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="39"/>
         <source>Automatically start playback</source>
         <translation>Автоматически начинать воспроизведение</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="51"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="58"/>
+        <source>Remember track position</source>
+        <translation>Запоминать текущую  позицию</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="71"/>
         <source>Default Metadata Encoding:</source>
         <translation>Кодировка мета-данных:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="64"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="84"/>
         <source>Language:</source>
         <translation>Язык:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="88"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="108"/>
         <source>Check for updates</source>
         <translation>Проверка обновлений</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="101"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="121"/>
         <source>New version is available</source>
         <translation>Доступна новая версия</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="102"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="122"/>
         <source>Do you want to go to the download page?</source>
         <translation>Перейти на страницу загрузки?</translation>
     </message>
     <message>
-        <location filename="../../src/qml/OptionsPageMain.qml" line="107"/>
+        <location filename="../../src/qml/OptionsPageMain.qml" line="127"/>
         <source>There is no updates found.</source>
         <translation>Обновлений не найдено.</translation>
     </message>
@@ -655,87 +668,87 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainWin</name>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="17"/>
+        <location filename="../../src/qompmainwin.ui" line="23"/>
         <source>qomp</source>
         <translation>qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="60"/>
+        <location filename="../../src/qompmainwin.ui" line="69"/>
         <source>Artist:</source>
         <translation>Исполнитель:</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="92"/>
+        <location filename="../../src/qompmainwin.ui" line="101"/>
         <source>Title:</source>
         <translation>Название:</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="117"/>
+        <location filename="../../src/qompmainwin.ui" line="126"/>
         <source>Mute</source>
         <translation>Приглушить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="185"/>
+        <location filename="../../src/qompmainwin.ui" line="194"/>
         <source>Previous</source>
         <translation>Предыдущий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="278"/>
+        <location filename="../../src/qompmainwin.ui" line="287"/>
         <source>Shuffle</source>
         <translation>Случайный</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="301"/>
+        <location filename="../../src/qompmainwin.ui" line="310"/>
         <source>Repeat All</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="353"/>
+        <location filename="../../src/qompmainwin.ui" line="436"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="225"/>
+        <location filename="../../src/qompmainwin.ui" line="234"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="245"/>
+        <location filename="../../src/qompmainwin.ui" line="254"/>
         <source>Next</source>
         <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="373"/>
+        <location filename="../../src/qompmainwin.ui" line="456"/>
         <source>Open Playlist</source>
         <translation>Открыть список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="393"/>
+        <location filename="../../src/qompmainwin.ui" line="476"/>
         <source>Save Playlist</source>
         <translation>Сохранить список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="413"/>
+        <location filename="../../src/qompmainwin.ui" line="496"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="205"/>
+        <location filename="../../src/qompmainwin.ui" line="214"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="487"/>
+        <location filename="../../src/qompmainwin.ui" line="570"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="451"/>
+        <location filename="../../src/qompmainwin.cpp" line="500"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="455"/>
+        <location filename="../../src/qompmainwin.cpp" line="504"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -743,34 +756,34 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="113"/>
+        <location filename="../../src/qompmainwin.cpp" line="111"/>
         <source>Toggle Visibility</source>
         <translation>Скрыть/Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="115"/>
+        <location filename="../../src/qompmainwin.cpp" line="113"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="277"/>
+        <location filename="../../src/qompmainwin.cpp" line="326"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="341"/>
-        <location filename="../../src/qompmainwin.cpp" line="355"/>
+        <location filename="../../src/qompmainwin.cpp" line="390"/>
+        <location filename="../../src/qompmainwin.cpp" line="404"/>
         <source>Select Playlist</source>
         <translation>Выберите список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="342"/>
-        <location filename="../../src/qompmainwin.cpp" line="356"/>
+        <location filename="../../src/qompmainwin.cpp" line="391"/>
+        <location filename="../../src/qompmainwin.cpp" line="405"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="370"/>
+        <location filename="../../src/qompmainwin.cpp" line="419"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -850,66 +863,71 @@ one player for different online music hostings</source>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="99"/>
+        <source>Remember track position</source>
+        <translation>Запоминать текущую позицию</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="106"/>
         <source>Repeat the last search after opening the search dialog</source>
         <translation>Повторять последний поиск после открытия диалога поиска</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="106"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="113"/>
         <source>Automatically resolve metadata on an added tracks</source>
         <translation>Автоматически получать метаданные после добавления трэков</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="115"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="122"/>
         <source>Default Metadata Encoding:</source>
         <translation>Кодировка мета-данных:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="129"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="136"/>
         <source>Audio Output:</source>
         <translation>Аудио выход:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="160"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="167"/>
         <source>Use proxy server</source>
         <translation>Использвать Proxy server</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="174"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="181"/>
         <source>Type:</source>
         <translation>Тип:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="214"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="221"/>
         <source>Host:</source>
         <translation>Хост:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="231"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="238"/>
         <source>User:</source>
         <translation>Пользоваатель:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="252"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="259"/>
         <source>Port:</source>
         <translation>Порт:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="265"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="272"/>
         <source>99999</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="272"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="279"/>
         <source>Password:</source>
         <translation>Пароль:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="313"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="320"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="331"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="338"/>
         <source>Theme</source>
         <translation>Тема</translation>
     </message>
