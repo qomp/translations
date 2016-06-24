@@ -589,7 +589,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompCon</name>
     <message>
-        <location filename="../../src/qompcon.cpp" line="200"/>
+        <location filename="../../src/qompcon.cpp" line="258"/>
         <source>The file (url) to open.</source>
         <translation>Файл (ссылка) для проигрывания.</translation>
     </message>
@@ -1085,26 +1085,37 @@ one player for different online music hostings</source>
 <context>
     <name>QompTuneDownloader::Private</name>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="46"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="47"/>
         <source>Download Progress</source>
         <translation>Процесс загрузки</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="56"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="57"/>
         <source>Download finished</source>
         <translation>Загрузка завершена</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="70"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="71"/>
         <source>Download started</source>
         <translation>Загрузка начата</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="87"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="88"/>
         <source>Total bytes:%1
 Downloaded bytes:%2</source>
         <translation>Всего:%1
 Загружено:%2</translation>
+    </message>
+    <message>
+        <location filename="../../src/qomptunedownloader.cpp" line="104"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="110"/>
+        <source>Cann&apos;t create file!</source>
+        <translation>Невозможно создать файл!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qomptunedownloader.cpp" line="110"/>
+        <source>Error</source>
+        <translation>Ошибка</translation>
     </message>
 </context>
 <context>
@@ -1192,12 +1203,12 @@ Downloaded bytes:%2</source>
 <context>
     <name>UrlPlugin</name>
     <message>
-        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="42"/>
+        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="43"/>
         <source>Input url</source>
         <translation>Введите URL</translation>
     </message>
     <message>
-        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="81"/>
+        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="82"/>
         <source>Url</source>
         <translation>Ссылка</translation>
     </message>
