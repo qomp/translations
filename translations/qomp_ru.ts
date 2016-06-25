@@ -589,7 +589,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompCon</name>
     <message>
-        <location filename="../../src/qompcon.cpp" line="258"/>
+        <location filename="../../src/qompcon.cpp" line="245"/>
         <source>The file (url) to open.</source>
         <translation>Файл (ссылка) для проигрывания.</translation>
     </message>
