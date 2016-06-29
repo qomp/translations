@@ -587,11 +587,18 @@ one player for different online music hostings</source>
     </message>
 </context>
 <context>
-    <name>QompCon</name>
+    <name>QompCommandLine</name>
     <message>
-        <location filename="../../src/qompcon.cpp" line="245"/>
+        <location filename="../../src/qompcommandline.cpp" line="56"/>
         <source>The file (url) to open.</source>
         <translation>Файл (ссылка) для проигрывания.</translation>
+    </message>
+</context>
+<context>
+    <name>QompCon</name>
+    <message>
+        <source>The file (url) to open.</source>
+        <translation type="vanished">Файл (ссылка) для проигрывания.</translation>
     </message>
 </context>
 <context>
@@ -743,12 +750,12 @@ one player for different online music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="531"/>
+        <location filename="../../src/qompmainwin.cpp" line="532"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="535"/>
+        <location filename="../../src/qompmainwin.cpp" line="536"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -766,24 +773,24 @@ one player for different online music hostings</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="359"/>
+        <location filename="../../src/qompmainwin.cpp" line="360"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="423"/>
-        <location filename="../../src/qompmainwin.cpp" line="437"/>
+        <location filename="../../src/qompmainwin.cpp" line="424"/>
+        <location filename="../../src/qompmainwin.cpp" line="438"/>
         <source>Select Playlist</source>
         <translation>Выберите список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="424"/>
-        <location filename="../../src/qompmainwin.cpp" line="438"/>
+        <location filename="../../src/qompmainwin.cpp" line="425"/>
+        <location filename="../../src/qompmainwin.cpp" line="439"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="452"/>
+        <location filename="../../src/qompmainwin.cpp" line="453"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -877,57 +884,62 @@ one player for different online music hostings</source>
         <translation>Автоматически получать метаданные после добавления трэков</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="122"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="120"/>
+        <source>Allow to run only one copy of the qomp</source>
+        <translation>Разрешать запуск только одной копии qomp</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="129"/>
         <source>Default Metadata Encoding:</source>
         <translation>Кодировка мета-данных:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="136"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="143"/>
         <source>Audio Output:</source>
         <translation>Аудио выход:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="167"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="174"/>
         <source>Use proxy server</source>
         <translation>Использвать Proxy server</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="181"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="188"/>
         <source>Type:</source>
         <translation>Тип:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="221"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="228"/>
         <source>Host:</source>
         <translation>Хост:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="238"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="245"/>
         <source>User:</source>
         <translation>Пользоваатель:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="259"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="266"/>
         <source>Port:</source>
         <translation>Порт:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="272"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="279"/>
         <source>99999</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="279"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="286"/>
         <source>Password:</source>
         <translation>Пароль:</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="320"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="327"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="338"/>
+        <location filename="../../src/options/qompoptionsmain.ui" line="345"/>
         <source>Theme</source>
         <translation>Тема</translation>
     </message>
