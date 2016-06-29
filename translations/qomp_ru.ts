@@ -885,8 +885,17 @@ one player for different online music hostings</source>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="120"/>
+        <source>Allow to run only one copy of the qomp*</source>
+        <translation>Разрешать запуск только одной копии qomp*</translation>
+    </message>
+    <message>
+        <location filename="../../src/options/qompoptionsmain.ui" line="377"/>
+        <source>*may require a restart of the application</source>
+        <translation>*может потребовать перезапуск приложения</translation>
+    </message>
+    <message>
         <source>Allow to run only one copy of the qomp</source>
-        <translation>Разрешать запуск только одной копии qomp</translation>
+        <translation type="vanished">Разрешать запуск только одной копии qomp</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="129"/>
