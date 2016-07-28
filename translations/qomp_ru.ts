@@ -632,47 +632,47 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="102"/>
+        <location filename="../../src/qompmenu.cpp" line="103"/>
         <source>Toggle Visibility</source>
         <translation>Скрыть/Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="105"/>
+        <location filename="../../src/qompmenu.cpp" line="106"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="109"/>
+        <location filename="../../src/qompmenu.cpp" line="110"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="113"/>
+        <location filename="../../src/qompmenu.cpp" line="114"/>
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="115"/>
+        <location filename="../../src/qompmenu.cpp" line="116"/>
         <source>About qomp</source>
         <translation>О qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="117"/>
+        <location filename="../../src/qompmenu.cpp" line="118"/>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="119"/>
+        <location filename="../../src/qompmenu.cpp" line="120"/>
         <source>Report a bug</source>
         <translation>Сообщить о проблеме</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="121"/>
+        <location filename="../../src/qompmenu.cpp" line="122"/>
         <source>Check for updates</source>
         <translation>Проверка обновлений</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="125"/>
+        <location filename="../../src/qompmenu.cpp" line="126"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
@@ -755,12 +755,12 @@ one player for different online music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="595"/>
+        <location filename="../../src/qompmainwin.cpp" line="598"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="599"/>
+        <location filename="../../src/qompmainwin.cpp" line="602"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -778,7 +778,7 @@ one player for different online music hostings</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="398"/>
+        <location filename="../../src/qompmainwin.cpp" line="399"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
@@ -1075,12 +1075,12 @@ one player for different online music hostings</source>
 <context>
     <name>QompRemoveTunesMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="182"/>
+        <location filename="../../src/qompmenu.cpp" line="211"/>
         <source>Remove All</source>
         <translation>Удалить все</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="184"/>
+        <location filename="../../src/qompmenu.cpp" line="213"/>
         <source>Remove Selected</source>
         <translation>Удалить выбранные</translation>
     </message>
@@ -1088,24 +1088,28 @@ one player for different online music hostings</source>
 <context>
     <name>QompTrackMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="158"/>
+        <location filename="../../src/qompmenu.cpp" line="184"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="161"/>
+        <location filename="../../src/qompmenu.cpp" line="193"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="165"/>
+        <location filename="../../src/qompmenu.cpp" line="198"/>
+        <source>Save File(s)</source>
+        <translation>Сохранить файл(ы)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompmenu.cpp" line="188"/>
         <source>Copy URL</source>
         <translation>Копировать URL</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="169"/>
         <source>Save File</source>
-        <translation>Сохранить файл</translation>
+        <translation type="vanished">Сохранить файл</translation>
     </message>
 </context>
 <context>
