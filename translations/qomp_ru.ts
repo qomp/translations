@@ -42,19 +42,6 @@ one player for different online music hostings</source>
     </message>
 </context>
 <context>
-    <name>Filesystem</name>
-    <message>
-        <location filename="../../plugins/filesystemplugin/metadata.json" line="2"/>
-        <source>File System</source>
-        <translation>Файловая система</translation>
-    </message>
-    <message>
-        <location filename="../../plugins/filesystemplugin/metadata.json" line="3"/>
-        <source>Open music from filesystem</source>
-        <translation>Открывает музыку из файловой системы</translation>
-    </message>
-</context>
-<context>
     <name>FilesystemPlugin</name>
     <message>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="237"/>
@@ -139,14 +126,8 @@ one player for different online music hostings</source>
     <name>LastFm</name>
     <message>
         <location filename="../../plugins/lastfmplugin/lastfmdefines.h" line="25"/>
-        <location filename="../../plugins/lastfmplugin/metadata.json" line="2"/>
         <source>LastFm</source>
         <translation>LastFm</translation>
-    </message>
-    <message>
-        <location filename="../../plugins/lastfmplugin/metadata.json" line="3"/>
-        <source>LastFm scrobbling</source>
-        <translation>Скробблинг в LastFm</translation>
     </message>
 </context>
 <context>
