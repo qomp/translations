@@ -42,9 +42,23 @@ one player for different online music hostings</source>
     </message>
 </context>
 <context>
+    <name>Filesystem</name>
+    <message>
+        <location filename="../../plugins/filesystemplugin/metadata.json" line="2"/>
+        <source>File System</source>
+        <translation>Файловая система</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/filesystemplugin/metadata.json" line="3"/>
+        <source>Open music from filesystem</source>
+        <translation>Открывает музыку из файловой системы</translation>
+    </message>
+</context>
+<context>
     <name>FilesystemPlugin</name>
     <message>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="237"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="35"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
@@ -119,6 +133,20 @@ one player for different online music hostings</source>
         <location filename="../../src/options/qompoptionskeys.cpp" line="95"/>
         <source>Set Keys</source>
         <translation>Комбинация клавиш</translation>
+    </message>
+</context>
+<context>
+    <name>LastFm</name>
+    <message>
+        <location filename="../../plugins/lastfmplugin/lastfmdefines.h" line="25"/>
+        <location filename="../../plugins/lastfmplugin/metadata.json" line="2"/>
+        <source>LastFm</source>
+        <translation>LastFm</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/lastfmplugin/metadata.json" line="3"/>
+        <source>LastFm scrobbling</source>
+        <translation>Скробблинг в LastFm</translation>
     </message>
 </context>
 <context>
@@ -199,19 +227,19 @@ one player for different online music hostings</source>
 <context>
     <name>MainWin</name>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="277"/>
-        <location filename="../../src/qml/MainWin.qml" line="290"/>
+        <location filename="../../src/qml/MainWin.qml" line="279"/>
+        <location filename="../../src/qml/MainWin.qml" line="292"/>
         <source>Select Playlist</source>
         <translation>Выберите плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="282"/>
-        <location filename="../../src/qml/MainWin.qml" line="295"/>
+        <location filename="../../src/qml/MainWin.qml" line="284"/>
+        <location filename="../../src/qml/MainWin.qml" line="297"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Плейлист qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="318"/>
+        <location filename="../../src/qml/MainWin.qml" line="320"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -267,12 +295,12 @@ one player for different online music hostings</source>
 <context>
     <name>MprisPlugin</name>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="39"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="42"/>
         <source>MPRIS Plugin</source>
         <translation>MPRIS плагин</translation>
     </message>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="41"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="44"/>
         <source>Interface to MPRIS</source>
         <translation>Интерфейс к MPRIS</translation>
     </message>
@@ -494,7 +522,6 @@ one player for different online music hostings</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/options/qompoptionsmain.cpp" line="30"/>
         <location filename="../../src/options/qompoptionsmain_mobile.cpp" line="30"/>
         <source>default</source>
         <translation>по-умолчанию</translation>
@@ -520,7 +547,12 @@ one player for different online music hostings</source>
         <translation>Предыдущий трэк</translation>
     </message>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="68"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="40"/>
+        <source>New Track</source>
+        <translation>Новый трэк</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="69"/>
         <source> now playing:</source>
         <translation> сейчас играет:</translation>
     </message>
@@ -597,13 +629,6 @@ one player for different online music hostings</source>
         <location filename="../../src/qompcommandline.cpp" line="56"/>
         <source>The file (url) to open.</source>
         <translation>Файл (ссылка) для проигрывания.</translation>
-    </message>
-</context>
-<context>
-    <name>QompCon</name>
-    <message>
-        <source>The file (url) to open.</source>
-        <translation type="vanished">Файл (ссылка) для проигрывания.</translation>
     </message>
 </context>
 <context>
@@ -755,12 +780,12 @@ one player for different online music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="598"/>
+        <location filename="../../src/qompmainwin.cpp" line="600"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="602"/>
+        <location filename="../../src/qompmainwin.cpp" line="604"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -783,19 +808,19 @@ one player for different online music hostings</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="485"/>
-        <location filename="../../src/qompmainwin.cpp" line="499"/>
+        <location filename="../../src/qompmainwin.cpp" line="487"/>
+        <location filename="../../src/qompmainwin.cpp" line="501"/>
         <source>Select Playlist</source>
         <translation>Выберите список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="486"/>
-        <location filename="../../src/qompmainwin.cpp" line="500"/>
+        <location filename="../../src/qompmainwin.cpp" line="488"/>
+        <location filename="../../src/qompmainwin.cpp" line="502"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="514"/>
+        <location filename="../../src/qompmainwin.cpp" line="516"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -897,10 +922,6 @@ one player for different online music hostings</source>
         <location filename="../../src/options/qompoptionsmain.ui" line="377"/>
         <source>*may require a restart of the application</source>
         <translation>*может потребовать перезапуск приложения</translation>
-    </message>
-    <message>
-        <source>Allow to run only one copy of the qomp</source>
-        <translation type="vanished">Разрешать запуск только одной копии qomp</translation>
     </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="129"/>
@@ -1107,43 +1128,39 @@ one player for different online music hostings</source>
         <source>Copy URL</source>
         <translation>Копировать URL</translation>
     </message>
-    <message>
-        <source>Save File</source>
-        <translation type="vanished">Сохранить файл</translation>
-    </message>
 </context>
 <context>
     <name>QompTuneDownloader::Private</name>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="47"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="51"/>
         <source>Download Progress</source>
         <translation>Процесс загрузки</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="57"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="61"/>
         <source>Download finished</source>
         <translation>Загрузка завершена</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="71"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="73"/>
         <source>Download started</source>
         <translation>Загрузка начата</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="88"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="99"/>
         <source>Total bytes:%1
 Downloaded bytes:%2</source>
         <translation>Всего:%1
 Загружено:%2</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="104"/>
-        <location filename="../../src/qomptunedownloader.cpp" line="110"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="122"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="126"/>
         <source>Cann&apos;t create file!</source>
         <translation>Невозможно создать файл!</translation>
     </message>
     <message>
-        <location filename="../../src/qomptunedownloader.cpp" line="110"/>
+        <location filename="../../src/qomptunedownloader.cpp" line="126"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
