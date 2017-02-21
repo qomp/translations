@@ -731,7 +731,7 @@ one player for different online music hostings</source>
         <translation>Повторить всё</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="436"/>
+        <location filename="../../src/qompmainwin.ui" line="421"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
@@ -746,17 +746,17 @@ one player for different online music hostings</source>
         <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="456"/>
+        <location filename="../../src/qompmainwin.ui" line="441"/>
         <source>Open Playlist</source>
         <translation>Открыть список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="476"/>
+        <location filename="../../src/qompmainwin.ui" line="461"/>
         <source>Save Playlist</source>
         <translation>Сохранить список воспроизведения</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="496"/>
+        <location filename="../../src/qompmainwin.ui" line="481"/>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
@@ -766,17 +766,17 @@ one player for different online music hostings</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.ui" line="570"/>
+        <location filename="../../src/qompmainwin.ui" line="555"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="602"/>
+        <location filename="../../src/qompmainwin.cpp" line="619"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="606"/>
+        <location filename="../../src/qompmainwin.cpp" line="623"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -784,28 +784,28 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="131"/>
+        <location filename="../../src/qompmainwin.cpp" line="134"/>
         <source>Toggle Visibility</source>
         <translation>Скрыть/Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="133"/>
+        <location filename="../../src/qompmainwin.cpp" line="136"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="400"/>
+        <location filename="../../src/qompmainwin.cpp" line="413"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="488"/>
-        <location filename="../../src/qompmainwin.cpp" line="503"/>
+        <location filename="../../src/qompmainwin.cpp" line="501"/>
+        <location filename="../../src/qompmainwin.cpp" line="516"/>
         <source>Select Playlist</source>
         <translation>Выберите плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="490"/>
+        <location filename="../../src/qompmainwin.cpp" line="503"/>
         <source>qomp playlist (*.%1)</source>
         <translation>Плейлист qomp(*.%1)</translation>
     </message>
@@ -814,12 +814,12 @@ one player for different online music hostings</source>
         <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="505"/>
+        <location filename="../../src/qompmainwin.cpp" line="518"/>
         <source>qomp playlist (*.%1);;M3U Playlist (*.m3u)</source>
-        <translation>Плейлист qomp(*.%1);;Плейлист M3U (*.m3u)</translation>
+        <translation>Плейлист qomp (*.%1);;Плейлист M3U (*.m3u)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="519"/>
+        <location filename="../../src/qompmainwin.cpp" line="532"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -1014,28 +1014,28 @@ one player for different online music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="154"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="155"/>
         <source>Artist: %1
 </source>
         <translation>Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="157"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="158"/>
         <source>Title: %1
 </source>
         <translation>Название: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="160"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="161"/>
         <source>Album: %1
 </source>
         <translation>Альбом: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="163"/>
+        <location filename="../../src/qompplaylistmodel.cpp" line="164"/>
         <source>Bitrate: %1
 </source>
         <translation>Битрэйт: %1
@@ -1103,6 +1103,24 @@ one player for different online music hostings</source>
         <location filename="../../src/qompmenu.cpp" line="213"/>
         <source>Remove Selected</source>
         <translation>Удалить выбранные</translation>
+    </message>
+</context>
+<context>
+    <name>QompThumbnailToolBar</name>
+    <message>
+        <location filename="../../src/qompthumbnailtoolbar.cpp" line="33"/>
+        <source>Previous</source>
+        <translation>Предыдущий</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompthumbnailtoolbar.cpp" line="35"/>
+        <source>Play/Pause</source>
+        <translation>Воспроизведение/Пауза</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompthumbnailtoolbar.cpp" line="37"/>
+        <source>Next</source>
+        <translation>Следующий</translation>
     </message>
 </context>
 <context>
