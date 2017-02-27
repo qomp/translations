@@ -44,18 +44,18 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="263"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="265"/>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="35"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="269"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="271"/>
         <source>Select Files</source>
         <translation>Выбрать файлы</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="276"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="278"/>
         <source>Select Folders</source>
         <translation>Выбрать каталоги</translation>
     </message>
@@ -68,40 +68,35 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemPlugin::Private</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="119"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="155"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="141"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="166"/>
         <source>Select file(s)</source>
         <translation>Выберите файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="124"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="146"/>
         <source>Audio files (*.mp3, *.ogg, *.wav, *.flac, *.cue)</source>
         <translation>Аудио файлы (*.mp3, *.ogg, *.wav, *.flac, *.cue)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="125"/>
-        <source>Playlists (*.m3u)</source>
-        <translation>Плейлисты
- (*.m3u)</translation>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="147"/>
+        <source>Playlists (*.m3u, *.m3u8)</source>
+        <translation>Плейлисты (*.m3u, *.m3u8)</translation>
     </message>
     <message>
-        <source>Audio files(*.mp3 *.ogg *.wav *.flac *.cue);;All files(*)</source>
-        <translation type="vanished">Аудио файлы(*.mp3 *.ogg *.wav *.flac *.cue);;Все файлы(*)</translation>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="168"/>
+        <source>Audio files (*.mp3 *.ogg *.wav *.flac *.cue);;Playlists (*.m3u *.m3u8);;All files (*)</source>
+        <translation>Аудио файлы (*.mp3 *.ogg *.wav *.flac *.cue);;Плейлисты (*.m3u *.m3u8);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="126"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="199"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="148"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="201"/>
         <source>All files (*.*)</source>
         <translation>Все файлы (*.*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="157"/>
-        <source>Audio files(*.mp3 *.ogg *.wav *.flac *.cue);;Playlists (*.m3u);;All files(*)</source>
-        <translation>Аудио файлы(*.mp3 *.ogg *.wav *.flac *.cue);;Плейлисты (*.m3u);;Все файлы(*)</translation>
-    </message>
-    <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="195"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="213"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="197"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="215"/>
         <source>Select folder</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -808,10 +803,6 @@ one player for different online music hostings</source>
         <location filename="../../src/qompmainwin.cpp" line="503"/>
         <source>qomp playlist (*.%1)</source>
         <translation>Плейлист qomp(*.%1)</translation>
-    </message>
-    <message>
-        <source>qomp playlist (*.qomp)</source>
-        <translation type="vanished">Список воспроизведения qomp(*.qomp)</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="518"/>
