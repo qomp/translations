@@ -15,7 +15,7 @@
     </message>
     <message>
         <location filename="../../src/aboutdlg.ui" line="102"/>
-        <location filename="../../src/qml/AboutDlg.qml" line="80"/>
+        <location filename="../../src/qml/AboutDlg.qml" line="44"/>
         <source>Quick(Qt) Online Music Player
 one player for different online music hostings</source>
         <translation>Quick(Qt) Online Music Player
@@ -23,7 +23,7 @@ one player for different online music hostings</source>
     </message>
     <message>
         <location filename="../../src/aboutdlg.ui" line="129"/>
-        <location filename="../../src/qml/AboutDlg.qml" line="91"/>
+        <location filename="../../src/qml/AboutDlg.qml" line="55"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;qomp home page&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://qomp.sourceforge.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Домашняя страница&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -44,18 +44,18 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="265"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="305"/>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="35"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="271"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="311"/>
         <source>Select Files</source>
         <translation>Выбрать файлы</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="278"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="318"/>
         <source>Select Folders</source>
         <translation>Выбрать каталоги</translation>
     </message>
@@ -68,35 +68,35 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemPlugin::Private</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="141"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="166"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="181"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="206"/>
         <source>Select file(s)</source>
         <translation>Выберите файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="146"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="186"/>
         <source>Audio files (*.mp3, *.ogg, *.wav, *.flac, *.cue)</source>
         <translation>Аудио файлы (*.mp3, *.ogg, *.wav, *.flac, *.cue)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="147"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="187"/>
         <source>Playlists (*.m3u, *.m3u8)</source>
         <translation>Плейлисты (*.m3u, *.m3u8)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="168"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="208"/>
         <source>Audio files (*.mp3 *.ogg *.wav *.flac *.cue);;Playlists (*.m3u *.m3u8);;All files (*)</source>
         <translation>Аудио файлы (*.mp3 *.ogg *.wav *.flac *.cue);;Плейлисты (*.m3u *.m3u8);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="148"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="201"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="188"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="241"/>
         <source>All files (*.*)</source>
         <translation>Все файлы (*.*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="197"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="215"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="237"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="255"/>
         <source>Select folder</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -213,19 +213,19 @@ one player for different online music hostings</source>
 <context>
     <name>MainWin</name>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="279"/>
-        <location filename="../../src/qml/MainWin.qml" line="292"/>
+        <location filename="../../src/qml/MainWin.qml" line="281"/>
+        <location filename="../../src/qml/MainWin.qml" line="294"/>
         <source>Select Playlist</source>
         <translation>Выберите плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="284"/>
-        <location filename="../../src/qml/MainWin.qml" line="297"/>
+        <location filename="../../src/qml/MainWin.qml" line="286"/>
+        <location filename="../../src/qml/MainWin.qml" line="299"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Плейлист qomp(*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="320"/>
+        <location filename="../../src/qml/MainWin.qml" line="322"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -281,12 +281,12 @@ one player for different online music hostings</source>
 <context>
     <name>MprisPlugin</name>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="42"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="39"/>
         <source>MPRIS Plugin</source>
         <translation>MPRIS плагин</translation>
     </message>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="44"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="41"/>
         <source>Interface to MPRIS</source>
         <translation>Интерфейс к MPRIS</translation>
     </message>
@@ -766,12 +766,12 @@ one player for different online music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="619"/>
+        <location filename="../../src/qompmainwin.cpp" line="631"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="623"/>
+        <location filename="../../src/qompmainwin.cpp" line="635"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -779,38 +779,38 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="134"/>
+        <location filename="../../src/qompmainwin.cpp" line="138"/>
         <source>Toggle Visibility</source>
         <translation>Скрыть/Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="136"/>
+        <location filename="../../src/qompmainwin.cpp" line="140"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="413"/>
+        <location filename="../../src/qompmainwin.cpp" line="425"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="501"/>
-        <location filename="../../src/qompmainwin.cpp" line="516"/>
+        <location filename="../../src/qompmainwin.cpp" line="513"/>
+        <location filename="../../src/qompmainwin.cpp" line="528"/>
         <source>Select Playlist</source>
         <translation>Выберите плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="503"/>
+        <location filename="../../src/qompmainwin.cpp" line="515"/>
         <source>qomp playlist (*.%1)</source>
         <translation>Плейлист qomp(*.%1)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="518"/>
+        <location filename="../../src/qompmainwin.cpp" line="530"/>
         <source>qomp playlist (*.%1);;M3U Playlist (*.m3u)</source>
         <translation>Плейлист qomp (*.%1);;Плейлист M3U (*.m3u)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="532"/>
+        <location filename="../../src/qompmainwin.cpp" line="544"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -1005,32 +1005,48 @@ one player for different online music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="155"/>
         <source>Artist: %1
 </source>
-        <translation>Исполнитель: %1
+        <translation type="vanished">Исполнитель: %1
 </translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="158"/>
         <source>Title: %1
 </source>
-        <translation>Название: %1
+        <translation type="vanished">Название: %1
+</translation>
+    </message>
+    <message>
+        <source>Album: %1
+</source>
+        <translation type="vanished">Альбом: %1
+</translation>
+    </message>
+    <message>
+        <source>Bitrate: %1
+</source>
+        <translation type="vanished">Битрэйт: %1
 </translation>
     </message>
     <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="161"/>
-        <source>Album: %1
-</source>
-        <translation>Альбом: %1
-</translation>
+        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Artist&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
+        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Исполнитель&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="164"/>
-        <source>Bitrate: %1
-</source>
-        <translation>Битрэйт: %1
-</translation>
+        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Title&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
+        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Название&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="167"/>
+        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Album&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
+        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Альбом&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="170"/>
+        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Bitrate&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
+        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Битрейт&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
     </message>
 </context>
 <context>
@@ -1052,7 +1068,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompPluginGettunesDlg::Private</name>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="87"/>
+        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="96"/>
         <source>Searching</source>
         <translation>Поиск</translation>
     </message>
@@ -1078,7 +1094,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompQmlEngine</name>
     <message>
-        <location filename="../../libqomp/src/qompqmlengine.cpp" line="132"/>
+        <location filename="../../libqomp/src/qompqmlengine.cpp" line="133"/>
         <source>Press again to exit</source>
         <translation>Нажмите снова для выхода</translation>
     </message>
@@ -1099,17 +1115,17 @@ one player for different online music hostings</source>
 <context>
     <name>QompThumbnailToolBar</name>
     <message>
-        <location filename="../../src/qompthumbnailtoolbar.cpp" line="33"/>
+        <location filename="../../src/qompthumbnailtoolbar.cpp" line="32"/>
         <source>Previous</source>
         <translation>Предыдущий</translation>
     </message>
     <message>
-        <location filename="../../src/qompthumbnailtoolbar.cpp" line="35"/>
+        <location filename="../../src/qompthumbnailtoolbar.cpp" line="33"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompthumbnailtoolbar.cpp" line="37"/>
+        <location filename="../../src/qompthumbnailtoolbar.cpp" line="34"/>
         <source>Next</source>
         <translation>Следующий</translation>
     </message>
@@ -1176,19 +1192,47 @@ Downloaded bytes:%2</source>
 <context>
     <name>TrackMenu</name>
     <message>
-        <location filename="../../src/qml/TrackMenu.qml" line="14"/>
+        <location filename="../../src/qml/TrackMenu.qml" line="15"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TrackMenu.qml" line="20"/>
+        <location filename="../../src/qml/TrackMenu.qml" line="21"/>
         <source>Download</source>
         <translation>Скачать</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TrackMenu.qml" line="25"/>
+        <location filename="../../src/qml/TrackMenu.qml" line="26"/>
         <source>Remove</source>
         <translation>Удалить</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TrackMenu.qml" line="31"/>
+        <source>Tune information</source>
+        <translation>Информация о трэке</translation>
+    </message>
+</context>
+<context>
+    <name>TuneInfoDlg</name>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="46"/>
+        <source>Title:</source>
+        <translation>Название:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="59"/>
+        <source>Artist:</source>
+        <translation>Исполнитель:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="72"/>
+        <source>Album:</source>
+        <translation>Альбом:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="85"/>
+        <source>Bitrate:</source>
+        <translation>Битрейт:</translation>
     </message>
 </context>
 <context>
@@ -1217,12 +1261,12 @@ Downloaded bytes:%2</source>
         <translation>Файл для сохранения информации о трэке:</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="62"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="65"/>
         <source>Tune to File</source>
         <translation>Трэк в Файл</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="87"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="90"/>
         <source>Store tune into file</source>
         <translation>Выберите файл для сохранения информации о трэке</translation>
     </message>
@@ -1271,6 +1315,21 @@ Downloaded bytes:%2</source>
         <location filename="../../plugins/urlplugin/urlplugin.h" line="39"/>
         <source>Open custom URL</source>
         <translation>Открывает ссылку</translation>
+    </message>
+</context>
+<context>
+    <name>WindowHeader</name>
+    <message>
+        <location filename="../../libqomp/src/frameless/windowheader.ui" line="23"/>
+        <source>PsiWindowHeader</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/frameless/windowheader.ui" line="138"/>
+        <location filename="../../libqomp/src/frameless/windowheader.ui" line="148"/>
+        <location filename="../../libqomp/src/frameless/windowheader.ui" line="164"/>
+        <source>...</source>
+        <translation></translation>
     </message>
 </context>
 <context>
