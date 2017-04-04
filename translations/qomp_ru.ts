@@ -394,17 +394,17 @@ one player for different online music hostings</source>
 <context>
     <name>ProstoPleerController</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="166"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="179"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="237"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="252"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="241"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="256"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
@@ -1047,6 +1047,24 @@ one player for different online music hostings</source>
         <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="96"/>
         <source>Searching</source>
         <translation>Поиск</translation>
+    </message>
+</context>
+<context>
+    <name>QompPluginTreeView</name>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="80"/>
+        <source>Select items</source>
+        <translation>Выделить элементы</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="83"/>
+        <source>Unselect items</source>
+        <translation>Снять выделение</translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="86"/>
+        <source>Toggle items</source>
+        <translation>Инвертировать</translation>
     </message>
 </context>
 <context>
