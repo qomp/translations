@@ -1005,30 +1005,6 @@ one player for different online music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <source>Artist: %1
-</source>
-        <translation type="vanished">Исполнитель: %1
-</translation>
-    </message>
-    <message>
-        <source>Title: %1
-</source>
-        <translation type="vanished">Название: %1
-</translation>
-    </message>
-    <message>
-        <source>Album: %1
-</source>
-        <translation type="vanished">Альбом: %1
-</translation>
-    </message>
-    <message>
-        <source>Bitrate: %1
-</source>
-        <translation type="vanished">Битрэйт: %1
-</translation>
-    </message>
-    <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="161"/>
         <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Artist&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
         <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Исполнитель&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
@@ -1208,29 +1184,29 @@ Downloaded bytes:%2</source>
     </message>
     <message>
         <location filename="../../src/qml/TrackMenu.qml" line="31"/>
-        <source>Tune information</source>
+        <source>Track information</source>
         <translation>Информация о трэке</translation>
     </message>
 </context>
 <context>
     <name>TuneInfoDlg</name>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="46"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="49"/>
         <source>Title:</source>
         <translation>Название:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="59"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="62"/>
         <source>Artist:</source>
         <translation>Исполнитель:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="72"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="75"/>
         <source>Album:</source>
         <translation>Альбом:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="85"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="88"/>
         <source>Bitrate:</source>
         <translation>Битрейт:</translation>
     </message>
