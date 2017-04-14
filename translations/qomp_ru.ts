@@ -1052,17 +1052,17 @@ one player for different online music hostings</source>
 <context>
     <name>QompPluginTreeView</name>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="80"/>
+        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="84"/>
         <source>Select items</source>
         <translation>Выделить элементы</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="83"/>
+        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="86"/>
         <source>Unselect items</source>
         <translation>Снять выделение</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="86"/>
+        <location filename="../../libqomp/src/plugins/qompplugintreeview.cpp" line="88"/>
         <source>Toggle items</source>
         <translation>Инвертировать</translation>
     </message>
@@ -1209,22 +1209,22 @@ Downloaded bytes:%2</source>
 <context>
     <name>TuneInfoDlg</name>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="49"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="48"/>
         <source>Title:</source>
         <translation>Название:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="62"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="61"/>
         <source>Artist:</source>
         <translation>Исполнитель:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="75"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="74"/>
         <source>Album:</source>
         <translation>Альбом:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="88"/>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="87"/>
         <source>Bitrate:</source>
         <translation>Битрейт:</translation>
     </message>
