@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs" sourcelanguage="en">
+<TS version="2.1" language="cs" sourcelanguage="en">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -42,20 +42,41 @@ jeden přehrávač pro různé internetové hudební služby</translation>
     </message>
 </context>
 <context>
+    <name>CuteRadioController</name>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradiocontroller.cpp" line="222"/>
+        <source>Error</source>
+        <translation type="unfinished">Chyba</translation>
+    </message>
+</context>
+<context>
+    <name>CuteRadioPlugin</name>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugin.cpp" line="33"/>
+        <source>Listen to the music from cuteRadio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugin.cpp" line="59"/>
+        <source>cuteRadio</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="305"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="253"/>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="35"/>
         <source>File System</source>
         <translation>Souborový systém</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="311"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="259"/>
         <source>Select Files</source>
         <translation>Vybrat soubory</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="318"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="266"/>
         <source>Select Folders</source>
         <translation>Vybrat složky</translation>
     </message>
@@ -68,35 +89,43 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>FilesystemPlugin::Private</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="181"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="206"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="129"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="154"/>
         <source>Select file(s)</source>
         <translation>Vybrat soubor(y)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="186"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="134"/>
         <source>Audio files (*.mp3, *.ogg, *.wav, *.flac, *.cue)</source>
         <translation>Zvukové soubory (*.mp3, *.ogg, *.wav, *.flac, *.cue)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="187"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="135"/>
+        <source>Playlists (*.m3u, *.m3u8, *.pls)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Playlists (*.m3u, *.m3u8)</source>
-        <translation>Seznamy skladeb (*.m3u, *.m3u8)</translation>
+        <translation type="vanished">Seznamy skladeb (*.m3u, *.m3u8)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="208"/>
         <source>Audio files (*.mp3 *.ogg *.wav *.flac *.cue);;Playlists (*.m3u *.m3u8);;All files (*)</source>
-        <translation>Zvukové soubory (*.mp3 *.ogg *.wav *.flac *.cue);;Seznamy skladeb (*.m3u *.m3u8);;Všechny soubory (*)</translation>
+        <translation type="vanished">Zvukové soubory (*.mp3 *.ogg *.wav *.flac *.cue);;Seznamy skladeb (*.m3u *.m3u8);;Všechny soubory (*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="188"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="241"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="136"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="189"/>
         <source>All files (*.*)</source>
         <translation>Všechny soubory (*.*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="237"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="255"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="156"/>
+        <source>Audio files (*.mp3 *.ogg *.wav *.flac *.cue);;Playlists (*.m3u *.m3u8 *.pls);;All files (*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="185"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="203"/>
         <source>Select folder</source>
         <translation>Vybrat složku</translation>
     </message>
@@ -213,19 +242,24 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>MainWin</name>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="281"/>
-        <location filename="../../src/qml/MainWin.qml" line="294"/>
+        <location filename="../../src/qml/MainWin.qml" line="284"/>
+        <location filename="../../src/qml/MainWin.qml" line="298"/>
         <source>Select Playlist</source>
         <translation>Vybrat seznam skladeb</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="286"/>
-        <location filename="../../src/qml/MainWin.qml" line="299"/>
+        <location filename="../../src/qml/MainWin.qml" line="289"/>
+        <location filename="../../src/qml/MainWin.qml" line="303"/>
         <source>qomp playlist (*.qomp)</source>
         <translation>Seznam skladeb qomp (*.qomp)</translation>
     </message>
     <message>
-        <location filename="../../src/qml/MainWin.qml" line="322"/>
+        <location filename="../../src/qml/MainWin.qml" line="290"/>
+        <source>Other playlists (*.m3u, *.m3u8, *.pls)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/MainWin.qml" line="326"/>
         <source>Select directory</source>
         <translation>Vybrat adresář</translation>
     </message>
@@ -281,12 +315,12 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>MprisPlugin</name>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="39"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="40"/>
         <source>MPRIS Plugin</source>
         <translation>Přídavný modul MPRIS</translation>
     </message>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="41"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="42"/>
         <source>Interface to MPRIS</source>
         <translation>Rozhraní k MPRIS</translation>
     </message>
@@ -394,17 +428,17 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>ProstoPleerController</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="179"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="182"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="252"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="258"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="256"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="262"/>
         <source>None</source>
         <translation>Žádný</translation>
     </message>
@@ -542,6 +576,50 @@ jeden přehrávač pro různé internetové hudební služby</translation>
         <source> now playing:</source>
         <translation> nyní hraje:</translation>
     </message>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="136"/>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="211"/>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="255"/>
+        <source>Artist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="138"/>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="213"/>
+        <source>Album</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="140"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradiomodel.cpp" line="48"/>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="215"/>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradiomodel.cpp" line="50"/>
+        <source>Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradiomodel.cpp" line="52"/>
+        <source>Genre</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradiomodel.cpp" line="54"/>
+        <source>Language</source>
+        <translation type="unfinished">Jazyk</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradiomodel.cpp" line="56"/>
+        <source>Last marked as played</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QompActionsList</name>
@@ -643,47 +721,47 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompMainMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="103"/>
+        <location filename="../../src/qompmenu.cpp" line="104"/>
         <source>Toggle Visibility</source>
         <translation>Přepnout viditelnost</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="106"/>
+        <location filename="../../src/qompmenu.cpp" line="107"/>
         <source>Open</source>
         <translation>Otevřít</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="110"/>
+        <location filename="../../src/qompmenu.cpp" line="111"/>
         <source>Settings</source>
         <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="114"/>
+        <location filename="../../src/qompmenu.cpp" line="115"/>
         <source>Help</source>
         <translation>Nápověda</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="116"/>
+        <location filename="../../src/qompmenu.cpp" line="117"/>
         <source>About qomp</source>
         <translation>O programu qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="118"/>
+        <location filename="../../src/qompmenu.cpp" line="119"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="120"/>
+        <location filename="../../src/qompmenu.cpp" line="121"/>
         <source>Report a bug</source>
         <translation>Nahlásit chybu</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="122"/>
+        <location filename="../../src/qompmenu.cpp" line="123"/>
         <source>Check for updates</source>
         <translation>Zkontrolovat aktualizace</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="126"/>
+        <location filename="../../src/qompmenu.cpp" line="127"/>
         <source>Exit</source>
         <translation>Ukončit</translation>
     </message>
@@ -806,8 +884,12 @@ jeden přehrávač pro různé internetové hudební služby</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="530"/>
+        <source>qomp playlist (*.%1);;Other playlists (*.m3u *.m3u8 *.pls)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>qomp playlist (*.%1);;M3U Playlist (*.m3u)</source>
-        <translation>Seznam skladeb qomp (*.%1);;Seznam skladeb M3U (*.m3u)</translation>
+        <translation type="vanished">Seznam skladeb qomp (*.%1);;Seznam skladeb M3U (*.m3u)</translation>
     </message>
     <message>
         <location filename="../../src/qompmainwin.cpp" line="544"/>
@@ -1005,24 +1087,50 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="161"/>
         <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Artist&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Umělec&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
+        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Umělec&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="164"/>
         <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Title&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Název&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
+        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Název&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="167"/>
         <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Album&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Album&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
+        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Album&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/qompplaylistmodel.cpp" line="170"/>
         <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Bitrate&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Datový tok&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
+        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Datový tok&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="166"/>
+        <source>Artist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="169"/>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="172"/>
+        <source>Album</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="175"/>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="178"/>
+        <source>Genre</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qompplaylistmodel.cpp" line="181"/>
+        <source>Bitrate</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1096,12 +1204,12 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompRemoveTunesMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="211"/>
+        <location filename="../../src/qompmenu.cpp" line="223"/>
         <source>Remove All</source>
         <translation>Odstranit vše</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="213"/>
+        <location filename="../../src/qompmenu.cpp" line="225"/>
         <source>Remove Selected</source>
         <translation>Odstranit vybrané</translation>
     </message>
@@ -1127,22 +1235,27 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompTrackMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="184"/>
+        <location filename="../../src/qompmenu.cpp" line="190"/>
         <source>Play/Pause</source>
         <translation>Přehrát/Pozastavit</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="193"/>
+        <location filename="../../src/qompmenu.cpp" line="200"/>
+        <source>Open At Browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qompmenu.cpp" line="205"/>
         <source>Remove</source>
         <translation>Odstranit</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="198"/>
+        <location filename="../../src/qompmenu.cpp" line="210"/>
         <source>Save File(s)</source>
         <translation>Uložit soubor(y)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="188"/>
+        <location filename="../../src/qompmenu.cpp" line="194"/>
         <source>Copy URL</source>
         <translation>Kopírovat adresu (URL)</translation>
     </message>
@@ -1186,22 +1299,32 @@ Staženo bytů:%2</translation>
 <context>
     <name>TrackMenu</name>
     <message>
-        <location filename="../../src/qml/TrackMenu.qml" line="15"/>
+        <location filename="../../src/qml/TrackMenu.qml" line="19"/>
         <source>Play/Pause</source>
         <translation>Přehrát/Pozastavit</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TrackMenu.qml" line="21"/>
+        <location filename="../../src/qml/TrackMenu.qml" line="25"/>
+        <source>Copy URL</source>
+        <translation type="unfinished">Kopírovat adresu (URL)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TrackMenu.qml" line="31"/>
+        <source>Open At Browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TrackMenu.qml" line="37"/>
         <source>Download</source>
         <translation>Stáhnout</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TrackMenu.qml" line="26"/>
+        <location filename="../../src/qml/TrackMenu.qml" line="42"/>
         <source>Remove</source>
         <translation>Odstranit</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TrackMenu.qml" line="31"/>
+        <location filename="../../src/qml/TrackMenu.qml" line="47"/>
         <source>Track information</source>
         <translation>Údaje o skladbě</translation>
     </message>
@@ -1209,24 +1332,50 @@ Staženo bytů:%2</translation>
 <context>
     <name>TuneInfoDlg</name>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="48"/>
         <source>Title:</source>
-        <translation>Název:</translation>
+        <translation type="vanished">Název:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="61"/>
         <source>Artist:</source>
-        <translation>Umělec:</translation>
+        <translation type="vanished">Umělec:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="74"/>
         <source>Album:</source>
-        <translation>Album:</translation>
+        <translation type="vanished">Album:</translation>
     </message>
     <message>
-        <location filename="../../src/qml/TuneInfoDlg.qml" line="87"/>
         <source>Bitrate:</source>
-        <translation>Datový tok:</translation>
+        <translation type="vanished">Datový tok:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="50"/>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="65"/>
+        <source>Artist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="80"/>
+        <source>Album</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="95"/>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="110"/>
+        <source>Genre</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/qml/TuneInfoDlg.qml" line="125"/>
+        <source>Bitrate</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
