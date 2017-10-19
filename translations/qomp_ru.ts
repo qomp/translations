@@ -44,7 +44,7 @@ one player for different online music hostings</source>
 <context>
     <name>CuteRadioController</name>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradiocontroller.cpp" line="222"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradiocontroller.cpp" line="263"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
@@ -52,36 +52,73 @@ one player for different online music hostings</source>
 <context>
     <name>CuteRadioPlugin</name>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugin.cpp" line="33"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugin.cpp" line="34"/>
         <source>Listen to the music from cuteRadio</source>
         <translation>Проигрывает музыку с сервиса cuteRadio</translation>
     </message>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugin.cpp" line="59"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugin.cpp" line="61"/>
         <source>cuteRadio</source>
         <translation>cuteRadio</translation>
     </message>
 </context>
 <context>
+    <name>CuteRadioPluginGetTunesDialog</name>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.ui" line="32"/>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.ui" line="38"/>
+        <source>Countries</source>
+        <translation>Страны</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.ui" line="77"/>
+        <source>Genres</source>
+        <translation>Жанры</translation>
+    </message>
+</context>
+<context>
+    <name>CuteRadioPluginGetTunesDialog::Private</name>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="41"/>
+        <source>Country</source>
+        <translation>Страна</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="41"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
+        <source>Count</source>
+        <translation>Кол-во</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
+        <source>Genre</source>
+        <translation>Жанр</translation>
+    </message>
+</context>
+<context>
     <name>FilesystemPlugin</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="253"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="35"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="391"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="38"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="259"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="397"/>
         <source>Select Files</source>
         <translation>Выбрать файлы</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="266"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="404"/>
         <source>Select Folders</source>
         <translation>Выбрать каталоги</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="37"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="40"/>
         <source>Open music from filesystem</source>
         <translation>Открывает музыку из файловой системы</translation>
     </message>
@@ -89,43 +126,35 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemPlugin::Private</name>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="129"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="154"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="285"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="301"/>
         <source>Select file(s)</source>
         <translation>Выберите файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="134"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="290"/>
         <source>Audio files (*.mp3, *.ogg, *.wav, *.flac, *.cue)</source>
         <translation>Аудио файлы (*.mp3, *.ogg, *.wav, *.flac, *.cue)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="135"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="291"/>
         <source>Playlists (*.m3u, *.m3u8, *.pls)</source>
         <translation>Плейлисты (*.m3u, *.m3u8, *.pls)</translation>
     </message>
     <message>
-        <source>Playlists (*.m3u, *.m3u8)</source>
-        <translation type="vanished">Плейлисты (*.m3u, *.m3u8)</translation>
-    </message>
-    <message>
-        <source>Audio files (*.mp3 *.ogg *.wav *.flac *.cue);;Playlists (*.m3u *.m3u8);;All files (*)</source>
-        <translation type="vanished">Аудио файлы (*.mp3 *.ogg *.wav *.flac *.cue);;Плейлисты (*.m3u *.m3u8);;Все файлы (*)</translation>
-    </message>
-    <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="136"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="189"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="292"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="333"/>
         <source>All files (*.*)</source>
         <translation>Все файлы (*.*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="156"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="303"/>
         <source>Audio files (*.mp3 *.ogg *.wav *.flac *.cue);;Playlists (*.m3u *.m3u8 *.pls);;All files (*)</source>
         <translation>Аудио файлы (*.mp3 *.ogg *.wav *.flac *.cue);;Плейлисты (*.m3u *.m3u8 *.pls);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="185"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="203"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="329"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="342"/>
         <source>Select folder</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -351,7 +380,7 @@ one player for different online music hostings</source>
         <translation>Проигрывает музыку с сайта Myzuka.ru</translation>
     </message>
     <message>
-        <location filename="../../plugins/myzukaruplugin/myzukaruplugin.cpp" line="61"/>
+        <location filename="../../plugins/myzukaruplugin/myzukaruplugin.cpp" line="62"/>
         <source>Myzuka.ru</source>
         <translation>Myzuka.ru</translation>
     </message>
@@ -459,12 +488,12 @@ one player for different online music hostings</source>
 <context>
     <name>ProstoPleerPlugin</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="34"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="35"/>
         <source>Listen to the music from Pleer.com</source>
         <translation>Проигрывает музыку с сайта Pleer.com</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="66"/>
+        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="68"/>
         <source>Pleer.com</source>
         <translation>Простоплеер</translation>
     </message>
@@ -578,14 +607,14 @@ one player for different online music hostings</source>
     </message>
     <message>
         <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="136"/>
-        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="211"/>
-        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="255"/>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="212"/>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="256"/>
         <source>Artist</source>
         <translation>Исполнитель</translation>
     </message>
     <message>
         <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="138"/>
-        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="213"/>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="214"/>
         <source>Album</source>
         <translation>Альбом</translation>
     </message>
@@ -596,7 +625,7 @@ one player for different online music hostings</source>
         <translation>Название</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="215"/>
+        <location filename="../../libqomp/src/plugins/qompplugintypes.cpp" line="216"/>
         <source>Year</source>
         <translation>Год</translation>
     </message>
@@ -721,12 +750,12 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="104"/>
+        <location filename="../../src/qompmenu.cpp" line="106"/>
         <source>Toggle Visibility</source>
         <translation>Скрыть/Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="107"/>
+        <location filename="../../src/qompmenu.cpp" line="89"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
@@ -844,12 +873,12 @@ one player for different online music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="631"/>
+        <location filename="../../src/qompmainwin.cpp" line="630"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="635"/>
+        <location filename="../../src/qompmainwin.cpp" line="634"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -867,32 +896,28 @@ one player for different online music hostings</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="425"/>
+        <location filename="../../src/qompmainwin.cpp" line="424"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="513"/>
-        <location filename="../../src/qompmainwin.cpp" line="528"/>
+        <location filename="../../src/qompmainwin.cpp" line="512"/>
+        <location filename="../../src/qompmainwin.cpp" line="527"/>
         <source>Select Playlist</source>
         <translation>Выберите плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="515"/>
+        <location filename="../../src/qompmainwin.cpp" line="514"/>
         <source>qomp playlist (*.%1)</source>
         <translation>Плейлист qomp(*.%1)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="530"/>
+        <location filename="../../src/qompmainwin.cpp" line="529"/>
         <source>qomp playlist (*.%1);;Other playlists (*.m3u *.m3u8 *.pls)</source>
         <translation>Плейлист qomp (*.%1);;Прочие плейлисты (*.m3u *.m3u8 *.pls)</translation>
     </message>
     <message>
-        <source>qomp playlist (*.%1);;M3U Playlist (*.m3u)</source>
-        <translation type="vanished">Плейлист qomp (*.%1);;Плейлист M3U (*.m3u)</translation>
-    </message>
-    <message>
-        <location filename="../../src/qompmainwin.cpp" line="544"/>
+        <location filename="../../src/qompmainwin.cpp" line="543"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -1087,22 +1112,6 @@ one player for different online music hostings</source>
 <context>
     <name>QompPlayListModel</name>
     <message>
-        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Artist&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Исполнитель&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Title&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Название&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Album&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Альбом&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Bitrate&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</source>
-        <translation type="vanished">&lt;div&gt;&lt;nobr&gt;&lt;b&gt;Битрейт&lt;/b&gt;: %1&lt;/nobr&gt;&lt;/div&gt;</translation>
-    </message>
-    <message>
         <location filename="../../src/qompplaylistmodel.cpp" line="166"/>
         <source>Artist</source>
         <translation>Исполнитель</translation>
@@ -1152,7 +1161,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompPluginGettunesDlg::Private</name>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="96"/>
+        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="99"/>
         <source>Searching</source>
         <translation>Поиск</translation>
     </message>
@@ -1196,7 +1205,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompQmlEngine</name>
     <message>
-        <location filename="../../libqomp/src/qompqmlengine.cpp" line="133"/>
+        <location filename="../../libqomp/src/qompqmlengine.cpp" line="134"/>
         <source>Press again to exit</source>
         <translation>Нажмите снова для выхода</translation>
     </message>
@@ -1332,22 +1341,6 @@ Downloaded bytes:%2</source>
 <context>
     <name>TuneInfoDlg</name>
     <message>
-        <source>Title:</source>
-        <translation type="vanished">Название:</translation>
-    </message>
-    <message>
-        <source>Artist:</source>
-        <translation type="vanished">Исполнитель:</translation>
-    </message>
-    <message>
-        <source>Album:</source>
-        <translation type="vanished">Альбом:</translation>
-    </message>
-    <message>
-        <source>Bitrate:</source>
-        <translation type="vanished">Битрейт:</translation>
-    </message>
-    <message>
         <location filename="../../src/qml/TuneInfoDlg.qml" line="50"/>
         <source>Title</source>
         <translation>Название</translation>
@@ -1445,12 +1438,7 @@ Downloaded bytes:%2</source>
 <context>
     <name>UrlPlugin</name>
     <message>
-        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="43"/>
-        <source>Input url</source>
-        <translation>Введите URL</translation>
-    </message>
-    <message>
-        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="82"/>
+        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="116"/>
         <source>Url</source>
         <translation>Ссылка</translation>
     </message>
@@ -1458,6 +1446,14 @@ Downloaded bytes:%2</source>
         <location filename="../../plugins/urlplugin/urlplugin.h" line="39"/>
         <source>Open custom URL</source>
         <translation>Открывает ссылку</translation>
+    </message>
+</context>
+<context>
+    <name>UrlPlugin::Private</name>
+    <message>
+        <location filename="../../plugins/urlplugin/urlplugin.cpp" line="53"/>
+        <source>Input url</source>
+        <translation>Введите URL</translation>
     </message>
 </context>
 <context>
@@ -1501,7 +1497,7 @@ Downloaded bytes:%2</source>
         <translation>Проигрывает музыку с сайта Яндекс.Музыка</translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="61"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="62"/>
         <source>Yandex.Music</source>
         <translation>Яндекс.Музыка</translation>
     </message>
