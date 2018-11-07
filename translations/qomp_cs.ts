@@ -455,117 +455,159 @@ jeden přehrávač pro různé internetové hudební služby</translation>
     </message>
 </context>
 <context>
+    <name>PoiskmController</name>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmcontroller.cpp" line="181"/>
+        <source>Error</source>
+        <translation type="unfinished">Chyba</translation>
+    </message>
+</context>
+<context>
+    <name>PoiskmPlugin</name>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmplugin.cpp" line="35"/>
+        <source>Listen to the music from Poiskm.me</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmplugin.cpp" line="68"/>
+        <source>Poiskm</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PoiskmPluginResultsWidget</name>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="25"/>
+        <source>Previous Page</source>
+        <translation type="unfinished">Předchozí strana</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="35"/>
+        <source>Current:</source>
+        <translation type="unfinished">Nynější:</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="60"/>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="90"/>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="73"/>
+        <source>Next Page</source>
+        <translation type="unfinished">Další strana</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="83"/>
+        <source>Total: </source>
+        <translation type="unfinished">Celkem:</translation>
+    </message>
+</context>
+<context>
+    <name>PoiskmResultView</name>
+    <message>
+        <location filename="../../plugins/poiskmplugin/qml/PoiskmResultView.qml" line="45"/>
+        <source>Current:</source>
+        <translation type="unfinished">Nynější:</translation>
+    </message>
+    <message>
+        <source>Authorization: </source>
+        <translation type="obsolete">Ověření:</translation>
+    </message>
+</context>
+<context>
     <name>ProstoPleerController</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="182"/>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation type="vanished">Chyba</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="258"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="262"/>
         <source>None</source>
-        <translation>Žádný</translation>
+        <translation type="vanished">Žádný</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerOptions</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerOptions.qml" line="28"/>
         <source>Login:</source>
-        <translation>Přihlášení:</translation>
+        <translation type="vanished">Přihlášení:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerOptions.qml" line="38"/>
         <source>Password:</source>
-        <translation>Heslo:</translation>
+        <translation type="vanished">Heslo:</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerPlugin</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="35"/>
         <source>Listen to the music from Pleer.com</source>
-        <translation>Poslouchat hudbu ze stránky Pleer.com</translation>
+        <translation type="vanished">Poslouchat hudbu ze stránky Pleer.com</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="68"/>
         <source>Pleer.com</source>
-        <translation>Pleer.com</translation>
+        <translation type="vanished">Pleer.com</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerPluginResultsWidget</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="25"/>
         <source>Previous Page</source>
-        <translation>Předchozí strana</translation>
+        <translation type="vanished">Předchozí strana</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="35"/>
         <source>Current:</source>
-        <translation>Nynější:</translation>
+        <translation type="vanished">Nynější:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="60"/>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="90"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="vanished">0</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="73"/>
         <source>Next Page</source>
-        <translation>Další strana</translation>
+        <translation type="vanished">Další strana</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="83"/>
         <source>Total: </source>
-        <translation>Celkem:</translation>
+        <translation type="vanished">Celkem:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="110"/>
         <source>Authorization: </source>
-        <translation>Ověření:</translation>
+        <translation type="vanished">Ověření:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="117"/>
         <source>None</source>
-        <translation>Žádné</translation>
+        <translation type="vanished">Žádné</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerResultView</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="46"/>
         <source>Current:</source>
-        <translation>Nynější:</translation>
+        <translation type="vanished">Nynější:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="90"/>
         <source>Authorization: </source>
-        <translation>Ověření:</translation>
+        <translation type="vanished">Ověření:</translation>
     </message>
 </context>
 <context>
     <name>ProstopleerPluginSettings</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="14"/>
         <source>ProstopleerPluginSettings</source>
-        <translation>Nastavení modulu prostopleer</translation>
+        <translation type="vanished">Nastavení modulu prostopleer</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="22"/>
         <source>Login:</source>
-        <translation>Přihlášení:</translation>
+        <translation type="vanished">Přihlášení:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="32"/>
         <source>Password:</source>
-        <translation>Heslo:</translation>
+        <translation type="vanished">Heslo:</translation>
     </message>
 </context>
 <context>
@@ -576,22 +618,22 @@ jeden přehrávač pro různé internetové hudební služby</translation>
         <translation>Výchozí</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="142"/>
+        <location filename="../../src/qomptrayicon.cpp" line="143"/>
         <source>Play/Pause</source>
         <translation>Přehrát/Pozastavit</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="143"/>
+        <location filename="../../src/qomptrayicon.cpp" line="144"/>
         <source>Toggle Visibility</source>
         <translation>Přepnout viditelnost</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="144"/>
+        <location filename="../../src/qomptrayicon.cpp" line="145"/>
         <source>Play Next</source>
         <translation>Přehrát další</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="145"/>
+        <location filename="../../src/qomptrayicon.cpp" line="146"/>
         <source>Play Previous</source>
         <translation>Přehrát předchozí</translation>
     </message>
@@ -601,7 +643,7 @@ jeden přehrávač pro různé internetové hudební služby</translation>
         <translation>Nová skladba</translation>
     </message>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="69"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="70"/>
         <source> now playing:</source>
         <translation> nyní hraje:</translation>
     </message>
@@ -750,47 +792,47 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompMainMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="106"/>
+        <location filename="../../src/qompmenu.cpp" line="120"/>
         <source>Toggle Visibility</source>
         <translation>Přepnout viditelnost</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="89"/>
+        <location filename="../../src/qompmenu.cpp" line="90"/>
         <source>Open</source>
         <translation>Otevřít</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="111"/>
+        <location filename="../../src/qompmenu.cpp" line="125"/>
         <source>Settings</source>
         <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="115"/>
+        <location filename="../../src/qompmenu.cpp" line="129"/>
         <source>Help</source>
         <translation>Nápověda</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="117"/>
+        <location filename="../../src/qompmenu.cpp" line="131"/>
         <source>About qomp</source>
         <translation>O programu qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="119"/>
+        <location filename="../../src/qompmenu.cpp" line="134"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="121"/>
+        <location filename="../../src/qompmenu.cpp" line="137"/>
         <source>Report a bug</source>
         <translation>Nahlásit chybu</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="123"/>
+        <location filename="../../src/qompmenu.cpp" line="140"/>
         <source>Check for updates</source>
         <translation>Zkontrolovat aktualizace</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="127"/>
+        <location filename="../../src/qompmenu.cpp" line="145"/>
         <source>Exit</source>
         <translation>Ukončit</translation>
     </message>
@@ -873,12 +915,12 @@ jeden přehrávač pro různé internetové hudební služby</translation>
         <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="630"/>
+        <location filename="../../src/qompmainwin.cpp" line="631"/>
         <source>Buffering</source>
         <translation>Ukládá se do vyrovnávací paměti</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="634"/>
+        <location filename="../../src/qompmainwin.cpp" line="635"/>
         <source>Loading</source>
         <translation>Nahrává se</translation>
     </message>
@@ -896,28 +938,28 @@ jeden přehrávač pro různé internetové hudební služby</translation>
         <translation>Ukončit</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="424"/>
+        <location filename="../../src/qompmainwin.cpp" line="428"/>
         <source>Now playing: %1 - %2</source>
         <translation>Nyní hraje: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="512"/>
-        <location filename="../../src/qompmainwin.cpp" line="527"/>
+        <location filename="../../src/qompmainwin.cpp" line="513"/>
+        <location filename="../../src/qompmainwin.cpp" line="528"/>
         <source>Select Playlist</source>
         <translation>Vybrat seznam skladeb</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="514"/>
+        <location filename="../../src/qompmainwin.cpp" line="515"/>
         <source>qomp playlist (*.%1)</source>
         <translation>Seznam skladeb qomp (*.%1)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="529"/>
+        <location filename="../../src/qompmainwin.cpp" line="530"/>
         <source>qomp playlist (*.%1);;Other playlists (*.m3u *.m3u8 *.pls)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="543"/>
+        <location filename="../../src/qompmainwin.cpp" line="544"/>
         <source>Select directory</source>
         <translation>Vybrat adresář</translation>
     </message>
@@ -1161,7 +1203,7 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompPluginGettunesDlg::Private</name>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="99"/>
+        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="102"/>
         <source>Searching</source>
         <translation>Hledá se</translation>
     </message>
@@ -1205,7 +1247,7 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompQmlEngine</name>
     <message>
-        <location filename="../../libqomp/src/qompqmlengine.cpp" line="134"/>
+        <location filename="../../libqomp/src/qompqmlengine.cpp" line="139"/>
         <source>Press again to exit</source>
         <translation>Stisknout pro ukončení</translation>
     </message>
@@ -1213,12 +1255,12 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompRemoveTunesMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="223"/>
+        <location filename="../../src/qompmenu.cpp" line="243"/>
         <source>Remove All</source>
         <translation>Odstranit vše</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="225"/>
+        <location filename="../../src/qompmenu.cpp" line="245"/>
         <source>Remove Selected</source>
         <translation>Odstranit vybrané</translation>
     </message>
@@ -1244,27 +1286,27 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompTrackMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="190"/>
+        <location filename="../../src/qompmenu.cpp" line="210"/>
         <source>Play/Pause</source>
         <translation>Přehrát/Pozastavit</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="200"/>
+        <location filename="../../src/qompmenu.cpp" line="220"/>
         <source>Open At Browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="205"/>
+        <location filename="../../src/qompmenu.cpp" line="225"/>
         <source>Remove</source>
         <translation>Odstranit</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="210"/>
+        <location filename="../../src/qompmenu.cpp" line="230"/>
         <source>Save File(s)</source>
         <translation>Uložit soubor(y)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="194"/>
+        <location filename="../../src/qompmenu.cpp" line="214"/>
         <source>Copy URL</source>
         <translation>Kopírovat adresu (URL)</translation>
     </message>
@@ -1397,12 +1439,12 @@ Staženo bytů:%2</translation>
         <translation>Uložit skladbu do souboru:</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="65"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="66"/>
         <source>Tune to File</source>
         <translation>Skladba do souboru</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="90"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="91"/>
         <source>Store tune into file</source>
         <translation>Uložit skladbu do souboru</translation>
     </message>

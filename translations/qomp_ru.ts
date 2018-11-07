@@ -455,117 +455,159 @@ one player for different online music hostings</source>
     </message>
 </context>
 <context>
-    <name>ProstoPleerController</name>
+    <name>PoiskmController</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="182"/>
+        <location filename="../../plugins/poiskmplugin/poiskmcontroller.cpp" line="181"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
+</context>
+<context>
+    <name>PoiskmPlugin</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="258"/>
-        <source>OK</source>
-        <translation>ОК</translation>
+        <location filename="../../plugins/poiskmplugin/poiskmplugin.cpp" line="35"/>
+        <source>Listen to the music from Poiskm.me</source>
+        <translation>Проигрывает музыку с сайта Poiskm.me</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleercontroller.cpp" line="262"/>
+        <location filename="../../plugins/poiskmplugin/poiskmplugin.cpp" line="68"/>
+        <source>Poiskm</source>
+        <translation>Poiskm</translation>
+    </message>
+</context>
+<context>
+    <name>PoiskmPluginResultsWidget</name>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="25"/>
+        <source>Previous Page</source>
+        <translation>Предыдущая страница</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="35"/>
+        <source>Current:</source>
+        <translation>Текущая страница:</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="60"/>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="90"/>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="73"/>
+        <source>Next Page</source>
+        <translation>Следующая страница</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="83"/>
+        <source>Total: </source>
+        <translation>Всего:</translation>
+    </message>
+</context>
+<context>
+    <name>PoiskmResultView</name>
+    <message>
+        <location filename="../../plugins/poiskmplugin/qml/PoiskmResultView.qml" line="45"/>
+        <source>Current:</source>
+        <translation>Текущая страница:</translation>
+    </message>
+    <message>
+        <source>Authorization: </source>
+        <translation type="obsolete">Авторизация:</translation>
+    </message>
+</context>
+<context>
+    <name>ProstoPleerController</name>
+    <message>
+        <source>Error</source>
+        <translation type="vanished">Ошибка</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="vanished">ОК</translation>
+    </message>
+    <message>
         <source>None</source>
-        <translation>Нет</translation>
+        <translation type="vanished">Нет</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerOptions</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerOptions.qml" line="28"/>
         <source>Login:</source>
-        <translation>Логин:</translation>
+        <translation type="vanished">Логин:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerOptions.qml" line="38"/>
         <source>Password:</source>
-        <translation>Пароль:</translation>
+        <translation type="vanished">Пароль:</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerPlugin</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="35"/>
         <source>Listen to the music from Pleer.com</source>
-        <translation>Проигрывает музыку с сайта Pleer.com</translation>
+        <translation type="vanished">Проигрывает музыку с сайта Pleer.com</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerplugin.cpp" line="68"/>
         <source>Pleer.com</source>
-        <translation>Простоплеер</translation>
+        <translation type="vanished">Простоплеер</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerPluginResultsWidget</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="25"/>
         <source>Previous Page</source>
-        <translation>Предыдущая страница</translation>
+        <translation type="vanished">Предыдущая страница</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="35"/>
         <source>Current:</source>
-        <translation>Текущая страница:</translation>
+        <translation type="vanished">Текущая страница:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="60"/>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="90"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="vanished">0</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="73"/>
         <source>Next Page</source>
-        <translation>Следующая страница</translation>
+        <translation type="vanished">Следующая страница</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="83"/>
         <source>Total: </source>
-        <translation>Всего:</translation>
+        <translation type="vanished">Всего:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="110"/>
         <source>Authorization: </source>
-        <translation>Авторизация:</translation>
+        <translation type="vanished">Авторизация:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginresultswidget.ui" line="117"/>
         <source>None</source>
-        <translation>Нет</translation>
+        <translation type="vanished">Нет</translation>
     </message>
 </context>
 <context>
     <name>ProstoPleerResultView</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="46"/>
         <source>Current:</source>
-        <translation>Текущая страница:</translation>
+        <translation type="vanished">Текущая страница:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/qml/ProstoPleerResultView.qml" line="90"/>
         <source>Authorization: </source>
-        <translation>Авторизация:</translation>
+        <translation type="vanished">Авторизация:</translation>
     </message>
 </context>
 <context>
     <name>ProstopleerPluginSettings</name>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="14"/>
         <source>ProstopleerPluginSettings</source>
-        <translation>Настройки prostopleer</translation>
+        <translation type="vanished">Настройки prostopleer</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="22"/>
         <source>Login:</source>
-        <translation>Логин:</translation>
+        <translation type="vanished">Логин:</translation>
     </message>
     <message>
-        <location filename="../../plugins/prostopleerplugin/prostopleerpluginsettings.ui" line="32"/>
         <source>Password:</source>
-        <translation>Пароль:</translation>
+        <translation type="vanished">Пароль:</translation>
     </message>
 </context>
 <context>
@@ -576,22 +618,22 @@ one player for different online music hostings</source>
         <translation>по-умолчанию</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="142"/>
+        <location filename="../../src/qomptrayicon.cpp" line="143"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="143"/>
+        <location filename="../../src/qomptrayicon.cpp" line="144"/>
         <source>Toggle Visibility</source>
         <translation>Скрыть/Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="144"/>
+        <location filename="../../src/qomptrayicon.cpp" line="145"/>
         <source>Play Next</source>
         <translation>Следующий трэк</translation>
     </message>
     <message>
-        <location filename="../../src/qomptrayicon.cpp" line="145"/>
+        <location filename="../../src/qomptrayicon.cpp" line="146"/>
         <source>Play Previous</source>
         <translation>Предыдущий трэк</translation>
     </message>
@@ -601,7 +643,7 @@ one player for different online music hostings</source>
         <translation>Новый трэк</translation>
     </message>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="69"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.cpp" line="70"/>
         <source> now playing:</source>
         <translation> сейчас играет:</translation>
     </message>
@@ -750,47 +792,47 @@ one player for different online music hostings</source>
 <context>
     <name>QompMainMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="106"/>
+        <location filename="../../src/qompmenu.cpp" line="120"/>
         <source>Toggle Visibility</source>
         <translation>Скрыть/Показать</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="89"/>
+        <location filename="../../src/qompmenu.cpp" line="90"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="111"/>
+        <location filename="../../src/qompmenu.cpp" line="125"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="115"/>
+        <location filename="../../src/qompmenu.cpp" line="129"/>
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="117"/>
+        <location filename="../../src/qompmenu.cpp" line="131"/>
         <source>About qomp</source>
         <translation>О qomp</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="119"/>
+        <location filename="../../src/qompmenu.cpp" line="134"/>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="121"/>
+        <location filename="../../src/qompmenu.cpp" line="137"/>
         <source>Report a bug</source>
         <translation>Сообщить о проблеме</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="123"/>
+        <location filename="../../src/qompmenu.cpp" line="140"/>
         <source>Check for updates</source>
         <translation>Проверка обновлений</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="127"/>
+        <location filename="../../src/qompmenu.cpp" line="145"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
@@ -873,12 +915,12 @@ one player for different online music hostings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="630"/>
+        <location filename="../../src/qompmainwin.cpp" line="631"/>
         <source>Buffering</source>
         <translation>Буфферизация</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="634"/>
+        <location filename="../../src/qompmainwin.cpp" line="635"/>
         <source>Loading</source>
         <translation>Загрузка</translation>
     </message>
@@ -896,28 +938,28 @@ one player for different online music hostings</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="424"/>
+        <location filename="../../src/qompmainwin.cpp" line="428"/>
         <source>Now playing: %1 - %2</source>
         <translation>Сейчас играет: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="512"/>
-        <location filename="../../src/qompmainwin.cpp" line="527"/>
+        <location filename="../../src/qompmainwin.cpp" line="513"/>
+        <location filename="../../src/qompmainwin.cpp" line="528"/>
         <source>Select Playlist</source>
         <translation>Выберите плейлист</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="514"/>
+        <location filename="../../src/qompmainwin.cpp" line="515"/>
         <source>qomp playlist (*.%1)</source>
         <translation>Плейлист qomp(*.%1)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="529"/>
+        <location filename="../../src/qompmainwin.cpp" line="530"/>
         <source>qomp playlist (*.%1);;Other playlists (*.m3u *.m3u8 *.pls)</source>
         <translation>Плейлист qomp (*.%1);;Прочие плейлисты (*.m3u *.m3u8 *.pls)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="543"/>
+        <location filename="../../src/qompmainwin.cpp" line="544"/>
         <source>Select directory</source>
         <translation>Выберите каталог</translation>
     </message>
@@ -1161,7 +1203,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompPluginGettunesDlg::Private</name>
     <message>
-        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="99"/>
+        <location filename="../../libqomp/src/plugins/qompplugingettunesdlg.cpp" line="102"/>
         <source>Searching</source>
         <translation>Поиск</translation>
     </message>
@@ -1205,7 +1247,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompQmlEngine</name>
     <message>
-        <location filename="../../libqomp/src/qompqmlengine.cpp" line="134"/>
+        <location filename="../../libqomp/src/qompqmlengine.cpp" line="139"/>
         <source>Press again to exit</source>
         <translation>Нажмите снова для выхода</translation>
     </message>
@@ -1213,12 +1255,12 @@ one player for different online music hostings</source>
 <context>
     <name>QompRemoveTunesMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="223"/>
+        <location filename="../../src/qompmenu.cpp" line="243"/>
         <source>Remove All</source>
         <translation>Удалить все</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="225"/>
+        <location filename="../../src/qompmenu.cpp" line="245"/>
         <source>Remove Selected</source>
         <translation>Удалить выбранные</translation>
     </message>
@@ -1244,27 +1286,27 @@ one player for different online music hostings</source>
 <context>
     <name>QompTrackMenu</name>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="190"/>
+        <location filename="../../src/qompmenu.cpp" line="210"/>
         <source>Play/Pause</source>
         <translation>Воспроизведение/Пауза</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="200"/>
+        <location filename="../../src/qompmenu.cpp" line="220"/>
         <source>Open At Browser</source>
         <translation>Открыть в браузере</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="205"/>
+        <location filename="../../src/qompmenu.cpp" line="225"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="210"/>
+        <location filename="../../src/qompmenu.cpp" line="230"/>
         <source>Save File(s)</source>
         <translation>Сохранить файл(ы)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmenu.cpp" line="194"/>
+        <location filename="../../src/qompmenu.cpp" line="214"/>
         <source>Copy URL</source>
         <translation>Копировать URL</translation>
     </message>
@@ -1397,12 +1439,12 @@ Downloaded bytes:%2</source>
         <translation>Файл для сохранения информации о трэке:</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="65"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="66"/>
         <source>Tune to File</source>
         <translation>Трэк в Файл</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="90"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.cpp" line="91"/>
         <source>Store tune into file</source>
         <translation>Выберите файл для сохранения информации о трэке</translation>
     </message>
