@@ -83,18 +83,18 @@ one player for different online music hostings</source>
 <context>
     <name>CuteRadioPluginGetTunesDialog::Private</name>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="41"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
         <source>Country</source>
         <translation>Страна</translation>
     </message>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="41"/>
         <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="43"/>
         <source>Count</source>
         <translation>Кол-во</translation>
     </message>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="43"/>
         <source>Genre</source>
         <translation>Жанр</translation>
     </message>
@@ -103,7 +103,7 @@ one player for different online music hostings</source>
     <name>FilesystemPlugin</name>
     <message>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="392"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="38"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="36"/>
         <source>File System</source>
         <translation>Файловая система</translation>
     </message>
@@ -118,7 +118,7 @@ one player for different online music hostings</source>
         <translation>Выбрать каталоги</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="40"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="38"/>
         <source>Open music from filesystem</source>
         <translation>Открывает музыку из файловой системы</translation>
     </message>
@@ -219,18 +219,13 @@ one player for different online music hostings</source>
 <context>
     <name>LastFmPlugin</name>
     <message>
-        <location filename="../../plugins/lastfmplugin/lastfmplugin.h" line="47"/>
+        <location filename="../../plugins/lastfmplugin/lastfmplugin.h" line="45"/>
         <source>LastFm scrobbling</source>
         <translation>Скробблинг в LastFm</translation>
     </message>
 </context>
 <context>
     <name>LastFmSettings</name>
-    <message>
-        <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="14"/>
-        <source>Form</source>
-        <translation></translation>
-    </message>
     <message>
         <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="22"/>
         <source>Authorized User Name:</source>
@@ -344,12 +339,12 @@ one player for different online music hostings</source>
 <context>
     <name>MprisPlugin</name>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="40"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="38"/>
         <source>MPRIS Plugin</source>
         <translation>MPRIS плагин</translation>
     </message>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="42"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="40"/>
         <source>Interface to MPRIS</source>
         <translation>Интерфейс к MPRIS</translation>
     </message>
@@ -388,12 +383,12 @@ one player for different online music hostings</source>
 <context>
     <name>NotificationsPlugin</name>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="40"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="38"/>
         <source>Notifications</source>
         <translation>Оповещения</translation>
     </message>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="42"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="40"/>
         <source>Shows baloon notifications about current track</source>
         <translation>Показывает всплывающее уведомление о текущем треке</translation>
     </message>
@@ -501,7 +496,7 @@ one player for different online music hostings</source>
     <message>
         <location filename="../../plugins/poiskmplugin/poiskmpluginresultswidget.ui" line="83"/>
         <source>Total: </source>
-        <translation>Всего:</translation>
+        <translation>Всего: </translation>
     </message>
 </context>
 <context>
@@ -515,104 +510,6 @@ one player for different online music hostings</source>
         <location filename="../../plugins/poiskmplugin/qml/PoiskmResultView.qml" line="76"/>
         <source>Current:</source>
         <translation>Текущая страница:</translation>
-    </message>
-    <message>
-        <source>Authorization: </source>
-        <translation type="obsolete">Авторизация:</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerController</name>
-    <message>
-        <source>Error</source>
-        <translation type="vanished">Ошибка</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">ОК</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="vanished">Нет</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerOptions</name>
-    <message>
-        <source>Login:</source>
-        <translation type="vanished">Логин:</translation>
-    </message>
-    <message>
-        <source>Password:</source>
-        <translation type="vanished">Пароль:</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerPlugin</name>
-    <message>
-        <source>Listen to the music from Pleer.com</source>
-        <translation type="vanished">Проигрывает музыку с сайта Pleer.com</translation>
-    </message>
-    <message>
-        <source>Pleer.com</source>
-        <translation type="vanished">Простоплеер</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerPluginResultsWidget</name>
-    <message>
-        <source>Previous Page</source>
-        <translation type="vanished">Предыдущая страница</translation>
-    </message>
-    <message>
-        <source>Current:</source>
-        <translation type="vanished">Текущая страница:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="vanished">0</translation>
-    </message>
-    <message>
-        <source>Next Page</source>
-        <translation type="vanished">Следующая страница</translation>
-    </message>
-    <message>
-        <source>Total: </source>
-        <translation type="vanished">Всего:</translation>
-    </message>
-    <message>
-        <source>Authorization: </source>
-        <translation type="vanished">Авторизация:</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="vanished">Нет</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerResultView</name>
-    <message>
-        <source>Current:</source>
-        <translation type="vanished">Текущая страница:</translation>
-    </message>
-    <message>
-        <source>Authorization: </source>
-        <translation type="vanished">Авторизация:</translation>
-    </message>
-</context>
-<context>
-    <name>ProstopleerPluginSettings</name>
-    <message>
-        <source>ProstopleerPluginSettings</source>
-        <translation type="vanished">Настройки prostopleer</translation>
-    </message>
-    <message>
-        <source>Login:</source>
-        <translation type="vanished">Логин:</translation>
-    </message>
-    <message>
-        <source>Password:</source>
-        <translation type="vanished">Пароль:</translation>
     </message>
 </context>
 <context>
@@ -695,6 +592,11 @@ one player for different online music hostings</source>
         <location filename="../../plugins/cuteradioplugin/cuteradiomodel.cpp" line="56"/>
         <source>Last marked as played</source>
         <translation>Отмечено как играющее</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="44"/>
+        <source>Executing the request...</source>
+        <translation>Выполнение запроса...</translation>
     </message>
 </context>
 <context>
@@ -980,11 +882,6 @@ one player for different online music hostings</source>
 <context>
     <name>QompOptionsKeys</name>
     <message>
-        <location filename="../../src/options/qompoptionskeys.ui" line="14"/>
-        <source>Form</source>
-        <translation></translation>
-    </message>
-    <message>
         <location filename="../../src/options/qompoptionskeys.ui" line="42"/>
         <source>Action</source>
         <translation>Действие</translation>
@@ -1002,11 +899,6 @@ one player for different online music hostings</source>
 </context>
 <context>
     <name>QompOptionsMain</name>
-    <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="20"/>
-        <source>Form</source>
-        <translation></translation>
-    </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="26"/>
         <source>Start minimized</source>
@@ -1130,11 +1022,6 @@ one player for different online music hostings</source>
 </context>
 <context>
     <name>QompOptionsPlugins</name>
-    <message>
-        <location filename="../../src/options/qompoptionsplugins.ui" line="14"/>
-        <source>Form</source>
-        <translation></translation>
-    </message>
     <message>
         <location filename="../../src/options/qompoptionsplugins.ui" line="51"/>
         <source>Plguin Name</source>
@@ -1421,23 +1308,18 @@ Downloaded bytes:%2</source>
 <context>
     <name>TuneToFilePlugin</name>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="42"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="40"/>
         <source>Tune to File</source>
         <translation>Трэк в Файл</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="44"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="42"/>
         <source>Store current tune into file. Usefull for publishing tune in status</source>
         <translation>Сохраняет информацию о текущем трэке в файле. Это бывает полезно для публикации данной информации в статусе</translation>
     </message>
 </context>
 <context>
     <name>TuneToFileSettings</name>
-    <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.ui" line="14"/>
-        <source>Form</source>
-        <translation></translation>
-    </message>
     <message>
         <location filename="../../plugins/tunetofileplugin/tunetofilesettings.ui" line="22"/>
         <source>Store tune into file:</source>
@@ -1490,7 +1372,7 @@ Downloaded bytes:%2</source>
         <translation>Ссылка</translation>
     </message>
     <message>
-        <location filename="../../plugins/urlplugin/urlplugin.h" line="39"/>
+        <location filename="../../plugins/urlplugin/urlplugin.h" line="37"/>
         <source>Open custom URL</source>
         <translation>Открывает ссылку</translation>
     </message>
@@ -1505,11 +1387,6 @@ Downloaded bytes:%2</source>
 </context>
 <context>
     <name>WindowHeader</name>
-    <message>
-        <location filename="../../libqomp/src/frameless/windowheader.ui" line="23"/>
-        <source>PsiWindowHeader</source>
-        <translation></translation>
-    </message>
     <message>
         <location filename="../../libqomp/src/frameless/windowheader.ui" line="138"/>
         <location filename="../../libqomp/src/frameless/windowheader.ui" line="148"/>
@@ -1537,16 +1414,91 @@ Downloaded bytes:%2</source>
     </message>
 </context>
 <context>
+    <name>YandexMusicOauth</name>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicoauth.cpp" line="145"/>
+        <source>Invalid response</source>
+        <translation>Неверный ответ</translation>
+    </message>
+</context>
+<context>
+    <name>YandexMusicOptionsPage</name>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="37"/>
+        <source>Not authenticated</source>
+        <translation>Не аутентифицирован</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="45"/>
+        <source>User name</source>
+        <translation>Имя пользователя</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="55"/>
+        <source>Password*</source>
+        <translation>Пароль*</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="71"/>
+        <source>*qomp doesn&apos;t save your password</source>
+        <translation>*qomp не сохраняет ваш пароль</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="109"/>
+        <source>Update Authentication</source>
+        <translation>Обновить аутентификацию</translation>
+    </message>
+</context>
+<context>
     <name>YandexMusicPlugin</name>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="34"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="35"/>
         <source>Listening to the music from Yandex.Music</source>
         <translation>Проигрывает музыку с сайта Яндекс.Музыка</translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="62"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="63"/>
         <source>Yandex.Music</source>
         <translation>Яндекс.Музыка</translation>
+    </message>
+</context>
+<context>
+    <name>YandexMusicSettings</name>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="25"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="162"/>
+        <source>Not authenticated</source>
+        <translation>Не аутентифицирован</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="41"/>
+        <source>User name</source>
+        <translation>Имя пользователя</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="58"/>
+        <source>Password*</source>
+        <translation>Пароль*</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="88"/>
+        <source>*qomp doesn&apos;t save your password!</source>
+        <translation>*qomp не сохраняет ваш пароль!</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="114"/>
+        <source>Update Authentication</source>
+        <translation>Обновить аутентификацию</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="111"/>
+        <source>Authentication succeeded.</source>
+        <translation>Аутентификация прошла успешно.</translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="159"/>
+        <source>Authenticated up to </source>
+        <translation>Аутентифицировано до </translation>
     </message>
 </context>
 </TS>

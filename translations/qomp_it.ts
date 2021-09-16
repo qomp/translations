@@ -83,18 +83,18 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 <context>
     <name>CuteRadioPluginGetTunesDialog::Private</name>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="41"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
         <source>Country</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="41"/>
         <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="43"/>
         <source>Count</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="42"/>
+        <location filename="../../plugins/cuteradioplugin/cuteradioplugingettunesdialog.cpp" line="43"/>
         <source>Genre</source>
         <translation type="unfinished"></translation>
     </message>
@@ -103,7 +103,7 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
     <name>FilesystemPlugin</name>
     <message>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="392"/>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="38"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="36"/>
         <source>File System</source>
         <translation>File System</translation>
     </message>
@@ -118,7 +118,7 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
         <translation>Selezionare Cartelle</translation>
     </message>
     <message>
-        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="40"/>
+        <location filename="../../plugins/filesystemplugin/filesystemplugin.h" line="38"/>
         <source>Open music from filesystem</source>
         <translation>Aprire la musica dal file locale</translation>
     </message>
@@ -219,18 +219,13 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 <context>
     <name>LastFmPlugin</name>
     <message>
-        <location filename="../../plugins/lastfmplugin/lastfmplugin.h" line="47"/>
+        <location filename="../../plugins/lastfmplugin/lastfmplugin.h" line="45"/>
         <source>LastFm scrobbling</source>
         <translation>Scrobbling LastFm</translation>
     </message>
 </context>
 <context>
     <name>LastFmSettings</name>
-    <message>
-        <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="14"/>
-        <source>Form</source>
-        <translation>Scheda</translation>
-    </message>
     <message>
         <location filename="../../plugins/lastfmplugin/lastfmsettings.ui" line="22"/>
         <source>Authorized User Name:</source>
@@ -344,12 +339,12 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 <context>
     <name>MprisPlugin</name>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="40"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="38"/>
         <source>MPRIS Plugin</source>
         <translation>Plugin MPRIS</translation>
     </message>
     <message>
-        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="42"/>
+        <location filename="../../plugins/mprisplugin/mprisplugin.h" line="40"/>
         <source>Interface to MPRIS</source>
         <translation>Interfaccia di MPRIS</translation>
     </message>
@@ -388,12 +383,12 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 <context>
     <name>NotificationsPlugin</name>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="40"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="38"/>
         <source>Notifications</source>
         <translation>Notifiche</translation>
     </message>
     <message>
-        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="42"/>
+        <location filename="../../plugins/notificationsplugin/notificationsplugin.h" line="40"/>
         <source>Shows baloon notifications about current track</source>
         <translation type="unfinished"></translation>
     </message>
@@ -516,104 +511,6 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
         <source>Current:</source>
         <translation type="unfinished">Attuale:</translation>
     </message>
-    <message>
-        <source>Authorization: </source>
-        <translation type="obsolete">Autorizzazione:</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerController</name>
-    <message>
-        <source>Error</source>
-        <translation type="vanished">Errore</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">ОК</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="vanished">Nessuna</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerOptions</name>
-    <message>
-        <source>Login:</source>
-        <translation type="vanished">Login:</translation>
-    </message>
-    <message>
-        <source>Password:</source>
-        <translation type="vanished">Password:</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerPlugin</name>
-    <message>
-        <source>Listen to the music from Pleer.com</source>
-        <translation type="vanished">Ascoltare la musica di Pleer.com</translation>
-    </message>
-    <message>
-        <source>Pleer.com</source>
-        <translation type="vanished">Pleer.com</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerPluginResultsWidget</name>
-    <message>
-        <source>Previous Page</source>
-        <translation type="vanished">Pagina Precedente</translation>
-    </message>
-    <message>
-        <source>Current:</source>
-        <translation type="vanished">Attuale:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="vanished">0</translation>
-    </message>
-    <message>
-        <source>Next Page</source>
-        <translation type="vanished">Pagina Successiva</translation>
-    </message>
-    <message>
-        <source>Total: </source>
-        <translation type="vanished">Totale:</translation>
-    </message>
-    <message>
-        <source>Authorization: </source>
-        <translation type="vanished">Autorizzazione:</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="vanished">Nessuna</translation>
-    </message>
-</context>
-<context>
-    <name>ProstoPleerResultView</name>
-    <message>
-        <source>Current:</source>
-        <translation type="vanished">Attuale:</translation>
-    </message>
-    <message>
-        <source>Authorization: </source>
-        <translation type="vanished">Autorizzazione:</translation>
-    </message>
-</context>
-<context>
-    <name>ProstopleerPluginSettings</name>
-    <message>
-        <source>ProstopleerPluginSettings</source>
-        <translation type="vanished">Настройки prostopleer</translation>
-    </message>
-    <message>
-        <source>Login:</source>
-        <translation type="vanished">Login:</translation>
-    </message>
-    <message>
-        <source>Password:</source>
-        <translation type="vanished">Password:</translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -694,6 +591,11 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
     <message>
         <location filename="../../plugins/cuteradioplugin/cuteradiomodel.cpp" line="56"/>
         <source>Last marked as played</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="44"/>
+        <source>Executing the request...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -980,11 +882,6 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 <context>
     <name>QompOptionsKeys</name>
     <message>
-        <location filename="../../src/options/qompoptionskeys.ui" line="14"/>
-        <source>Form</source>
-        <translation>Modulo</translation>
-    </message>
-    <message>
         <location filename="../../src/options/qompoptionskeys.ui" line="42"/>
         <source>Action</source>
         <translation>Azione</translation>
@@ -1002,11 +899,6 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 </context>
 <context>
     <name>QompOptionsMain</name>
-    <message>
-        <location filename="../../src/options/qompoptionsmain.ui" line="20"/>
-        <source>Form</source>
-        <translation>Modulo</translation>
-    </message>
     <message>
         <location filename="../../src/options/qompoptionsmain.ui" line="26"/>
         <source>Start minimized</source>
@@ -1130,11 +1022,6 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 </context>
 <context>
     <name>QompOptionsPlugins</name>
-    <message>
-        <location filename="../../src/options/qompoptionsplugins.ui" line="14"/>
-        <source>Form</source>
-        <translation>Modulo</translation>
-    </message>
     <message>
         <location filename="../../src/options/qompoptionsplugins.ui" line="51"/>
         <source>Plguin Name</source>
@@ -1421,23 +1308,18 @@ Scaricato:%2</translation>
 <context>
     <name>TuneToFilePlugin</name>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="42"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="40"/>
         <source>Tune to File</source>
         <translation>Sintonizzare sul File</translation>
     </message>
     <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="44"/>
+        <location filename="../../plugins/tunetofileplugin/tunetofileplugin.h" line="42"/>
         <source>Store current tune into file. Usefull for publishing tune in status</source>
         <translation>Memorizza la sintonia corrente sul file. Utile per la pubblicazione dello stato sintonia</translation>
     </message>
 </context>
 <context>
     <name>TuneToFileSettings</name>
-    <message>
-        <location filename="../../plugins/tunetofileplugin/tunetofilesettings.ui" line="14"/>
-        <source>Form</source>
-        <translation>Modulo</translation>
-    </message>
     <message>
         <location filename="../../plugins/tunetofileplugin/tunetofilesettings.ui" line="22"/>
         <source>Store tune into file:</source>
@@ -1490,7 +1372,7 @@ Scaricato:%2</translation>
         <translation>Url</translation>
     </message>
     <message>
-        <location filename="../../plugins/urlplugin/urlplugin.h" line="39"/>
+        <location filename="../../plugins/urlplugin/urlplugin.h" line="37"/>
         <source>Open custom URL</source>
         <translation>Aprire l&apos;URL personalizzato</translation>
     </message>
@@ -1505,11 +1387,6 @@ Scaricato:%2</translation>
 </context>
 <context>
     <name>WindowHeader</name>
-    <message>
-        <location filename="../../libqomp/src/frameless/windowheader.ui" line="23"/>
-        <source>PsiWindowHeader</source>
-        <translation></translation>
-    </message>
     <message>
         <location filename="../../libqomp/src/frameless/windowheader.ui" line="138"/>
         <location filename="../../libqomp/src/frameless/windowheader.ui" line="148"/>
@@ -1537,16 +1414,91 @@ Scaricato:%2</translation>
     </message>
 </context>
 <context>
+    <name>YandexMusicOauth</name>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicoauth.cpp" line="145"/>
+        <source>Invalid response</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>YandexMusicOptionsPage</name>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="37"/>
+        <source>Not authenticated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="45"/>
+        <source>User name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="55"/>
+        <source>Password*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="71"/>
+        <source>*qomp doesn&apos;t save your password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="109"/>
+        <source>Update Authentication</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>YandexMusicPlugin</name>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="34"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="35"/>
         <source>Listening to the music from Yandex.Music</source>
         <translation>Ascoltare la musica da Yandex.Music</translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="62"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicplugin.cpp" line="63"/>
         <source>Yandex.Music</source>
         <translation>Yandex.Music</translation>
+    </message>
+</context>
+<context>
+    <name>YandexMusicSettings</name>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="25"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="162"/>
+        <source>Not authenticated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="41"/>
+        <source>User name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="58"/>
+        <source>Password*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="88"/>
+        <source>*qomp doesn&apos;t save your password!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="114"/>
+        <source>Update Authentication</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="111"/>
+        <source>Authentication succeeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="159"/>
+        <source>Authenticated up to </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
