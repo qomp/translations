@@ -100,6 +100,24 @@ jeden přehrávač pro různé internetové hudební služby</translation>
     </message>
 </context>
 <context>
+    <name>FilesystemHelper</name>
+    <message>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="77"/>
+        <source>Internal Memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="79"/>
+        <source>Memory Card</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="82"/>
+        <source>Memory Card %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FilesystemPlugin</name>
     <message>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="392"/>
@@ -674,24 +692,32 @@ jeden přehrávač pro různé internetové hudební služby</translation>
     </message>
 </context>
 <context>
+    <name>QompCon</name>
+    <message>
+        <location filename="../../src/qompcon.cpp" line="201"/>
+        <source>qomp will not work without write permissions</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QompFileDlg</name>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="297"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="354"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="307"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="364"/>
         <source>Cancel</source>
         <translation>Zrušit</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="313"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="370"/>
         <source>File already exists</source>
         <translation>Soubor již existuje</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="314"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="371"/>
         <source>Overwrite existing file?</source>
         <translation>Přepsat stávající soubor?</translation>
     </message>
@@ -822,12 +848,12 @@ jeden přehrávač pro různé internetové hudební služby</translation>
         <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="631"/>
+        <location filename="../../src/qompmainwin.cpp" line="636"/>
         <source>Buffering</source>
         <translation>Ukládá se do vyrovnávací paměti</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="635"/>
+        <location filename="../../src/qompmainwin.cpp" line="640"/>
         <source>Loading</source>
         <translation>Nahrává se</translation>
     </message>
@@ -835,38 +861,38 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="138"/>
+        <location filename="../../src/qompmainwin.cpp" line="139"/>
         <source>Toggle Visibility</source>
         <translation>Přepnout viditelnost</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="140"/>
+        <location filename="../../src/qompmainwin.cpp" line="141"/>
         <source>Exit</source>
         <translation>Ukončit</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="428"/>
+        <location filename="../../src/qompmainwin.cpp" line="431"/>
         <source>Now playing: %1 - %2</source>
         <translation>Nyní hraje: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="513"/>
-        <location filename="../../src/qompmainwin.cpp" line="528"/>
+        <location filename="../../src/qompmainwin.cpp" line="516"/>
+        <location filename="../../src/qompmainwin.cpp" line="531"/>
         <source>Select Playlist</source>
         <translation>Vybrat seznam skladeb</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="515"/>
+        <location filename="../../src/qompmainwin.cpp" line="518"/>
         <source>qomp playlist (*.%1)</source>
         <translation>Seznam skladeb qomp (*.%1)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="530"/>
+        <location filename="../../src/qompmainwin.cpp" line="533"/>
         <source>qomp playlist (*.%1);;Other playlists (*.m3u *.m3u8 *.pls)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="544"/>
+        <location filename="../../src/qompmainwin.cpp" line="547"/>
         <source>Select directory</source>
         <translation>Vybrat adresář</translation>
     </message>

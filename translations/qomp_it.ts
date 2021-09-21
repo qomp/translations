@@ -100,6 +100,24 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
     </message>
 </context>
 <context>
+    <name>FilesystemHelper</name>
+    <message>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="77"/>
+        <source>Internal Memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="79"/>
+        <source>Memory Card</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="82"/>
+        <source>Memory Card %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FilesystemPlugin</name>
     <message>
         <location filename="../../plugins/filesystemplugin/filesystemplugin.cpp" line="392"/>
@@ -674,24 +692,32 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
     </message>
 </context>
 <context>
+    <name>QompCon</name>
+    <message>
+        <location filename="../../src/qompcon.cpp" line="201"/>
+        <source>qomp will not work without write permissions</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QompFileDlg</name>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="297"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="354"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="307"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="364"/>
         <source>Cancel</source>
         <translation>Annulla</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="313"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="370"/>
         <source>File already exists</source>
         <translation>Il file esiste già</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="314"/>
+        <location filename="../../libqomp/src/qmlshared/QompFileDlg.qml" line="371"/>
         <source>Overwrite existing file?</source>
         <translation>Sovrascrivere il file esistente?</translation>
     </message>
@@ -822,12 +848,12 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
         <translation>Impostazioni</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="631"/>
+        <location filename="../../src/qompmainwin.cpp" line="636"/>
         <source>Buffering</source>
         <translation>Buffering</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="635"/>
+        <location filename="../../src/qompmainwin.cpp" line="640"/>
         <source>Loading</source>
         <translation>Caricamento</translation>
     </message>
@@ -835,38 +861,38 @@ un solo lettore per i vari servizi di hosting di musica online </translation>
 <context>
     <name>QompMainWin::Private</name>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="138"/>
+        <location filename="../../src/qompmainwin.cpp" line="139"/>
         <source>Toggle Visibility</source>
         <translation>Cambiare la Visibilità</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="140"/>
+        <location filename="../../src/qompmainwin.cpp" line="141"/>
         <source>Exit</source>
         <translation>Uscita</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="428"/>
+        <location filename="../../src/qompmainwin.cpp" line="431"/>
         <source>Now playing: %1 - %2</source>
         <translation>In riproduzione: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="513"/>
-        <location filename="../../src/qompmainwin.cpp" line="528"/>
+        <location filename="../../src/qompmainwin.cpp" line="516"/>
+        <location filename="../../src/qompmainwin.cpp" line="531"/>
         <source>Select Playlist</source>
         <translation>Seleziona Playlist</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="515"/>
+        <location filename="../../src/qompmainwin.cpp" line="518"/>
         <source>qomp playlist (*.%1)</source>
         <translation>qomp playlist (*.%1)</translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="530"/>
+        <location filename="../../src/qompmainwin.cpp" line="533"/>
         <source>qomp playlist (*.%1);;Other playlists (*.m3u *.m3u8 *.pls)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qompmainwin.cpp" line="544"/>
+        <location filename="../../src/qompmainwin.cpp" line="547"/>
         <source>Select directory</source>
         <translation>Seleziona la cartella</translation>
     </message>
