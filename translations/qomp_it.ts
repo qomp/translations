@@ -1450,27 +1450,27 @@ Scaricato:%2</translation>
 <context>
     <name>YandexMusicOptionsPage</name>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="37"/>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="38"/>
         <source>Not authenticated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="45"/>
-        <source>User name</source>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="46"/>
+        <source>Login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="55"/>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="56"/>
         <source>Password*</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="71"/>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="72"/>
         <source>*qomp doesn&apos;t save your password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="109"/>
+        <location filename="../../plugins/yandexmusicplugin/qml/YandexMusicOptionsPage.qml" line="110"/>
         <source>Update Authentication</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1492,7 +1492,7 @@ Scaricato:%2</translation>
     <name>YandexMusicSettings</name>
     <message>
         <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.ui" line="25"/>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="162"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="168"/>
         <source>Not authenticated</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1517,12 +1517,12 @@ Scaricato:%2</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="111"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="117"/>
         <source>Authentication succeeded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="159"/>
+        <location filename="../../plugins/yandexmusicplugin/yandexmusicsettings.cpp" line="165"/>
         <source>Authenticated up to </source>
         <translation type="unfinished"></translation>
     </message>
