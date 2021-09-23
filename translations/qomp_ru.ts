@@ -102,17 +102,17 @@ one player for different online music hostings</source>
 <context>
     <name>FilesystemHelper</name>
     <message>
-        <location filename="../../libqomp/src/filesystemhelper.cpp" line="77"/>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="86"/>
         <source>Internal Memory</source>
         <translation>Внутренняя память</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/filesystemhelper.cpp" line="79"/>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="88"/>
         <source>Memory Card</source>
         <translation>Карта памяти</translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/filesystemhelper.cpp" line="82"/>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="91"/>
         <source>Memory Card %1</source>
         <translation>Карта памяти %1</translation>
     </message>
@@ -694,7 +694,7 @@ one player for different online music hostings</source>
 <context>
     <name>QompCon</name>
     <message>
-        <location filename="../../src/qompcon.cpp" line="201"/>
+        <location filename="../../src/qompcon.cpp" line="199"/>
         <source>qomp will not work without write permissions</source>
         <translation>qomp не будет работать без разрешений на запись</translation>
     </message>

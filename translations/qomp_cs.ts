@@ -102,17 +102,17 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>FilesystemHelper</name>
     <message>
-        <location filename="../../libqomp/src/filesystemhelper.cpp" line="77"/>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="86"/>
         <source>Internal Memory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/filesystemhelper.cpp" line="79"/>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="88"/>
         <source>Memory Card</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../libqomp/src/filesystemhelper.cpp" line="82"/>
+        <location filename="../../libqomp/src/filesystemhelper.cpp" line="91"/>
         <source>Memory Card %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -694,7 +694,7 @@ jeden přehrávač pro různé internetové hudební služby</translation>
 <context>
     <name>QompCon</name>
     <message>
-        <location filename="../../src/qompcon.cpp" line="201"/>
+        <location filename="../../src/qompcon.cpp" line="199"/>
         <source>qomp will not work without write permissions</source>
         <translation type="unfinished"></translation>
     </message>
